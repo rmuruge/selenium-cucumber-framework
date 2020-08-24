@@ -1,0 +1,427 @@
+2020-08-23 09:18:47 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-23 09:18:47 DEBUG TestNgTestBase:37 - Base url is https://www.geodatasource.com/software/world-major-cities-drop-down-list-source-codes
+2020-08-23 09:18:47 DEBUG TestNgTestBase:53 - Browser Name Passed firefox
+2020-08-23 09:18:47 DEBUG TestNgTestBase:54 - Node  Name Passed local
+2020-08-23 09:18:47 DEBUG TestNgTestBase:56 - Broswer in Capabilities  is firefox
+2020-08-23 09:18:52 DEBUG TestNgTestBase:70 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-23 10:34:55 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-23 10:34:55 DEBUG TestNgTestBase:37 - Base url is https://www.geodatasource.com/software/world-major-cities-drop-down-list-source-codes
+2020-08-23 10:34:55 DEBUG TestNgTestBase:53 - Browser Name Passed firefox
+2020-08-23 10:34:55 DEBUG TestNgTestBase:54 - Node  Name Passed local
+2020-08-23 10:34:55 DEBUG TestNgTestBase:56 - Broswer in Capabilities  is firefox
+2020-08-23 10:34:59 DEBUG TestNgTestBase:70 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-23 11:02:34 DEBUG StepDefinitions:20 - Test 1
+2020-08-23 11:03:47 DEBUG StepDefinitions:20 - Test 1
+2020-08-23 11:04:51 DEBUG StepDefinitions:20 - Test 1
+2020-08-23 11:06:03 DEBUG StepDefinitions:20 - Test 1
+2020-08-23 11:06:30 DEBUG StepDefinitions:20 - Test 1
+2020-08-23 11:07:11 DEBUG StepDefinitions:20 - Test 1
+2020-08-23 11:24:51 DEBUG StepDefinitions:20 - Test launch
+2020-08-23 11:24:51 DEBUG StepDefinitions:25 - Test enter country
+2020-08-23 11:24:51 DEBUG StepDefinitions:29 - Test renter region
+2020-08-23 11:24:51 DEBUG StepDefinitions:34 - Test enter city
+2020-08-23 11:57:32 DEBUG StepDefinitions:20 - Test launch
+2020-08-23 11:57:32 DEBUG StepDefinitions:25 - Test enter country
+2020-08-23 11:57:32 DEBUG StepDefinitions:29 - Test renter region
+2020-08-23 11:57:32 DEBUG StepDefinitions:34 - Test enter city
+2020-08-23 15:38:25 DEBUG StepDefinitions:20 - Test launch
+2020-08-23 15:38:25 DEBUG StepDefinitions:25 - Test enter country
+2020-08-23 15:38:25 DEBUG StepDefinitions:29 - Test renter region
+2020-08-23 15:38:25 DEBUG StepDefinitions:34 - Test enter city
+2020-08-23 15:42:30 DEBUG StepDefinitions:20 - Test launch
+2020-08-23 15:42:30 DEBUG StepDefinitions:25 - Test enter country
+2020-08-23 15:42:30 DEBUG StepDefinitions:29 - Test renter region
+2020-08-23 15:42:30 DEBUG StepDefinitions:34 - Test enter city
+2020-08-23 16:10:10 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-23 16:10:10 DEBUG TestNgTestBase:38 - Base url is https://www.geodatasource.com/software/world-major-cities-drop-down-list-source-codes
+2020-08-23 16:10:10 DEBUG TestNgTestBase:54 - Browser Name Passed firefox
+2020-08-23 16:10:10 DEBUG TestNgTestBase:55 - Node  Name Passed local
+2020-08-23 16:10:10 DEBUG TestNgTestBase:57 - Broswer in Capabilities  is firefox
+2020-08-23 16:10:14 DEBUG TestNgTestBase:71 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-23 16:10:14 DEBUG StepDefinitions:20 - Test launch
+2020-08-23 16:10:14 DEBUG StepDefinitions:26 - Test enter country
+2020-08-23 16:10:14 DEBUG StepDefinitions:30 - Test renter region
+2020-08-23 16:10:14 DEBUG StepDefinitions:35 - Test enter city
+2020-08-23 17:37:38 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-23 17:37:38 DEBUG TestNgTestBase:50 - Base url is https://www.geodatasource.com/software/world-major-cities-drop-down-list-source-codes
+2020-08-23 17:37:38 DEBUG TestNgTestBase:63 - Browser Name Passed firefox
+2020-08-23 17:37:38 DEBUG TestNgTestBase:64 - Node  Name Passed local
+2020-08-23 17:37:38 DEBUG TestNgTestBase:66 - Broswer in Capabilities  is firefox
+2020-08-23 17:37:42 DEBUG TestNgTestBase:80 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-23 17:37:43 DEBUG StepDefinitions:20 - Test launch
+2020-08-23 17:37:43 DEBUG StepDefinitions:26 - Test enter country
+2020-08-23 17:37:43 DEBUG StepDefinitions:30 - Test renter region
+2020-08-23 17:37:43 DEBUG StepDefinitions:35 - Test enter city
+2020-08-23 17:41:56 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-23 17:41:56 DEBUG TestNgTestBase:50 - Base url is https://www.geodatasource.com/software/world-major-cities-drop-down-list-source-codes
+2020-08-23 17:41:56 DEBUG TestNgTestBase:63 - Browser Name Passed firefox
+2020-08-23 17:41:56 DEBUG TestNgTestBase:64 - Node  Name Passed local
+2020-08-23 17:41:56 DEBUG TestNgTestBase:66 - Broswer in Capabilities  is firefox
+2020-08-23 17:42:00 DEBUG TestNgTestBase:80 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-23 17:42:00 DEBUG StepDefinitions:21 - Test launch
+2020-08-23 17:51:04 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-23 17:51:04 DEBUG TestNgTestBase:50 - Base url is https://www.geodatasource.com/software/world-major-cities-drop-down-list-source-codes
+2020-08-23 17:51:04 DEBUG TestNgTestBase:63 - Browser Name Passed firefox
+2020-08-23 17:51:04 DEBUG TestNgTestBase:64 - Node  Name Passed local
+2020-08-23 17:51:04 DEBUG TestNgTestBase:66 - Broswer in Capabilities  is firefox
+2020-08-23 17:51:08 DEBUG TestNgTestBase:80 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-23 17:51:09 DEBUG StepDefinitions:21 - Test launch
+2020-08-23 17:51:09 DEBUG SampleTestNgTest:34 - driver is ull
+2020-08-23 18:12:49 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-23 18:12:49 DEBUG TestNgTestBase:50 - Base url is https://www.geodatasource.com/software/world-major-cities-drop-down-list-source-codes
+2020-08-23 18:12:49 DEBUG TestNgTestBase:63 - Browser Name Passed firefox
+2020-08-23 18:12:49 DEBUG TestNgTestBase:64 - Node  Name Passed local
+2020-08-23 18:12:49 DEBUG TestNgTestBase:66 - Broswer in Capabilities  is firefox
+2020-08-23 18:12:53 DEBUG TestNgTestBase:80 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-23 18:12:53 DEBUG StepDefinitions:21 - Test launch
+2020-08-23 18:12:53 DEBUG SampleTestNgTest:34 - driver is ull
+2020-08-23 18:24:15 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-23 18:24:15 DEBUG TestNgTestBase:54 - Base url is https://www.geodatasource.com/software/world-major-cities-drop-down-list-source-codes
+2020-08-23 18:24:15 DEBUG TestNgTestBase:67 - Browser Name Passed firefox
+2020-08-23 18:24:15 DEBUG TestNgTestBase:68 - Node  Name Passed local
+2020-08-23 18:24:15 DEBUG TestNgTestBase:70 - Broswer in Capabilities  is firefox
+2020-08-23 18:24:19 DEBUG TestNgTestBase:84 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-23 18:24:19 DEBUG SampleTestNgTest:28 - Sample Test NG Test: null
+2020-08-23 18:24:19 DEBUG StepDefinitions:22 - Test launch
+2020-08-23 18:24:19 DEBUG SampleTestNgTest:37 - driver is ull
+2020-08-23 18:29:19 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-23 18:29:19 DEBUG TestNgTestBase:51 - Base url is https://www.geodatasource.com/software/world-major-cities-drop-down-list-source-codes
+2020-08-23 18:29:19 DEBUG TestNgTestBase:64 - Browser Name Passed firefox
+2020-08-23 18:29:19 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-23 18:29:19 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is firefox
+2020-08-23 18:29:23 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-23 18:29:24 DEBUG SampleTestNgTest:28 - Sample Test NG Test: RemoteWebDriver: firefox on LINUX (28743319-c421-4959-9859-76d99d663ad1)
+2020-08-23 18:29:24 DEBUG StepDefinitions:22 - Test launch
+2020-08-23 18:29:24 DEBUG SampleTestNgTest:38 - driver url is about:blank
+2020-08-23 18:29:28 DEBUG StepDefinitions:29 - Test enter country
+2020-08-23 18:29:28 DEBUG StepDefinitions:33 - Test renter region
+2020-08-23 18:29:28 DEBUG StepDefinitions:38 - Test enter city
+2020-08-23 18:35:58 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-23 18:35:58 DEBUG TestNgTestBase:51 - Base url is https://www.geodatasource.com/software/world-major-cities-drop-down-list-source-codes
+2020-08-23 18:35:58 DEBUG TestNgTestBase:64 - Browser Name Passed firefox
+2020-08-23 18:35:58 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-23 18:35:58 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is firefox
+2020-08-23 18:36:02 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-23 18:36:03 DEBUG SampleTestNgTest:28 - Sample Test NG Test: RemoteWebDriver: firefox on LINUX (5a17b5aa-00ec-4356-91ca-d5a177a0328c)
+2020-08-23 18:36:03 DEBUG StepDefinitions:22 - Test launch
+2020-08-23 18:36:05 DEBUG StepDefinitions:29 - Test enter country
+2020-08-23 18:36:05 DEBUG StepDefinitions:34 - Test renter region
+2020-08-23 18:36:05 DEBUG StepDefinitions:39 - Test enter city
+2020-08-23 18:37:48 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-23 18:37:48 DEBUG TestNgTestBase:51 - Base url is https://www.geodatasource.com/software/world-major-cities-drop-down-list-source-codes
+2020-08-23 18:37:49 DEBUG TestNgTestBase:64 - Browser Name Passed firefox
+2020-08-23 18:37:49 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-23 18:37:49 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is firefox
+2020-08-23 18:37:52 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-23 18:37:53 DEBUG SampleTestNgTest:28 - Sample Test NG Test: RemoteWebDriver: firefox on LINUX (5258372f-6a16-4578-9ce5-19de106f02d8)
+2020-08-23 18:37:53 DEBUG StepDefinitions:22 - Test launch
+2020-08-23 18:37:55 DEBUG StepDefinitions:29 - Test enter country
+2020-08-23 18:39:29 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-23 18:39:29 DEBUG TestNgTestBase:51 - Base url is https://www.geodatasource.com/software/world-major-cities-drop-down-list-source-codes
+2020-08-23 18:39:29 DEBUG TestNgTestBase:64 - Browser Name Passed firefox
+2020-08-23 18:39:29 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-23 18:39:29 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is firefox
+2020-08-23 18:39:33 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-23 18:39:33 DEBUG SampleTestNgTest:28 - Sample Test NG Test: RemoteWebDriver: firefox on LINUX (bc712ed5-1f93-487c-93c1-a16b90f67065)
+2020-08-23 18:39:33 DEBUG StepDefinitions:22 - Test launch
+2020-08-23 18:39:35 DEBUG StepDefinitions:29 - Test enter country
+2020-08-23 18:39:36 DEBUG StepDefinitions:34 - Test renter region
+2020-08-23 18:39:36 DEBUG StepDefinitions:40 - Test enter city
+2020-08-23 19:11:18 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-23 19:11:18 DEBUG TestNgTestBase:51 - Base url is https://www.geodatasource.com/software/world-major-cities-drop-down-list-source-codes
+2020-08-23 19:11:18 DEBUG TestNgTestBase:64 - Browser Name Passed firefox
+2020-08-23 19:11:18 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-23 19:11:18 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is firefox
+2020-08-23 19:11:22 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-23 19:11:23 DEBUG SampleTestNgTest:28 - Sample Test NG Test: RemoteWebDriver: firefox on LINUX (471a9d50-3d58-4a26-bec9-1d28a951baa5)
+2020-08-23 19:11:23 DEBUG StepDefinitions:22 - Test launch
+2020-08-23 19:17:47 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-23 19:17:47 DEBUG TestNgTestBase:51 - Base url is https://www.geodatasource.com/software/world-major-cities-drop-down-list-source-codes
+2020-08-23 19:17:47 DEBUG TestNgTestBase:64 - Browser Name Passed firefox
+2020-08-23 19:17:47 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-23 19:17:47 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is firefox
+2020-08-23 19:17:50 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-23 19:19:20 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-23 19:19:20 DEBUG TestNgTestBase:51 - Base url is https://www.geodatasource.com/software/world-major-cities-drop-down-list-source-codes
+2020-08-23 19:19:20 DEBUG TestNgTestBase:64 - Browser Name Passed firefox
+2020-08-23 19:19:20 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-23 19:19:20 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is firefox
+2020-08-23 19:19:24 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-23 19:21:01 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-23 19:21:01 DEBUG TestNgTestBase:51 - Base url is https://www.geodatasource.com/software/world-major-cities-drop-down-list-source-codes
+2020-08-23 19:21:01 DEBUG TestNgTestBase:64 - Browser Name Passed firefox
+2020-08-23 19:21:01 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-23 19:21:01 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is firefox
+2020-08-23 19:21:05 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-23 19:22:50 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-23 19:22:50 DEBUG TestNgTestBase:51 - Base url is https://www.geodatasource.com/software/world-major-cities-drop-down-list-source-codes
+2020-08-23 19:22:50 DEBUG TestNgTestBase:64 - Browser Name Passed firefox
+2020-08-23 19:22:50 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-23 19:22:50 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is firefox
+2020-08-23 19:22:54 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-23 19:23:32 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-23 19:23:32 DEBUG TestNgTestBase:51 - Base url is https://www.geodatasource.com/software/world-major-cities-drop-down-list-source-codes
+2020-08-23 19:23:32 DEBUG TestNgTestBase:64 - Browser Name Passed firefox
+2020-08-23 19:23:32 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-23 19:23:32 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is firefox
+2020-08-23 19:23:36 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-23 19:24:43 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-23 19:24:43 DEBUG TestNgTestBase:51 - Base url is https://www.geodatasource.com/software/world-major-cities-drop-down-list-source-codes
+2020-08-23 19:24:43 DEBUG TestNgTestBase:64 - Browser Name Passed firefox
+2020-08-23 19:24:43 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-23 19:24:43 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is firefox
+2020-08-23 19:24:48 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-23 19:24:48 DEBUG SampleTestNgTest:28 - Sample Test NG Test: RemoteWebDriver: firefox on LINUX (02dc1edf-6ae8-4ef6-a34b-8fd44ce44611)
+2020-08-23 19:24:48 DEBUG StepDefinitions:22 - Test launch
+2020-08-23 19:25:32 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-23 19:25:32 DEBUG TestNgTestBase:51 - Base url is https://www.geodatasource.com/software/world-major-cities-drop-down-list-source-codes
+2020-08-23 19:25:32 DEBUG TestNgTestBase:64 - Browser Name Passed firefox
+2020-08-23 19:25:32 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-23 19:25:32 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is firefox
+2020-08-23 19:25:36 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-23 19:25:37 DEBUG SampleTestNgTest:28 - Sample Test NG Test: RemoteWebDriver: firefox on LINUX (10eb6ac3-a89c-4cea-a337-f018181e890a)
+2020-08-23 19:25:37 DEBUG StepDefinitions:22 - Test launch
+2020-08-23 19:26:38 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-23 19:26:38 DEBUG TestNgTestBase:51 - Base url is https://www.geodatasource.com/software/world-major-cities-drop-down-list-source-codes
+2020-08-23 19:26:38 DEBUG TestNgTestBase:64 - Browser Name Passed firefox
+2020-08-23 19:26:38 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-23 19:26:38 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is firefox
+2020-08-23 19:26:41 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-23 19:26:42 DEBUG SampleTestNgTest:28 - Sample Test NG Test: RemoteWebDriver: firefox on LINUX (c3671eda-538d-41a5-8b6d-d64dd9b35a89)
+2020-08-23 19:26:42 DEBUG StepDefinitions:22 - Test launch
+2020-08-23 19:26:44 DEBUG StepDefinitions:29 - Test enter country: US
+2020-08-23 19:29:20 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-23 19:29:20 DEBUG TestNgTestBase:51 - Base url is https://www.geodatasource.com/software/world-major-cities-drop-down-list-source-codes
+2020-08-23 19:29:20 DEBUG TestNgTestBase:64 - Browser Name Passed firefox
+2020-08-23 19:29:20 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-23 19:29:20 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is firefox
+2020-08-23 19:29:23 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-23 19:29:24 DEBUG SampleTestNgTest:28 - Sample Test NG Test: RemoteWebDriver: firefox on LINUX (de7b82b3-77bb-4a4d-8b4a-9d064cc23f9e)
+2020-08-23 19:29:24 DEBUG StepDefinitions:22 - Test launch
+2020-08-23 19:29:26 DEBUG StepDefinitions:29 - Test enter country: AU
+2020-08-23 19:29:26 DEBUG StepDefinitions:34 - Test renter region: Western Australia
+2020-08-23 19:29:27 DEBUG StepDefinitions:40 - Test enter city: Perth
+2020-08-23 19:34:33 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-23 19:34:33 DEBUG TestNgTestBase:51 - Base url is https://www.geodatasource.com/software/world-major-cities-drop-down-list-source-codes
+2020-08-23 19:34:33 DEBUG TestNgTestBase:64 - Browser Name Passed chrome,firefox
+2020-08-23 19:34:33 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-24 00:10:55 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-24 00:10:55 DEBUG TestNgTestBase:51 - Base url is https://www.geodatasource.com/software/world-major-cities-drop-down-list-source-codes
+2020-08-24 00:10:55 DEBUG TestNgTestBase:64 - Browser Name Passed chrome
+2020-08-24 00:10:55 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-24 00:10:55 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is chrome
+2020-08-24 00:10:57 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-24 00:16:13 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-24 00:16:13 DEBUG TestNgTestBase:51 - Base url is https://www.shopclues.com
+2020-08-24 00:16:13 DEBUG TestNgTestBase:64 - Browser Name Passed chrome
+2020-08-24 00:16:13 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-24 00:16:13 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is chrome
+2020-08-24 00:16:14 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-24 00:18:03 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-24 00:18:03 DEBUG TestNgTestBase:51 - Base url is https://www.shopclues.com
+2020-08-24 00:18:03 DEBUG TestNgTestBase:64 - Browser Name Passed chrome
+2020-08-24 00:18:03 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-24 00:18:03 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is chrome
+2020-08-24 00:18:05 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-24 00:18:06 DEBUG CurtainsTest:35 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (9e310f76dc48e3587670c4c86ad1763e)
+2020-08-24 00:18:06 DEBUG CurtainsTestStepDefs:21 - The user opens the site
+2020-08-24 00:18:06 DEBUG CurtainsTestStepDefs:26 - The user hover over HOME & KITCHEN item.
+2020-08-24 00:18:06 DEBUG CurtainsTestStepDefs:31 - The user clicks Curtains link.
+2020-08-24 00:18:06 DEBUG CurtainsTestStepDefs:36 - The user selects 1 item.
+2020-08-24 00:18:06 DEBUG CurtainsTestStepDefs:41 - The user click ADD TO CARTbutton.
+2020-08-24 00:18:06 DEBUG CurtainsTestStepDefs:46 - The user see Product added to cartmessage.
+2020-08-24 00:23:45 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-24 00:23:45 DEBUG TestNgTestBase:51 - Base url is https://www.shopclues.com
+2020-08-24 00:23:45 DEBUG TestNgTestBase:64 - Browser Name Passed chrome
+2020-08-24 00:23:45 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-24 00:23:45 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is chrome
+2020-08-24 00:23:47 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-24 00:23:47 DEBUG CurtainsTest:35 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (c809438d01d66df9519e9ba329049b78)
+2020-08-24 00:23:47 DEBUG CurtainsTestStepDefs:21 - Begin: The user opens the site
+2020-08-24 00:23:54 DEBUG CurtainsTestStepDefs:23 - End: The user opens the site
+2020-08-24 00:23:54 DEBUG CurtainsTestStepDefs:27 - The user hover over HOME & KITCHEN item.
+2020-08-24 00:23:54 DEBUG CurtainsTestStepDefs:32 - The user clicks Curtains link.
+2020-08-24 00:23:54 DEBUG CurtainsTestStepDefs:37 - The user selects 1 item.
+2020-08-24 00:23:54 DEBUG CurtainsTestStepDefs:42 - The user click ADD TO CARTbutton.
+2020-08-24 00:23:54 DEBUG CurtainsTestStepDefs:47 - The user see Product added to cartmessage.
+2020-08-24 00:58:27 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-24 00:58:27 DEBUG TestNgTestBase:51 - Base url is https://www.shopclues.com
+2020-08-24 00:58:27 DEBUG TestNgTestBase:64 - Browser Name Passed chrome
+2020-08-24 00:58:27 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-24 00:58:27 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is chrome
+2020-08-24 00:58:29 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-24 00:58:29 DEBUG CurtainsTest:38 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (a4b8c2c7753e4b876470d160b8ef73ee)
+2020-08-24 00:58:29 DEBUG CurtainsTestStepDefs:21 - Begin: The user opens the site
+2020-08-24 00:58:36 DEBUG CurtainsTestStepDefs:23 - End: The user opens the site
+2020-08-24 00:58:36 DEBUG CurtainsTestStepDefs:28 - The user hover over HOME & KITCHEN item.
+2020-08-24 00:58:36 DEBUG CurtainsTestStepDefs:33 - The user clicks Curtains link.
+2020-08-24 00:58:38 DEBUG Page:109 - Tab Name is CDwindow-076E5F295FF357A72083886CFC6844F6  Curtains: Buy Designer Curtains Online in India at Best Prices
+2020-08-24 00:58:38 DEBUG CurtainsTestStepDefs:39 - The user selects 1 item.
+2020-08-24 00:58:38 DEBUG CurtainsTestStepDefs:44 - The user click ADD TO CARTbutton.
+2020-08-24 00:58:38 DEBUG CurtainsTestStepDefs:49 - The user see Product added to cartmessage.
+2020-08-24 01:06:59 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-24 01:06:59 DEBUG TestNgTestBase:51 - Base url is https://www.shopclues.com
+2020-08-24 01:06:59 DEBUG TestNgTestBase:64 - Browser Name Passed chrome
+2020-08-24 01:06:59 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-24 01:06:59 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is chrome
+2020-08-24 01:07:00 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-24 01:07:01 DEBUG CurtainsTest:39 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (5cd339def9263166c2aec7ecad6706c5)
+2020-08-24 01:07:01 DEBUG CurtainsTestStepDefs:21 - Begin: The user opens the site
+2020-08-24 01:07:07 DEBUG CurtainsTestStepDefs:23 - End: The user opens the site
+2020-08-24 01:07:08 DEBUG CurtainsTestStepDefs:28 - The user hover over HOME & KITCHEN item.
+2020-08-24 01:07:08 DEBUG CurtainsTestStepDefs:33 - The user clicks Curtains link.
+2020-08-24 01:07:09 DEBUG Page:109 - Tab Name is CDwindow-A8E1CF927FFFD3F6B0BBE222FA9897D5  Curtains: Buy Designer Curtains Online in India at Best Prices
+2020-08-24 01:07:11 DEBUG CurtainsTestStepDefs:39 - The user selects 1 item.
+2020-08-24 01:07:11 DEBUG CurtainsTestStepDefs:44 - The user click ADD TO CARTbutton.
+2020-08-24 01:07:11 DEBUG CurtainsTestStepDefs:49 - The user see Product added to cartmessage.
+2020-08-24 01:07:58 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-24 01:07:58 DEBUG TestNgTestBase:51 - Base url is https://www.shopclues.com
+2020-08-24 01:07:58 DEBUG TestNgTestBase:64 - Browser Name Passed chrome
+2020-08-24 01:07:58 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-24 01:07:58 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is chrome
+2020-08-24 01:07:59 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-24 01:08:00 DEBUG CurtainsTest:39 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (087a0e15e17d8c6bdeaed25908c1a002)
+2020-08-24 01:08:00 DEBUG CurtainsTestStepDefs:21 - Begin: The user opens the site
+2020-08-24 01:08:06 DEBUG CurtainsTestStepDefs:23 - End: The user opens the site
+2020-08-24 01:08:06 DEBUG CurtainsTestStepDefs:28 - The user hover over HOME & KITCHEN item.
+2020-08-24 01:08:06 DEBUG CurtainsTestStepDefs:33 - The user clicks Curtains link.
+2020-08-24 01:08:08 DEBUG Page:109 - Tab Name is CDwindow-E153A68A9493AC2F004C40810F6EB146  Curtains: Buy Designer Curtains Online in India at Best Prices
+2020-08-24 01:08:08 DEBUG CurtainsTestStepDefs:39 - The user selects 1 item.
+2020-08-24 01:08:10 DEBUG Page:109 - Tab Name is CDwindow-463ECECC5FC9E1AC3D08951E8F125DFD  Buy Cloud India 7 Ft Door Supremo Curtains Set Of 4 Piece Polyster Living Room Bed Room Curtains With Attractive Color Online - Get 18% Off
+2020-08-24 01:08:10 DEBUG CurtainsTestStepDefs:44 - The user click ADD TO CARTbutton.
+2020-08-24 01:08:10 DEBUG CurtainsTestStepDefs:49 - The user see Product added to cartmessage.
+2020-08-24 01:11:38 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-24 01:11:38 DEBUG TestNgTestBase:51 - Base url is https://www.shopclues.com
+2020-08-24 01:11:38 DEBUG TestNgTestBase:64 - Browser Name Passed chrome
+2020-08-24 01:11:38 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-24 01:11:38 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is chrome
+2020-08-24 01:11:39 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-24 01:11:39 DEBUG CurtainsTest:39 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (fdf7425a99bff06209e83f75cd875088)
+2020-08-24 01:11:39 DEBUG CurtainsTestStepDefs:21 - Begin: The user opens the site
+2020-08-24 01:11:45 DEBUG CurtainsTestStepDefs:23 - End: The user opens the site
+2020-08-24 01:11:46 DEBUG CurtainsTestStepDefs:28 - The user hover over HOME & KITCHEN item.
+2020-08-24 01:11:46 DEBUG CurtainsTestStepDefs:33 - The user clicks Curtains link.
+2020-08-24 01:11:47 DEBUG Page:109 - Tab Name is CDwindow-C9D7C1A85510AD239C8A04BDB75C1E6F  Curtains: Buy Designer Curtains Online in India at Best Prices
+2020-08-24 01:11:48 DEBUG CurtainsTestStepDefs:39 - The user selects 1 item.
+2020-08-24 01:11:50 DEBUG Page:109 - Tab Name is CDwindow-8156AB7FE5AE45BA5B2B5C9BE6BCD7F1  Buy Cloud India 7 Ft Door Supremo Curtains Set Of 4 Piece Polyster Living Room Bed Room Curtains With Attractive Color Online - Get 18% Off
+2020-08-24 01:49:17 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-24 01:49:17 DEBUG TestNgTestBase:51 - Base url is https://www.shopclues.com
+2020-08-24 01:49:17 DEBUG TestNgTestBase:64 - Browser Name Passed chrome
+2020-08-24 01:49:17 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-24 01:49:17 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is chrome
+2020-08-24 01:49:19 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-24 01:50:40 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-24 01:50:40 DEBUG TestNgTestBase:51 - Base url is https://www.shopclues.com
+2020-08-24 01:50:40 DEBUG TestNgTestBase:64 - Browser Name Passed chrome
+2020-08-24 01:50:40 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-24 01:50:40 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is chrome
+2020-08-24 01:50:41 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-24 01:50:42 DEBUG CurtainsTest:40 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (fadf4fabb1bb77f6bea5ec2f53866d36)
+2020-08-24 01:50:42 DEBUG CurtainsTestStepDefs:21 - Begin: The user opens the site
+2020-08-24 01:50:48 DEBUG CurtainsTestStepDefs:23 - End: The user opens the site
+2020-08-24 01:50:48 DEBUG CurtainsTestStepDefs:28 - The user hover over HOME & KITCHEN item.
+2020-08-24 01:50:48 DEBUG CurtainsTestStepDefs:33 - The user clicks Curtains link.
+2020-08-24 01:50:50 DEBUG Page:109 - Tab Name is CDwindow-EF015FC989191D848031300C7D7DD30D  Curtains: Buy Designer Curtains Online in India at Best Prices
+2020-08-24 01:50:50 DEBUG CurtainsTestStepDefs:39 - The user selects 1 item.
+2020-08-24 01:50:52 DEBUG Page:109 - Tab Name is CDwindow-DE1BD112116D801AA4F8A432E4675A26  Buy Cloud India 7 Ft Door Supremo Curtains Set Of 4 Piece Polyster Living Room Bed Room Curtains With Attractive Color Online - Get 18% Off
+2020-08-24 01:50:55 DEBUG ShopCluesProductDetail:45 - Image Loc is : 
+2020-08-24 01:55:54 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-24 01:55:54 DEBUG TestNgTestBase:51 - Base url is https://www.shopclues.com
+2020-08-24 01:55:54 DEBUG TestNgTestBase:64 - Browser Name Passed chrome
+2020-08-24 01:55:54 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-24 01:55:54 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is chrome
+2020-08-24 01:55:55 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-24 01:55:56 DEBUG CurtainsTest:40 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (964047ae722d393f01f5aa6e84ccfabb)
+2020-08-24 01:55:56 DEBUG CurtainsTestStepDefs:21 - Begin: The user opens the site
+2020-08-24 01:56:02 DEBUG CurtainsTestStepDefs:23 - End: The user opens the site
+2020-08-24 01:56:02 DEBUG CurtainsTestStepDefs:28 - The user hover over HOME & KITCHEN item.
+2020-08-24 01:56:02 DEBUG CurtainsTestStepDefs:33 - The user clicks Curtains link.
+2020-08-24 01:56:04 DEBUG Page:109 - Tab Name is CDwindow-0E1981708FEF1C163E961A609F91AD2B  Curtains: Buy Designer Curtains Online in India at Best Prices
+2020-08-24 01:56:04 DEBUG CurtainsTestStepDefs:39 - The user selects 1 item.
+2020-08-24 01:56:07 DEBUG Page:109 - Tab Name is CDwindow-37CFD27310B926B7AFA4C17935BAEDC7  Buy Cloud India 7 Ft Door Supremo Curtains Set Of 4 Piece Polyster Living Room Bed Room Curtains With Attractive Color Online - Get 18% Off
+2020-08-24 01:56:09 DEBUG ShopCluesProductDetail:46 - Image Loc is : 
+2020-08-24 01:59:33 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-24 01:59:33 DEBUG TestNgTestBase:51 - Base url is https://www.shopclues.com
+2020-08-24 01:59:33 DEBUG TestNgTestBase:64 - Browser Name Passed chrome
+2020-08-24 01:59:33 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-24 01:59:33 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is chrome
+2020-08-24 01:59:35 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-24 01:59:35 DEBUG CurtainsTest:40 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (92a85ea8e4d9addf6c68e9fac6f34069)
+2020-08-24 01:59:35 DEBUG CurtainsTestStepDefs:21 - Begin: The user opens the site
+2020-08-24 01:59:43 DEBUG CurtainsTestStepDefs:23 - End: The user opens the site
+2020-08-24 01:59:48 DEBUG CurtainsTestStepDefs:28 - The user hover over HOME & KITCHEN item.
+2020-08-24 01:59:48 DEBUG CurtainsTestStepDefs:33 - The user clicks Curtains link.
+2020-08-24 01:59:50 DEBUG Page:109 - Tab Name is CDwindow-85AEE97D801949127E5C2ABAC6DA950A  Curtains: Buy Designer Curtains Online in India at Best Prices
+2020-08-24 01:59:51 DEBUG CurtainsTestStepDefs:39 - The user selects 1 item.
+2020-08-24 01:59:53 DEBUG Page:109 - Tab Name is CDwindow-08142E04E68A960E582AB46E72B32F11  Buy Cloud India 7 Ft Door Supremo Curtains Set Of 4 Piece Polyster Living Room Bed Room Curtains With Attractive Color Online - Get 18% Off
+2020-08-24 02:00:09 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-24 02:00:09 DEBUG TestNgTestBase:51 - Base url is https://www.shopclues.com
+2020-08-24 02:00:09 DEBUG TestNgTestBase:64 - Browser Name Passed chrome
+2020-08-24 02:00:09 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-24 02:00:09 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is chrome
+2020-08-24 02:00:11 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-24 02:00:11 DEBUG CurtainsTest:40 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (cf517ac6136594aeb7234aaf4e5caab3)
+2020-08-24 02:00:11 DEBUG CurtainsTestStepDefs:21 - Begin: The user opens the site
+2020-08-24 02:00:18 DEBUG CurtainsTestStepDefs:23 - End: The user opens the site
+2020-08-24 02:00:18 DEBUG CurtainsTestStepDefs:28 - The user hover over HOME & KITCHEN item.
+2020-08-24 02:00:18 DEBUG CurtainsTestStepDefs:33 - The user clicks Curtains link.
+2020-08-24 02:00:20 DEBUG Page:109 - Tab Name is CDwindow-879E3D44FE6322C5785F52BEF24C99FF  Curtains: Buy Designer Curtains Online in India at Best Prices
+2020-08-24 02:00:20 DEBUG CurtainsTestStepDefs:39 - The user selects 1 item.
+2020-08-24 02:00:22 DEBUG Page:109 - Tab Name is CDwindow-F01B68D6016D937C2FD07FA9BD5CFB8C  Buy Cloud India 7 Ft Door Supremo Curtains Set Of 4 Piece Polyster Living Room Bed Room Curtains With Attractive Color Online - Get 18% Off
+2020-08-24 02:00:25 DEBUG ShopCluesProductDetail:47 - Image Loc is : img
+2020-08-24 02:00:25 DEBUG CurtainsTestStepDefs:45 - The user click ADD TO CARTbutton.
+2020-08-24 02:00:25 DEBUG ShopCluesProductDetail:71 - add to cart is ADD TO CART
+2020-08-24 02:00:25 DEBUG CurtainsTestStepDefs:51 - The user see ADD TO CART Product added to cartmessage.
+2020-08-24 02:00:26 DEBUG ShopCluesProductDetail:81 - Message is : Product added to cart
+2020-08-24 02:10:18 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-24 02:10:18 DEBUG TestNgTestBase:51 - Base url is https://www.shopclues.com
+2020-08-24 02:10:18 DEBUG TestNgTestBase:64 - Browser Name Passed chrome
+2020-08-24 02:10:18 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-24 02:10:18 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is chrome
+2020-08-24 02:10:19 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-24 02:10:20 DEBUG CurtainsTest:40 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (362dd24b41a6912b0495cc958b7ccc80)
+2020-08-24 02:10:20 DEBUG CurtainsTestStepDefs:21 - Begin: The user opens the site
+2020-08-24 02:10:26 DEBUG CurtainsTestStepDefs:23 - End: The user opens the site
+2020-08-24 02:10:26 DEBUG CurtainsTestStepDefs:28 - The user hover over HOME & KITCHEN item.
+2020-08-24 02:10:26 DEBUG CurtainsTestStepDefs:33 - The user clicks Curtains link.
+2020-08-24 02:10:27 DEBUG Page:109 - Tab Name is CDwindow-CB4306926DE0999D7361922C1B293549  Curtains: Buy Designer Curtains Online in India at Best Prices
+2020-08-24 02:10:28 DEBUG CurtainsTestStepDefs:39 - The user selects 1 item.
+2020-08-24 02:10:30 DEBUG Page:109 - Tab Name is CDwindow-6861A1EFA7D482FBA38B062F534A3714  Buy Cloud India 7 Ft Door Supremo Curtains Set Of 4 Piece Polyster Living Room Bed Room Curtains With Attractive Color Online - Get 18% Off
+2020-08-24 02:10:33 DEBUG ShopCluesProductDetail:52 - Image Loc is : img zoom true
+2020-08-24 02:10:33 DEBUG CurtainsTestStepDefs:45 - The user click ADD TO CARTbutton.
+2020-08-24 02:10:33 DEBUG ShopCluesProductDetail:76 - add to cart is ADD TO CART
+2020-08-24 02:10:33 DEBUG CurtainsTestStepDefs:51 - The user see ADD TO CART Product added to cartmessage.
+2020-08-24 02:10:34 DEBUG ShopCluesProductDetail:86 - Message is : Product added to cart
+2020-08-24 02:14:16 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-24 02:14:16 DEBUG TestNgTestBase:51 - Base url is https://www.shopclues.com
+2020-08-24 02:14:16 DEBUG TestNgTestBase:64 - Browser Name Passed chrome
+2020-08-24 02:14:16 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-24 02:14:16 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is chrome
+2020-08-24 02:14:18 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-24 02:14:18 DEBUG CurtainsTest:40 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (2a67cf0af5239cca48ac4e1cc9f99cf9)
+2020-08-24 02:14:18 DEBUG CurtainsTestStepDefs:21 - Begin: The user opens the site
+2020-08-24 02:14:25 DEBUG CurtainsTestStepDefs:23 - End: The user opens the site
+2020-08-24 02:14:25 DEBUG CurtainsTestStepDefs:28 - The user hover over HOME & KITCHEN item.
+2020-08-24 02:14:25 DEBUG CurtainsTestStepDefs:33 - The user clicks Curtains link.
+2020-08-24 02:14:26 DEBUG Page:109 - Tab Name is CDwindow-BE42407DD0973FDC78939D54450CAAE9  Curtains: Buy Designer Curtains Online in India at Best Prices
+2020-08-24 02:14:28 DEBUG CurtainsTestStepDefs:39 - The user selects 1 item.
+2020-08-24 02:14:31 DEBUG Page:109 - Tab Name is CDwindow-C71F458E2E2EC24AC01344CAED2AEBE6  Buy Cloud India 7 Ft Door Supremo Curtains Set Of 4 Piece Polyster Living Room Bed Room Curtains With Attractive Color Online - Get 18% Off
+2020-08-24 02:15:52 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-24 02:15:52 DEBUG TestNgTestBase:51 - Base url is https://www.shopclues.com
+2020-08-24 02:15:52 DEBUG TestNgTestBase:64 - Browser Name Passed chrome
+2020-08-24 02:15:52 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-24 02:15:52 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is chrome
+2020-08-24 02:15:53 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-24 02:15:54 DEBUG CurtainsTest:40 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (161e47775ee13c9ebc5134da613d20a7)
+2020-08-24 02:15:54 DEBUG CurtainsTestStepDefs:21 - Begin: The user opens the site
+2020-08-24 02:16:00 DEBUG CurtainsTestStepDefs:23 - End: The user opens the site
+2020-08-24 02:16:00 DEBUG CurtainsTestStepDefs:28 - The user hover over HOME & KITCHEN item.
+2020-08-24 02:16:00 DEBUG CurtainsTestStepDefs:33 - The user clicks Curtains link.
+2020-08-24 02:16:02 DEBUG Page:109 - Tab Name is CDwindow-498644F4A2012B18B34AECFF21878572  Curtains: Buy Designer Curtains Online in India at Best Prices
+2020-08-24 02:16:03 DEBUG CurtainsTestStepDefs:39 - The user selects 1 item.
+2020-08-24 02:16:04 DEBUG Page:109 - Tab Name is CDwindow-EDD29652B43AF41A070638DCAD3D7A81  Buy Cloud India 7 Ft Door Supremo Curtains Set Of 4 Piece Polyster Living Room Bed Room Curtains With Attractive Color Online - Get 18% Off
+2020-08-24 02:16:07 DEBUG ShopCluesProductDetail:53 - Image Loc is : img zoom true
+2020-08-24 02:16:07 DEBUG CurtainsTestStepDefs:45 - The user click ADD TO CARTbutton.
+2020-08-24 02:16:08 DEBUG ShopCluesProductDetail:77 - add to cart is ADD TO CART
+2020-08-24 02:16:08 DEBUG CurtainsTestStepDefs:51 - The user see ADD TO CART Product added to cartmessage.
+2020-08-24 02:16:10 DEBUG ShopCluesProductDetail:87 - Message is : Product added to cart
