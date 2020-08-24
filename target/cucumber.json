@@ -1,0 +1,147 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-24T07:15:54.541Z",
+        "line": 33,
+        "name": "Add to cart from different dropdown links",
+        "description": "",
+        "id": "test-adding-a-items-to-cart-from-menu-items;add-to-cart-from-different-dropdown-links;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6133291000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "The user opens the site",
+            "match": {
+              "location": "com.shopclues.stepdefs.CurtainsTestStepDefs.user_launchs_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 192228000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "The user hover over \u0027HOME \u0026 KITCHEN\u0027 item",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027HOME \u0026 KITCHEN\u0027",
+                  "offset": 20
+                }
+              ],
+              "location": "com.shopclues.stepdefs.CurtainsTestStepDefs.user_hovers_over_the_menu(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2293818000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "The user clicks \u0027Curtains\u0027 link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Curtains\u0027",
+                  "offset": 16
+                }
+              ],
+              "location": "com.shopclues.stepdefs.CurtainsTestStepDefs.user_clicks_dropdown_link(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4453804000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "The user selects \u00271\u0027 item",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u00271\u0027",
+                  "offset": 17
+                }
+              ],
+              "location": "com.shopclues.stepdefs.CurtainsTestStepDefs.user_clicks_on_item(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 784033000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "The user click \u0027ADD TO CART\u0027 button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027ADD TO CART\u0027",
+                  "offset": 15
+                }
+              ],
+              "location": "com.shopclues.stepdefs.CurtainsTestStepDefs.user_clicks_on_the_button(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1687790000,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "The user for action \u0027ADD TO CART\u0027 sees \u0027Product added to cart\u0027 message",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027ADD TO CART\u0027",
+                  "offset": 20
+                },
+                {
+                  "val": "\u0027Product added to cart\u0027",
+                  "offset": 39
+                }
+              ],
+              "location": "com.shopclues.stepdefs.CurtainsTestStepDefs.user_sees_message(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Test adding a items to cart from menu items",
+    "description": "",
+    "id": "test-adding-a-items-to-cart-from-menu-items",
+    "keyword": "Feature",
+    "uri": "file:features/shopclues/shopclues-checkout-curtains.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

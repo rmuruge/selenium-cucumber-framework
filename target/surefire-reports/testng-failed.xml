@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="4" parallel="tests" name="Failed suite [Assignments]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="4" parallel="tests" name="Assignment12(failed)" verbose="0">
+    <parameter name="node" value="local"/>
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="auto.framework.RunCucumberShopCluesTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initWebDriver"/>
+          <include name="takeScreenShot"/>
+          <include name="initTestSuite"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- auto.framework.RunCucumberShopCluesTest -->
+    </classes>
+  </test> <!-- Assignment12(failed) -->
+</suite> <!-- Failed suite [Assignments] -->
