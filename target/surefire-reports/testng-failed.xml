@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="4" parallel="tests" name="Failed suite [Assignments]" guice-stage="DEVELOPMENT" verbose="0">
-  <test thread-count="4" parallel="tests" name="Assignment12(failed)" verbose="0">
+<suite thread-count="4" parallel="tests" name="Failed suite [ProjectIII]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="4" parallel="tests" name="Amazon(failed)" verbose="0">
     <parameter name="node" value="local"/>
     <parameter name="browserName" value="chrome"/>
     <classes>
-      <class name="auto.framework.RunCucumberShopCluesTest">
+      <class name="auto.framework.AmazonTestRunner">
         <methods>
           <include name="tearDown"/>
           <include name="initWebDriver"/>
           <include name="takeScreenShot"/>
           <include name="initTestSuite"/>
-          <include name="runScenario" invocation-numbers="0"/>
+          <include name="runScenario" invocation-numbers="0 1"/>
           <include name="tearDownClass"/>
           <include name="setUpClass"/>
         </methods>
-      </class> <!-- auto.framework.RunCucumberShopCluesTest -->
+      </class> <!-- auto.framework.AmazonTestRunner -->
     </classes>
-  </test> <!-- Assignment12(failed) -->
-</suite> <!-- Failed suite [Assignments] -->
+  </test> <!-- Amazon(failed) -->
+</suite> <!-- Failed suite [ProjectIII] -->

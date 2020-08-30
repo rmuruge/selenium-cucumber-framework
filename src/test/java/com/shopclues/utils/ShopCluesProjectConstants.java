@@ -1,11 +1,10 @@
 package com.shopclues.utils;
 
-public interface ProjectConstants {
+import auto.framework.utils.ProjectConstants;
 
-	public static final String RUN_SCENARIOS = "runScenarios";
-	public static final String COMMA_DELIMIT = ",";
-	public static final String NAV_DELIMIT = ">";
-	public static final String NAV_INDEX = "Nav";
+public interface ShopCluesProjectConstants extends ProjectConstants {
+
+
 	
 	// Menu Constants
 	public static final String HOME_AND_KITCHEN = "HOME & KITCHEN";

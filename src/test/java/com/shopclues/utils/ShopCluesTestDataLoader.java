@@ -5,16 +5,18 @@ import java.util.Map;
 
 import org.apache.log4j.Logger;
 
+import auto.framework.utils.StringUtils;
 
 
 
-public class TestDataLoader implements ProjectConstants {
 
-	static Logger log = Logger.getLogger(TestDataLoader.class);
+public class ShopCluesTestDataLoader implements ShopCluesProjectConstants {
+
+	static Logger log = Logger.getLogger(ShopCluesTestDataLoader.class);
 	private  Map <String, String[]> testScenarioMap = new HashMap <String, String[]>();
 
 	//private List <String> navList = new ArrayList <String> ();
-	public TestDataLoader() {
+	public ShopCluesTestDataLoader() {
 		// TODO Auto-generated constructor stub
 	}
 	

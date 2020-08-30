@@ -3,3 +3,4 @@
 /target/maven-status/
 /target/generated-test-sources/
 /target/generated-sources/
+/target/surefire-reports

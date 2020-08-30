@@ -9,13 +9,13 @@ import org.testng.Assert;
 import org.testng.ISuite;
 import org.testng.ITestContext;
 import org.testng.Reporter;
-import org.testng.annotations.Test;
+
 
 import com.shopclues.pageobjects.ShopCluesHomePage;
 import com.shopclues.pageobjects.ShopCluesProductDetail;
 import com.shopclues.pageobjects.homekitchen.ShopCluesHomeFurnishingCurtains;
-import com.shopclues.utils.ProjectConstants;
-import com.shopclues.utils.TestDataLoader;
+import com.shopclues.utils.ShopCluesProjectConstants;
+import com.shopclues.utils.ShopCluesTestDataLoader;
 
 import auto.framework.TestNgTestBase;
 
@@ -25,19 +25,19 @@ import auto.framework.TestNgTestBase;
 
 
 public class CurtainsTest extends TestNgTestBase 
-implements ProjectConstants {
+implements ShopCluesProjectConstants {
 
 	static Logger log = Logger.getLogger(CurtainsTest.class);
 	private ShopCluesHomePage homepage;
 	private ShopCluesHomeFurnishingCurtains curtainPage;
 	private ShopCluesProductDetail detailPage;
 	private Map <String, String> testParmData;
-	private TestDataLoader td;
+	private ShopCluesTestDataLoader td;
 	
 	public CurtainsTest() {
 		  super();
 		  initPageObjects();
-		  log.debug("Sample Test NG Test: " + driver);
+		  log.debug("Curtain Test NG Test: " + driver);
 	  }
 
 	 public void initPageObjects() {
@@ -49,7 +49,7 @@ implements ProjectConstants {
 			ITestContext itc = Reporter.getCurrentTestResult().getTestContext();
 			ISuite is = itc.getSuite();
 			testParmData = is.getXmlSuite().getAllParameters();
-			td = new com.shopclues.utils.TestDataLoader();
+			td = new ShopCluesTestDataLoader();
 			td.loadTestDataMap(testParmData);
 			
 		}

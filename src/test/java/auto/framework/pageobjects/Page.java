@@ -37,9 +37,10 @@ public abstract class Page {
    * @param webDriver
    */
 	static Logger log = Logger.getLogger(Page.class);
+	
 	public Page(WebDriver d) {
-    driver = d;
-  }
+		driver = d;
+	}
 
   public String getTitle() {
     return driver.getTitle();

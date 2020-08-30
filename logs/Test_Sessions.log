@@ -425,3 +425,1220 @@
 2020-08-24 02:16:08 DEBUG ShopCluesProductDetail:77 - add to cart is ADD TO CART
 2020-08-24 02:16:08 DEBUG CurtainsTestStepDefs:51 - The user see ADD TO CART Product added to cartmessage.
 2020-08-24 02:16:10 DEBUG ShopCluesProductDetail:87 - Message is : Product added to cart
+2020-08-29 13:12:52 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 13:12:52 DEBUG TestNgTestBase:51 - Base url is https://www.shopclues.com
+2020-08-29 13:12:52 DEBUG TestNgTestBase:64 - Browser Name Passed chrome
+2020-08-29 13:12:52 DEBUG TestNgTestBase:65 - Node  Name Passed local
+2020-08-29 13:12:52 DEBUG TestNgTestBase:67 - Broswer in Capabilities  is chrome
+2020-08-29 13:12:58 DEBUG TestNgTestBase:81 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 13:12:59 DEBUG CurtainsTest:40 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (c4ea104fa4fc11499bf964fab329ddcd)
+2020-08-29 13:12:59 DEBUG CurtainsTestStepDefs:21 - Begin: The user opens the site
+2020-08-29 13:13:07 DEBUG CurtainsTestStepDefs:23 - End: The user opens the site
+2020-08-29 13:13:07 DEBUG CurtainsTestStepDefs:28 - The user hover over HOME & KITCHEN item.
+2020-08-29 13:13:07 DEBUG CurtainsTestStepDefs:33 - The user clicks Curtains link.
+2020-08-29 13:13:09 DEBUG Page:110 - Tab Name is CDwindow-935CC7E083ED3893AD8F3CF434C38BFD  Curtains: Buy Designer Curtains Online in India at Best Prices
+2020-08-29 13:13:10 DEBUG CurtainsTestStepDefs:39 - The user selects 1 item.
+2020-08-29 13:13:13 DEBUG Page:110 - Tab Name is CDwindow-DC5BD449FF983F22FF5E4BD5B9E71EEB  Buy Cloud India 7 Ft Door Supremo Curtains Set Of 4 Piece Polyster Living Room Bed Room Curtains With Attractive Color Online - Get 18% Off
+2020-08-29 13:13:16 DEBUG ShopCluesProductDetail:53 - Image Loc is : img zoom true
+2020-08-29 13:13:16 DEBUG CurtainsTestStepDefs:45 - The user click ADD TO CARTbutton.
+2020-08-29 13:13:17 DEBUG ShopCluesProductDetail:77 - add to cart is ADD TO CART
+2020-08-29 13:13:18 DEBUG CurtainsTestStepDefs:51 - The user see ADD TO CART Product added to cartmessage.
+2020-08-29 13:13:19 DEBUG ShopCluesProductDetail:87 - Message is : Product added to cart
+2020-08-29 15:34:58 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 15:34:59 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 15:34:59 DEBUG TestNgTestBase:49 - Base url is ${site.url}
+2020-08-29 15:34:59 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 15:34:59 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 15:34:59 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 15:35:00 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 15:37:34 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 15:37:34 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 15:37:34 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 15:37:34 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 15:37:34 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 15:37:34 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 15:37:36 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 15:40:07 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 15:40:07 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 15:40:07 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 15:40:07 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 15:40:07 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 15:40:07 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 15:40:09 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 15:40:56 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 15:40:56 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 15:40:56 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 15:40:56 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 15:40:56 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 15:40:56 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 15:40:57 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 15:40:58 DEBUG AmazonTestBase:29 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (226cd6ee946e5cf23d286e6601d11a75)
+2020-08-29 15:40:58 DEBUG AmazonTestBase:21 - Opening site http://amzn.in/
+2020-08-29 15:40:58 DEBUG AmazonTestBase:29 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (226cd6ee946e5cf23d286e6601d11a75)
+2020-08-29 15:40:58 DEBUG AmazonTestBase:21 - Opening site http://amaazon.in/
+2020-08-29 15:41:01 DEBUG AmazonTestBase:23 - Searching for product...
+2020-08-29 15:41:02 DEBUG AmazonTestBase:23 - Searching for product...
+2020-08-29 15:45:05 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 15:45:05 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 15:45:05 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 15:45:05 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 15:45:05 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 15:45:05 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 15:45:07 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 15:45:08 DEBUG AmazonTestBase:29 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (21554017cb54af0a878061227af3788f)
+2020-08-29 15:45:08 DEBUG AmazonTestBase:21 - Opening site http://amzn.in/
+2020-08-29 15:45:10 DEBUG AmazonTestBase:23 - Searching for product...
+2020-08-29 15:46:25 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 15:46:25 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 15:46:25 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 15:46:25 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 15:46:25 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 15:46:25 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 15:46:27 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 15:46:28 DEBUG AmazonTestBase:29 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (9b45990802b12ef2c47d8dc8a104d505)
+2020-08-29 15:46:28 DEBUG AmazonTestBase:21 - Opening site https://www.amazon.in/
+2020-08-29 15:46:30 DEBUG AmazonTestBase:23 - Searching for product...
+2020-08-29 15:56:32 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 15:56:32 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 15:56:32 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 15:56:32 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 15:56:32 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 15:56:32 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 15:56:33 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 15:56:34 DEBUG AmazonTestBase:29 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (f71683bd53d30270f20284a18a70b1b5)
+2020-08-29 15:56:34 DEBUG AmazonTestStepDefs:21 - Opening site https://www.amazon.in/
+2020-08-29 15:56:36 DEBUG AmazonTestStepDefs:23 - Searching for product...
+2020-08-29 15:57:57 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 15:57:57 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 15:57:57 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 15:57:57 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 15:57:57 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 15:57:57 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 15:57:58 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 15:57:59 DEBUG AmazonTestBase:29 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (0298342876963a26d0a89e10101a20ae)
+2020-08-29 15:57:59 DEBUG AmazonTestStepDefs:21 - Opening site https://www.amazon.in/
+2020-08-29 15:58:02 DEBUG AmazonTestStepDefs:23 - Searching for product...
+2020-08-29 15:59:10 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 15:59:10 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 15:59:10 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 15:59:10 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 15:59:10 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 15:59:10 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 15:59:11 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 15:59:12 DEBUG AmazonTestBase:29 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (68eb21049e544a6cc587f55e65e2d91a)
+2020-08-29 15:59:12 DEBUG AmazonTestStepDefs:21 - Opening site https://www.amazon.in/
+2020-08-29 15:59:14 DEBUG AmazonTestStepDefs:23 - Searching for product...
+2020-08-29 15:59:19 DEBUG AmazonTestStepDefs:25 - Test ends.
+2020-08-29 16:06:00 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 16:06:00 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 16:06:00 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 16:06:00 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 16:06:00 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 16:06:00 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 16:06:01 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 16:06:02 DEBUG AmazonTestBase:29 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (d036092140961d7f93259eee78317f0e)
+2020-08-29 16:06:02 DEBUG AmazonTestStepDefs:21 - Opening site http://amzn.in/
+2020-08-29 16:06:02 DEBUG AmazonTestBase:29 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (d036092140961d7f93259eee78317f0e)
+2020-08-29 16:06:02 DEBUG AmazonTestStepDefs:21 - Opening site http://amaazon.in/
+2020-08-29 16:06:05 DEBUG AmazonTestStepDefs:23 - Searching for product...
+2020-08-29 16:06:06 DEBUG AmazonTestStepDefs:23 - Searching for product...
+2020-08-29 16:08:51 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 16:08:51 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 16:08:51 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 16:08:51 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 16:08:51 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 16:08:51 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 16:08:53 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 16:08:54 DEBUG AmazonTestBase:29 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (2dba364bea5ad8823205a1af686ec8e6)
+2020-08-29 16:08:54 DEBUG AmazonTestStepDefs:21 - Opening site http://amzn.in/
+2020-08-29 16:08:54 DEBUG AmazonTestBase:29 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (2dba364bea5ad8823205a1af686ec8e6)
+2020-08-29 16:08:54 DEBUG AmazonTestStepDefs:21 - Opening site http://amaazon.in/
+2020-08-29 16:08:58 DEBUG AmazonTestBase:48 - Redirected URL is https://www.amazon.in/
+2020-08-29 16:08:58 DEBUG AmazonTestStepDefs:23 - Searching for product...
+2020-08-29 16:08:58 DEBUG AmazonTestBase:48 - Redirected URL is https://www.amazon.in/
+2020-08-29 16:08:58 DEBUG AmazonTestStepDefs:23 - Searching for product...
+2020-08-29 16:09:02 DEBUG AmazonTestStepDefs:25 - Test ends.
+2020-08-29 16:35:12 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 16:35:12 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 16:35:12 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 16:35:12 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 16:35:12 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 16:35:12 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 16:35:14 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 16:35:14 DEBUG AmazonTestBase:29 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (f257d149effbe452146796dc8cc957e2)
+2020-08-29 16:35:14 DEBUG AmazonTestStepDefs:22 - Opening site http://amzn.in/
+2020-08-29 16:35:17 DEBUG AmazonTestBase:48 - Redirected URL is https://www.amazon.in/
+2020-08-29 16:35:17 DEBUG AmazonTestStepDefs:24 - Searching for product...
+2020-08-29 16:35:21 DEBUG AmazonTestStepDefs:31 - Test ends.
+2020-08-29 16:35:46 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 16:35:46 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 16:35:46 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 16:35:46 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 16:35:46 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 16:35:46 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 16:35:47 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 16:35:48 DEBUG AmazonTestBase:29 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (e31a7c668f334d6351e5e4fd50b048e8)
+2020-08-29 16:35:48 DEBUG AmazonTestStepDefs:22 - Opening site http://amzn.in/
+2020-08-29 16:35:48 DEBUG AmazonTestBase:29 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (e31a7c668f334d6351e5e4fd50b048e8)
+2020-08-29 16:35:48 DEBUG AmazonTestStepDefs:22 - Opening site http://amaazon.in/
+2020-08-29 16:35:54 DEBUG AmazonTestBase:48 - Redirected URL is http://amaazon.in/
+2020-08-29 16:35:54 DEBUG AmazonTestStepDefs:24 - Searching for product...
+2020-08-29 16:35:54 DEBUG AmazonTestBase:48 - Redirected URL is http://amaazon.in/
+2020-08-29 16:35:54 DEBUG AmazonTestStepDefs:24 - Searching for product...
+2020-08-29 16:37:59 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 16:37:59 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 16:37:59 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 16:37:59 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 16:37:59 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 16:37:59 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 16:38:01 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 16:38:01 DEBUG AmazonTestBase:29 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (c86d98927f9729d080f1c330e748d001)
+2020-08-29 16:38:01 DEBUG AmazonTestStepDefs:22 - Opening site http://amaazon.in/
+2020-08-29 16:38:02 DEBUG AmazonTestBase:48 - Redirected URL is http://amaazon.in/
+2020-08-29 16:38:02 DEBUG AmazonTestStepDefs:24 - Searching for product...
+2020-08-29 17:23:18 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 17:23:18 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 17:23:18 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 17:23:18 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 17:23:18 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 17:23:18 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 17:23:20 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 17:23:20 DEBUG AmazonTestBase:29 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (6428870e70a3bdf15c572605e2f998f5)
+2020-08-29 17:23:20 DEBUG AmazonTestStepDefs:22 - Opening site http://amaazon.in/
+2020-08-29 17:23:21 DEBUG AmazonTestBase:48 - Redirected URL is http://amaazon.in/
+2020-08-29 17:23:21 DEBUG AmazonTestStepDefs:24 - Test ends.
+2020-08-29 17:25:20 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 17:25:20 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 17:25:20 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 17:25:20 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 17:25:20 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 17:25:20 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 17:25:21 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 17:25:22 DEBUG AmazonTestBase:29 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (e6900734b057e1741cc9d6daf10edf85)
+2020-08-29 17:25:22 DEBUG AmazonTestStepDefs:22 - Opening site http://amaazon.in/
+2020-08-29 17:25:23 DEBUG AmazonTestBase:48 - Redirected URL is http://amaazon.in/
+2020-08-29 17:25:23 DEBUG AmazonTestStepDefs:24 - Test ends.
+2020-08-29 17:25:23 DEBUG AmazonTestStepDefs:31 - Current URL is : http://amaazon.in/
+2020-08-29 17:25:23 DEBUG AmazonTestStepDefs:36 - Assertion Error is failed expected [https://www.amazon.in/] but found [http://amaazon.in/]
+2020-08-29 17:27:01 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 17:27:01 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 17:27:01 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 17:27:01 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 17:27:01 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 17:27:01 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 17:27:02 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 17:27:03 DEBUG AmazonTestBase:29 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (9fcee2005e2d21af047125283800d36c)
+2020-08-29 17:27:03 DEBUG AmazonTestStepDefs:22 - Opening site http://amaazon.in/
+2020-08-29 17:27:04 DEBUG AmazonTestBase:48 - Redirected URL is http://amaazon.in/
+2020-08-29 17:27:04 DEBUG AmazonTestStepDefs:24 - Test ends.
+2020-08-29 17:27:04 DEBUG AmazonTestStepDefs:31 - Current URL is : http://amaazon.in/
+2020-08-29 17:27:04 DEBUG AmazonTestStepDefs:36 - Assertion Error is failed expected [https://www.amazon.in/] but found [http://amaazon.in/]
+2020-08-29 17:29:49 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 17:29:49 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 17:29:49 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 17:29:49 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 17:29:49 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 17:29:49 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 17:29:50 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 17:29:51 DEBUG AmazonTestBase:29 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (83751ad0bcdbc89ff88ef32a1f43bdee)
+2020-08-29 17:29:51 DEBUG AmazonTestStepDefs:22 - Opening site http://amaazon.in/
+2020-08-29 17:29:52 DEBUG AmazonTestBase:48 - Redirected URL is http://amaazon.in/
+2020-08-29 17:29:52 DEBUG AmazonTestStepDefs:24 - Test ends.
+2020-08-29 17:29:52 DEBUG AmazonTestStepDefs:31 - Current URL is : http://amaazon.in/
+2020-08-29 17:36:38 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 17:36:38 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 17:36:38 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 17:36:38 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 17:36:38 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 17:36:38 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 17:36:39 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 17:36:40 DEBUG AmazonTestBase:29 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (5bded0360d11ede0526d4f3fea26248a)
+2020-08-29 17:36:40 DEBUG AmazonTestStepDefs:23 - Opening site http://amzn.in/
+2020-08-29 17:36:40 DEBUG AmazonTestBase:29 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (5bded0360d11ede0526d4f3fea26248a)
+2020-08-29 17:36:40 DEBUG AmazonTestStepDefs:23 - Opening site http://amaazon.in/
+2020-08-29 17:36:44 DEBUG AmazonTestBase:48 - Redirected URL is http://amaazon.in/
+2020-08-29 17:36:44 DEBUG AmazonTestBase:48 - Redirected URL is http://amaazon.in/
+2020-08-29 17:36:44 DEBUG AmazonTestStepDefs:25 - Test ends.
+2020-08-29 17:36:44 DEBUG AmazonTestStepDefs:25 - Test ends.
+2020-08-29 17:36:44 DEBUG AmazonTestStepDefs:32 - Current URL is : http://amaazon.in/
+2020-08-29 17:36:44 DEBUG AmazonTestStepDefs:32 - Current URL is : http://amaazon.in/
+2020-08-29 17:42:05 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 17:42:05 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 17:42:05 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 17:42:05 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 17:42:05 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 17:42:05 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 17:42:06 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 17:42:07 DEBUG AmazonTestBase:29 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (155be1651d382802dda0abcbad14fae5)
+2020-08-29 17:42:07 DEBUG AmazonTestStepDefs:23 - Opening site http://amaazon.in/
+2020-08-29 17:42:08 DEBUG AmazonTestBase:48 - Redirected URL is http://amaazon.in/
+2020-08-29 17:42:08 DEBUG AmazonTestStepDefs:25 - Test ends.
+2020-08-29 17:42:08 DEBUG AmazonTestStepDefs:32 - Current URL is : http://amaazon.in/
+2020-08-29 17:43:34 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 17:43:34 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 17:43:34 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 17:43:34 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 17:43:34 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 17:43:34 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 17:43:36 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 17:43:36 DEBUG AmazonTestBase:29 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (7f15e00a6d7e7f331a062832c578e28d)
+2020-08-29 17:43:36 DEBUG AmazonTestStepDefs:23 - Opening site http://amzn.in/
+2020-08-29 17:43:40 DEBUG AmazonTestBase:48 - Redirected URL is https://www.amazon.in/
+2020-08-29 17:43:40 DEBUG AmazonTestStepDefs:25 - Test ends.
+2020-08-29 17:43:40 DEBUG AmazonTestStepDefs:32 - Current URL is : https://www.amazon.in/
+2020-08-29 17:43:41 DEBUG AmazonTestStepDefs:48 - Searching for product...
+2020-08-29 17:51:56 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 17:51:56 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 17:51:56 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 17:51:56 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 17:51:56 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 17:51:56 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 17:51:57 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 17:51:58 DEBUG AmazonTestBase:29 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (e49e3db86988fbff991d3fed362153f5)
+2020-08-29 17:51:58 DEBUG AmazonTestScenario1:23 - Opening site http://amzn.in/
+2020-08-29 17:52:01 DEBUG AmazonTestBase:48 - Redirected URL is https://www.amazon.in/
+2020-08-29 17:52:01 DEBUG AmazonTestScenario1:25 - Test ends.
+2020-08-29 17:52:02 DEBUG AmazonTestScenario1:32 - Current URL is : https://www.amazon.in/
+2020-08-29 17:52:02 DEBUG AmazonTestScenario1:48 - Searching for product...
+2020-08-29 19:43:32 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 19:43:32 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 19:43:32 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 19:43:32 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 19:43:32 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 19:43:32 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 19:43:33 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 19:43:34 DEBUG AmazonTestBase:31 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (c25d4427749936cd18c04315789712e1)
+2020-08-29 19:43:34 DEBUG AmazonTestBase:31 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (c25d4427749936cd18c04315789712e1)
+2020-08-29 19:43:34 DEBUG AmazonTestBase:31 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (c25d4427749936cd18c04315789712e1)
+2020-08-29 19:43:34 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-29 19:43:34 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-29 19:43:34 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-29 19:43:40 DEBUG AmazonTestBase:53 - Redirected URL is https://www.amazon.in/
+2020-08-29 19:43:40 DEBUG AmazonTestBase:53 - Redirected URL is https://www.amazon.in/
+2020-08-29 19:43:40 DEBUG AmazonTestBase:53 - Redirected URL is https://www.amazon.in/
+2020-08-29 19:43:40 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-29 19:43:41 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-29 19:43:41 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-29 19:43:41 DEBUG SiteDropDowns:28 - hover over dropdown
+2020-08-29 19:43:41 DEBUG SiteAction:26 - hover over action
+2020-08-29 19:43:42 DEBUG AmazonTestScenario2:32 - Current URL is : https://www.amazon.in/
+2020-08-29 19:43:42 DEBUG AmazonTestScenario2:32 - Current URL is : https://www.amazon.in/
+2020-08-29 19:48:20 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 19:48:20 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 19:48:20 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 19:48:20 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 19:48:20 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 19:48:20 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 19:48:22 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 19:48:22 DEBUG AmazonTestBase:31 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (a2e8897374dd3b45c95bc4709d37c56f)
+2020-08-29 19:48:22 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-29 19:48:25 DEBUG AmazonTestBase:53 - Redirected URL is https://www.amazon.in/
+2020-08-29 19:48:26 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-29 19:48:26 DEBUG AmazonTestScenario2:32 - Current URL is : https://www.amazon.in/
+2020-08-29 19:50:42 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 19:50:43 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 19:50:43 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 19:50:43 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 19:50:43 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 19:50:43 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 19:50:44 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 19:50:45 DEBUG AmazonTestBase:31 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (f17a65392565e8d80c68c9abb9b6b26a)
+2020-08-29 19:50:45 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-29 19:50:47 DEBUG AmazonTestBase:53 - Redirected URL is https://www.amazon.in/
+2020-08-29 19:50:48 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-29 19:50:48 DEBUG AmazonTestScenario2:34 - Searching for product...
+2020-08-29 19:55:05 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 19:55:05 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 19:55:05 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 19:55:05 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 19:55:05 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 19:55:05 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 19:55:06 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 19:55:07 DEBUG AmazonTestBase:31 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (b7c141dd6fafe49203180b2c2fb70810)
+2020-08-29 19:55:07 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-29 19:55:10 DEBUG AmazonTestBase:53 - Redirected URL is https://www.amazon.in/
+2020-08-29 19:55:10 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-29 19:55:10 DEBUG AmazonTestScenario2:29 - user_hovers_over_link &lt;page&gt;
+2020-08-29 19:55:10 DEBUG AmazonTestScenario2:35 - Searching for product...
+2020-08-29 20:00:42 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 20:00:42 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 20:00:42 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 20:00:42 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 20:00:42 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 20:00:42 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 20:00:43 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 20:00:44 DEBUG AmazonTestBase:31 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (80372d0e070f663c423da4787c8340a3)
+2020-08-29 20:00:44 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-29 20:00:47 DEBUG AmazonTestBase:53 - Redirected URL is https://www.amazon.in/
+2020-08-29 20:00:47 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-29 20:00:47 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-29 20:00:47 DEBUG SiteDropDowns:28 - hover over dropdown
+2020-08-29 20:00:47 DEBUG SiteAction:26 - hover over action
+2020-08-29 20:12:41 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 20:12:41 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 20:12:41 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 20:12:41 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 20:12:41 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 20:12:41 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 20:12:42 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 20:12:43 DEBUG AmazonTestBase:31 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (fae76b02c5454fe3ca571e59a6c75e34)
+2020-08-29 20:12:43 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-29 20:12:45 DEBUG AmazonTestBase:53 - Redirected URL is https://www.amazon.in/
+2020-08-29 20:12:45 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-29 20:12:45 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts &amp; Lists
+2020-08-29 20:12:45 DEBUG AmazonTestScenario2:35 - Searching for product...
+2020-08-29 20:13:39 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 20:13:39 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 20:13:39 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 20:13:39 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 20:13:39 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 20:13:39 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 20:13:40 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 20:13:41 DEBUG AmazonTestBase:31 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (06b85be0068663d978950fd7770f38e2)
+2020-08-29 20:13:41 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-29 20:13:44 DEBUG AmazonTestBase:53 - Redirected URL is https://www.amazon.in/
+2020-08-29 20:13:44 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-29 20:13:44 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts and Lists
+2020-08-29 20:13:44 DEBUG SiteDropDowns:28 - hover over dropdown
+2020-08-29 20:13:44 DEBUG SiteAction:26 - hover over action
+2020-08-29 20:15:23 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 20:15:23 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 20:15:23 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 20:15:23 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 20:15:23 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 20:15:23 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 20:15:25 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 20:15:26 DEBUG AmazonTestBase:31 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (eaadd0cdae32a446ca49c534385b9bf9)
+2020-08-29 20:15:26 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-29 20:15:29 DEBUG AmazonTestBase:53 - Redirected URL is https://www.amazon.in/
+2020-08-29 20:15:29 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-29 20:15:29 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts and Lists
+2020-08-29 20:15:29 DEBUG SiteDropDowns:28 - hover over dropdown
+2020-08-29 20:15:29 DEBUG SiteAction:26 - hover over action
+2020-08-29 20:18:47 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 20:18:47 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 20:18:47 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 20:18:47 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 20:18:47 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 20:18:47 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 20:18:49 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 20:18:50 DEBUG AmazonTestBase:31 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (65d261ebb57b4076d4252bd719565b41)
+2020-08-29 20:18:50 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-29 20:18:52 DEBUG AmazonTestBase:53 - Redirected URL is https://www.amazon.in/
+2020-08-29 20:18:53 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-29 20:18:53 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts &amp; Lists
+2020-08-29 20:18:53 DEBUG AmazonTestScenario2:35 - Searching for product...
+2020-08-29 20:19:31 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 20:19:31 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 20:19:31 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 20:19:31 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 20:19:31 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 20:19:31 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 20:19:32 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 20:19:33 DEBUG AmazonTestBase:31 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (aa3ae8e326006d2c0b66b167139e39d2)
+2020-08-29 20:19:33 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-29 20:19:35 DEBUG AmazonTestBase:53 - Redirected URL is https://www.amazon.in/
+2020-08-29 20:19:36 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-29 20:19:36 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts and Lists
+2020-08-29 20:19:36 DEBUG SiteDropDowns:28 - hover over dropdown
+2020-08-29 20:19:36 DEBUG SiteAction:26 - hover over action
+2020-08-29 20:23:21 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 20:23:21 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 20:23:21 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 20:23:21 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 20:23:21 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 20:23:21 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 20:23:23 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 20:23:23 DEBUG AmazonTestBase:31 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (ad10283e5d18794aa6f5aa11bf7949d1)
+2020-08-29 20:23:23 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-29 20:23:26 DEBUG AmazonTestBase:53 - Redirected URL is https://www.amazon.in/
+2020-08-29 20:23:27 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-29 20:23:27 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts and Lists
+2020-08-29 20:23:27 DEBUG SiteDropDowns:28 - hover over dropdown
+2020-08-29 20:23:27 DEBUG SiteAction:26 - hover over action : Hello, Sign in
+Account & Lists
+2020-08-29 20:23:27 DEBUG AmazonTestScenario2:35 - Searching for product...
+2020-08-29 20:25:16 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 20:25:16 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 20:25:16 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 20:25:16 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 20:25:16 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 20:25:16 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 20:25:17 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 20:25:18 DEBUG AmazonTestBase:31 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (81df6687da0536bc37272a7b4ef4a6b6)
+2020-08-29 20:25:18 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-29 20:25:22 DEBUG AmazonTestBase:53 - Redirected URL is https://www.amazon.in/
+2020-08-29 20:25:22 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-29 20:25:22 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-29 20:25:22 DEBUG SiteDropDowns:28 - hover over dropdown
+2020-08-29 20:25:22 DEBUG SiteAction:26 - hover over action : Hello, Sign in
+Account & Lists
+2020-08-29 20:25:23 DEBUG AmazonTestScenario2:35 - Searching for product...
+2020-08-29 21:21:01 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 21:21:01 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 21:21:01 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 21:21:01 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 21:21:01 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 21:21:01 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 21:21:02 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 21:21:03 DEBUG AmazonTestBase:35 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (b64ed0b2fbaee4512796f2e84e5b2a3c)
+2020-08-29 21:21:03 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-29 21:21:06 DEBUG AmazonTestBase:61 - Redirected URL is https://www.amazon.in/
+2020-08-29 21:21:06 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-29 21:21:06 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-29 21:21:06 DEBUG SiteDropDowns:32 - hover over dropdown
+2020-08-29 21:21:07 DEBUG SiteAction:26 - hover over action : Hello, Sign in
+Account & Lists
+2020-08-29 21:21:07 DEBUG AmazonTestScenario2:35 - User perform action Click > Create Wishlist
+2020-08-29 21:21:07 DEBUG SiteDropDowns:37 - clicking wishlist
+2020-08-29 22:11:28 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 22:11:28 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 22:11:28 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 22:11:29 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 22:11:29 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 22:11:29 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 22:11:30 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 22:11:31 DEBUG AmazonTestBase:39 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (0b3b0ecb604c0b67185d70462c7a5e47)
+2020-08-29 22:11:31 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-29 22:11:33 DEBUG AmazonTestBase:66 - Redirected URL is https://www.amazon.in/
+2020-08-29 22:11:34 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-29 22:11:34 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-29 22:11:34 DEBUG SiteDropDowns:32 - hover over dropdown
+2020-08-29 22:11:35 DEBUG SiteAction:26 - hover over action : Hello, Sign in
+Account & Lists
+2020-08-29 22:11:35 DEBUG AmazonTestScenario2:36 - User perform action Click
+2020-08-29 22:11:35 DEBUG SiteDropDowns:37 - clicking wishlist
+2020-08-29 22:11:36 DEBUG AmazonTestBase:108 - Invalid Page
+2020-08-29 22:16:09 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 22:16:09 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 22:16:09 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 22:16:09 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 22:16:09 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 22:16:09 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 22:16:10 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 22:16:11 DEBUG AmazonTestBase:39 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (0256b67765f60befd3812a151f0ea7f8)
+2020-08-29 22:16:11 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-29 22:16:14 DEBUG AmazonTestBase:66 - Redirected URL is https://www.amazon.in/
+2020-08-29 22:16:14 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-29 22:16:14 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-29 22:16:14 DEBUG SiteDropDowns:32 - hover over dropdown
+2020-08-29 22:16:15 DEBUG SiteAction:26 - hover over action : Hello, Sign in
+Account & Lists
+2020-08-29 22:16:15 DEBUG AmazonTestScenario2:36 - User perform action Click > Create Wishlist
+2020-08-29 22:16:15 DEBUG SiteDropDowns:37 - clicking wishlist
+2020-08-29 22:16:17 DEBUG AmazonTestBase:108 - Invalid Page
+2020-08-29 22:20:07 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 22:20:07 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 22:20:07 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 22:20:07 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 22:20:07 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 22:20:07 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 22:20:08 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 22:20:09 DEBUG AmazonTestBase:39 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (f33bdee027aa34397dafe354bfbe0969)
+2020-08-29 22:20:09 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-29 22:20:11 DEBUG AmazonTestBase:66 - Redirected URL is https://www.amazon.in/
+2020-08-29 22:20:12 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-29 22:20:12 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-29 22:20:12 DEBUG SiteDropDowns:32 - hover over dropdown
+2020-08-29 22:20:13 DEBUG SiteAction:26 - hover over action : Hello, Sign in
+Account & Lists
+2020-08-29 22:20:13 DEBUG AmazonTestScenario2:36 - User perform action Click > Create Wishlist
+2020-08-29 22:20:13 DEBUG SiteDropDowns:37 - clicking wishlist
+2020-08-29 22:20:16 DEBUG WishListPage:33 - Page Text is Your Lists
+2020-08-29 22:22:03 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 22:22:03 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 22:22:03 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 22:22:03 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 22:22:03 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 22:22:03 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 22:22:05 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 22:22:28 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 22:22:28 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 22:22:28 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 22:22:28 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 22:22:28 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 22:22:28 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 22:22:29 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 22:23:03 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 22:23:04 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 22:23:04 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 22:23:04 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 22:23:04 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 22:23:04 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 22:23:05 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 22:31:38 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 22:31:38 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 22:31:38 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 22:31:38 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 22:31:38 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 22:31:38 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 22:31:40 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 22:36:18 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 22:36:18 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 22:36:18 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 22:36:18 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 22:36:18 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 22:36:18 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 22:36:19 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 22:36:35 DEBUG AmazonTestRunner:20 - constructor called
+2020-08-29 22:36:35 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 22:36:35 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 22:36:35 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 22:36:35 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 22:36:35 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 22:36:36 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 22:40:50 DEBUG AmazonTestRunner:21 - constructor called
+2020-08-29 22:40:51 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 22:40:51 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 22:40:51 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 22:40:51 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 22:40:51 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 22:40:52 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 22:43:07 DEBUG AmazonTestRunner:21 - constructor called
+2020-08-29 22:43:08 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 22:43:08 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 22:43:08 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 22:43:08 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 22:43:08 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 22:43:09 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 22:44:26 DEBUG AmazonTestRunner:21 - constructor called
+2020-08-29 22:44:26 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 22:44:26 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 22:44:26 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 22:44:26 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 22:44:26 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 22:44:27 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 22:44:49 DEBUG AmazonTestRunner:21 - constructor called
+2020-08-29 22:44:49 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 22:44:49 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 22:44:49 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 22:44:49 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 22:44:49 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 22:44:50 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 22:45:37 DEBUG AmazonTestRunner:21 - constructor called
+2020-08-29 22:45:37 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 22:45:37 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 22:45:37 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 22:45:37 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 22:45:37 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 22:45:38 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 22:46:04 DEBUG AmazonTestRunner:21 - constructor called
+2020-08-29 22:46:04 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 22:46:04 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 22:46:04 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 22:46:04 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 22:46:04 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 22:46:05 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 22:46:22 DEBUG AmazonTestRunner:21 - constructor called
+2020-08-29 22:46:23 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 22:46:23 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 22:46:23 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 22:46:23 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 22:46:23 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 22:46:24 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 22:49:40 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-29 22:49:40 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 22:49:40 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 22:49:40 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 22:49:40 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 22:49:40 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 22:49:42 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 22:54:18 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-29 22:54:19 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 22:54:19 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 22:54:19 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 22:54:19 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 22:54:19 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 22:54:20 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 22:54:21 DEBUG AmazonTestBase:39 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (9ee155159eb2245f454ac095723d8523)
+2020-08-29 22:54:21 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-29 22:54:21 DEBUG AmazonTestBase:39 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (9ee155159eb2245f454ac095723d8523)
+2020-08-29 22:54:21 DEBUG AmazonTestScenario1:23 - Opening site http://amzn.in/
+2020-08-29 22:54:26 DEBUG AmazonTestBase:66 - Redirected URL is https://www.amazon.in/
+2020-08-29 22:54:27 DEBUG AmazonTestBase:66 - Redirected URL is https://www.amazon.in/
+2020-08-29 22:54:27 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-29 22:54:27 DEBUG AmazonTestScenario1:25 - Test ends.
+2020-08-29 22:54:27 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-29 22:54:27 DEBUG SiteDropDowns:32 - hover over dropdown
+2020-08-29 22:54:27 DEBUG AmazonTestScenario1:32 - Current URL is : https://www.amazon.in/
+2020-08-29 22:54:27 DEBUG AmazonTestScenario1:48 - Searching for product...
+2020-08-29 22:54:27 DEBUG SiteAction:26 - hover over action : Hello, Sign in
+Account & Lists
+2020-08-29 22:54:27 DEBUG AmazonTestScenario2:36 - User perform action Click > Create Wishlist
+2020-08-29 22:54:27 DEBUG SiteDropDowns:37 - clicking wishlist
+2020-08-29 22:57:27 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-29 22:57:27 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 22:57:27 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 22:57:27 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 22:57:27 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 22:57:27 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 22:57:28 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 22:59:59 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-29 23:00:00 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 23:00:00 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 23:00:00 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 23:00:00 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 23:00:00 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 23:00:01 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 23:00:47 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-29 23:00:47 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 23:00:47 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 23:00:47 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 23:00:47 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 23:00:47 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 23:00:48 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 23:01:40 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-29 23:01:40 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 23:01:40 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 23:01:40 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 23:01:40 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 23:01:40 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 23:01:41 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 23:02:23 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-29 23:02:23 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 23:02:23 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 23:02:23 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 23:02:23 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 23:02:23 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 23:02:24 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 23:12:47 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-29 23:12:47 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 23:12:47 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 23:12:47 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 23:12:47 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 23:12:47 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 23:12:49 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 23:12:50 DEBUG AmazonTestBase:39 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (0e38ae4d10dc1291c1a34fdec4e7b6df)
+2020-08-29 23:12:50 DEBUG AmazonTestScenario1:23 - Opening site http://amzn.in/
+2020-08-29 23:12:53 DEBUG AmazonTestBase:66 - Redirected URL is https://www.amazon.in/
+2020-08-29 23:12:53 DEBUG AmazonTestScenario1:25 - Test ends.
+2020-08-29 23:12:54 DEBUG AmazonTestScenario1:32 - Current URL is : https://www.amazon.in/
+2020-08-29 23:12:54 DEBUG AmazonTestScenario1:48 - Searching for product...
+2020-08-29 23:13:20 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-29 23:13:20 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 23:13:20 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 23:13:20 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 23:13:20 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 23:13:20 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 23:13:21 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 23:14:46 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-29 23:14:46 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 23:14:46 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 23:14:46 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 23:14:46 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 23:14:46 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 23:14:48 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 23:15:21 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-29 23:15:21 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 23:15:21 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 23:15:21 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 23:15:21 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 23:15:21 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 23:15:23 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 23:19:35 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-29 23:19:35 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 23:19:35 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 23:19:35 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 23:19:35 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 23:19:35 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 23:19:36 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 23:19:54 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-29 23:19:54 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 23:19:54 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 23:19:54 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 23:19:54 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 23:19:54 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 23:19:55 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 23:19:56 DEBUG AmazonTestBase:39 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (1e351c27c25f8a89cb7a594102e935dd)
+2020-08-29 23:19:56 DEBUG AmazonTestScenario1:23 - Opening site http://amzn.in/
+2020-08-29 23:19:59 DEBUG AmazonTestBase:66 - Redirected URL is https://www.amazon.in/
+2020-08-29 23:19:59 DEBUG AmazonTestScenario1:25 - Test ends.
+2020-08-29 23:20:00 DEBUG AmazonTestScenario1:32 - Current URL is : https://www.amazon.in/
+2020-08-29 23:20:00 DEBUG AmazonTestScenario1:48 - Searching for product...
+2020-08-29 23:20:03 DEBUG AmazonTestBase:39 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (1e351c27c25f8a89cb7a594102e935dd)
+2020-08-29 23:20:03 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-29 23:20:05 DEBUG AmazonTestBase:66 - Redirected URL is https://www.amazon.in/
+2020-08-29 23:20:05 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-29 23:20:05 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-29 23:20:05 DEBUG SiteDropDowns:32 - hover over dropdown
+2020-08-29 23:20:06 DEBUG SiteAction:26 - hover over action : Hello, Sign in
+Account & Lists
+2020-08-29 23:20:07 DEBUG AmazonTestScenario2:36 - User perform action Click > Create Wishlist
+2020-08-29 23:20:07 DEBUG SiteDropDowns:37 - clicking wishlist
+2020-08-29 23:20:09 DEBUG WishListPage:33 - Page Text is Your Lists
+2020-08-29 23:21:42 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-29 23:21:42 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 23:21:42 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 23:21:42 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 23:21:42 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 23:21:42 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 23:21:43 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 23:22:23 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-29 23:22:23 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 23:22:23 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 23:22:23 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 23:22:23 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 23:22:23 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 23:22:25 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 23:22:26 DEBUG AmazonTestBase:39 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (527b9339509cac54fa66b65a557974d5)
+2020-08-29 23:22:26 DEBUG AmazonTestScenario1:23 - Opening site http://amzn.in/
+2020-08-29 23:22:29 DEBUG AmazonTestBase:66 - Redirected URL is https://www.amazon.in/
+2020-08-29 23:22:29 DEBUG AmazonTestScenario1:25 - Test ends.
+2020-08-29 23:22:29 DEBUG AmazonTestScenario1:32 - Current URL is : https://www.amazon.in/
+2020-08-29 23:22:29 DEBUG AmazonTestScenario1:48 - Searching for product...
+2020-08-29 23:22:33 DEBUG AmazonTestBase:39 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (527b9339509cac54fa66b65a557974d5)
+2020-08-29 23:22:33 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-29 23:22:36 DEBUG AmazonTestBase:66 - Redirected URL is https://www.amazon.in/
+2020-08-29 23:22:36 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-29 23:22:36 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-29 23:22:36 DEBUG SiteDropDowns:32 - hover over dropdown
+2020-08-29 23:22:36 DEBUG SiteAction:26 - hover over action : Hello, Sign in
+Account & Lists
+2020-08-29 23:22:36 DEBUG AmazonTestScenario2:36 - User perform action Click > Create Wishlist
+2020-08-29 23:22:36 DEBUG SiteDropDowns:37 - clicking wishlist
+2020-08-29 23:22:38 DEBUG WishListPage:33 - Page Text is Your Lists
+2020-08-29 23:28:23 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-29 23:28:23 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 23:28:23 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 23:28:24 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 23:28:24 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 23:28:24 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 23:28:25 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 23:29:01 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-29 23:29:01 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 23:29:01 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 23:29:01 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 23:29:01 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 23:29:01 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 23:29:02 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 23:29:30 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-29 23:29:30 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 23:29:30 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 23:29:30 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 23:29:30 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 23:29:30 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 23:29:31 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 23:29:55 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-29 23:29:55 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 23:29:55 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 23:29:55 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 23:29:55 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 23:29:55 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 23:29:57 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 23:30:34 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-29 23:30:34 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 23:30:34 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 23:30:34 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 23:30:34 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 23:30:34 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 23:30:36 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 23:31:00 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-29 23:31:00 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 23:31:00 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 23:31:00 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 23:31:00 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 23:31:00 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 23:31:02 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 23:31:02 DEBUG AmazonTestBase:39 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (ea5cb575448fab09e6bfce7632a30833)
+2020-08-29 23:31:02 DEBUG AmazonTestScenario1:23 - Opening site http://amzn.in/
+2020-08-29 23:31:05 DEBUG AmazonTestBase:66 - Redirected URL is https://www.amazon.in/
+2020-08-29 23:31:06 DEBUG AmazonTestScenario1:25 - Test ends.
+2020-08-29 23:31:06 DEBUG AmazonTestScenario1:32 - Current URL is : https://www.amazon.in/
+2020-08-29 23:31:06 DEBUG AmazonTestScenario1:48 - Searching for product...
+2020-08-29 23:31:30 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-29 23:31:30 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 23:31:30 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 23:31:30 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 23:31:30 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 23:31:30 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 23:31:31 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 23:32:45 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-29 23:32:45 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 23:32:45 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 23:32:45 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 23:32:45 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 23:32:45 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 23:32:46 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-29 23:33:13 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-29 23:33:13 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-29 23:33:13 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-29 23:33:13 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-29 23:33:13 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-29 23:33:13 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-29 23:33:14 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-30 10:34:40 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-30 10:34:40 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-30 10:34:40 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-30 10:34:40 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-30 10:34:40 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-30 10:34:40 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-30 10:34:42 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-30 10:35:21 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-30 10:35:21 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-30 10:35:21 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-30 10:35:21 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-30 10:35:21 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-30 10:35:21 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-30 10:35:22 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-30 10:35:23 DEBUG AmazonTestBase:39 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (5bc213ea4a6de1cd9b28f2efa052817c)
+2020-08-30 10:35:23 DEBUG AmazonTestScenario1:23 - Opening site http://amzn.in/
+2020-08-30 10:35:26 DEBUG AmazonTestBase:66 - Redirected URL is https://www.amazon.in/
+2020-08-30 10:35:26 DEBUG AmazonTestScenario1:25 - Test ends.
+2020-08-30 10:35:26 DEBUG AmazonTestScenario1:32 - Current URL is : https://www.amazon.in/
+2020-08-30 10:35:26 DEBUG AmazonTestScenario1:48 - Searching for product...
+2020-08-30 10:35:30 DEBUG AmazonTestBase:39 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (5bc213ea4a6de1cd9b28f2efa052817c)
+2020-08-30 10:35:30 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-30 10:35:32 DEBUG AmazonTestBase:66 - Redirected URL is https://www.amazon.in/
+2020-08-30 10:35:32 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-30 10:35:32 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-30 10:35:32 DEBUG SiteDropDowns:32 - hover over dropdown
+2020-08-30 10:35:33 DEBUG SiteAction:26 - hover over action : Hello, Sign in
+Account & Lists
+2020-08-30 10:35:33 DEBUG AmazonTestScenario2:36 - User perform action Click > Create Wishlist
+2020-08-30 10:35:33 DEBUG SiteDropDowns:37 - clicking wishlist
+2020-08-30 10:35:35 DEBUG WishListPage:33 - Page Text is Your Lists
+2020-08-30 14:49:03 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-30 14:49:04 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-30 14:49:04 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-30 14:49:04 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-30 14:49:04 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-30 14:49:04 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-30 14:49:05 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-30 14:50:31 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-30 14:50:31 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-30 14:50:31 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-30 14:50:31 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-30 14:50:31 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-30 14:50:31 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-30 14:50:33 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-30 14:51:48 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-30 14:51:48 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-30 14:51:48 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-30 14:51:48 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-30 14:51:48 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-30 14:51:48 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-30 14:51:49 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-30 14:52:56 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-30 14:52:56 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-30 14:52:56 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-30 14:52:56 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-30 14:52:56 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-30 14:52:56 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-30 14:52:57 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-30 14:54:29 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-30 14:54:29 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-30 14:54:29 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-30 14:54:29 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-30 14:54:29 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-30 14:54:29 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-30 14:54:31 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-30 14:55:18 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-30 14:55:19 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-30 14:55:19 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-30 14:55:19 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-30 14:55:19 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-30 14:55:19 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-30 14:55:20 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-30 14:55:44 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-30 14:55:44 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-30 14:55:44 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-30 14:55:44 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-30 14:55:44 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-30 14:55:44 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-30 14:55:45 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-30 14:56:41 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-30 14:56:41 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-30 14:56:41 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-30 14:56:41 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-30 14:56:41 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-30 14:56:41 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-30 14:56:42 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-30 14:56:43 DEBUG AmazonTestBase:42 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (67381787377c1ea3694b1e930b79c351)
+2020-08-30 14:56:43 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-30 14:56:46 DEBUG AmazonTestBase:70 - Redirected URL is https://www.amazon.in/
+2020-08-30 14:56:47 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-30 14:56:47 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-30 14:56:47 DEBUG SiteDropDowns:37 - hover over dropdown
+2020-08-30 14:56:47 DEBUG SiteAction:26 - hover over action : Hello, Sign in
+Account & Lists
+2020-08-30 14:56:48 DEBUG AmazonTestScenario2:36 - User perform action <actionon>
+2020-08-30 14:59:02 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-30 14:59:02 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-30 14:59:02 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-30 14:59:02 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-30 14:59:02 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-30 14:59:02 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-30 14:59:03 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-30 14:59:04 DEBUG AmazonTestBase:42 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (d3155223eb96b893d9f4db50b581e537)
+2020-08-30 14:59:04 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-30 14:59:06 DEBUG AmazonTestBase:70 - Redirected URL is https://www.amazon.in/
+2020-08-30 14:59:06 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-30 14:59:06 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-30 14:59:06 DEBUG SiteDropDowns:37 - hover over dropdown
+2020-08-30 14:59:08 DEBUG SiteAction:26 - hover over action : Hello, Sign in
+Account & Lists
+2020-08-30 14:59:08 DEBUG AmazonTestScenario2:36 - User perform action Click > Sign In
+2020-08-30 15:04:58 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-30 15:04:58 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-30 15:04:58 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-30 15:04:58 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-30 15:04:58 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-30 15:04:58 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-30 15:04:59 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-30 15:05:00 DEBUG AmazonTestBase:42 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (214dccec4c8c44d48bf0b3427df8e232)
+2020-08-30 15:05:00 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-30 15:05:03 DEBUG AmazonTestBase:70 - Redirected URL is https://www.amazon.in/
+2020-08-30 15:05:04 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-30 15:05:04 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-30 15:05:04 DEBUG SiteDropDowns:37 - hover over dropdown
+2020-08-30 15:05:04 DEBUG SiteAction:26 - hover over action : Hello, Sign in
+Account & Lists
+2020-08-30 15:05:04 DEBUG AmazonTestScenario2:36 - User perform action Click > Sign In
+2020-08-30 15:07:15 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-30 15:07:15 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-30 15:07:15 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-30 15:07:15 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-30 15:07:15 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-30 15:07:15 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-30 15:07:17 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-30 15:07:17 DEBUG AmazonTestBase:42 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (46511210926d052bab44a094ccb7e315)
+2020-08-30 15:07:17 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-30 15:07:20 DEBUG AmazonTestBase:70 - Redirected URL is https://www.amazon.in/
+2020-08-30 15:07:20 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-30 15:07:21 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-30 15:07:21 DEBUG SiteDropDowns:37 - hover over dropdown
+2020-08-30 15:07:21 DEBUG SiteAction:26 - hover over action : Hello, Sign in
+Account & Lists
+2020-08-30 15:07:21 DEBUG AmazonTestScenario2:36 - User perform action Click > Sign In
+2020-08-30 15:10:12 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-30 15:10:12 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-30 15:10:12 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-30 15:10:12 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-30 15:10:12 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-30 15:10:12 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-30 15:10:13 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-30 15:10:14 DEBUG AmazonTestBase:42 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (dcc193ff4480dfe1b4fdbd234ba49ff6)
+2020-08-30 15:10:14 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-30 15:10:16 DEBUG AmazonTestBase:70 - Redirected URL is https://www.amazon.in/
+2020-08-30 15:10:17 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-30 15:10:17 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-30 15:10:17 DEBUG SiteDropDowns:37 - hover over dropdown
+2020-08-30 15:10:18 DEBUG SiteAction:26 - hover over action : Hello, Sign in
+Account & Lists
+2020-08-30 15:10:18 DEBUG AmazonTestScenario2:36 - User perform action Click > Sign In
+2020-08-30 15:10:24 DEBUG AmazonHomePage:58 - Nav Line Containers Lenght null
+2020-08-30 15:16:39 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-30 15:16:39 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-30 15:16:39 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-30 15:16:39 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-30 15:16:39 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-30 15:16:39 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-30 15:16:40 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-30 15:16:41 DEBUG AmazonTestBase:42 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (dc7dd4a9dd3f5df0ebc058bd7084e071)
+2020-08-30 15:16:41 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-30 15:16:44 DEBUG AmazonTestBase:70 - Redirected URL is https://www.amazon.in/
+2020-08-30 15:16:45 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-30 15:16:45 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-30 15:16:45 DEBUG SiteDropDowns:37 - hover over dropdown
+2020-08-30 15:16:45 DEBUG SiteAction:26 - hover over action : Hello, Sign in
+Account & Lists
+2020-08-30 15:16:45 DEBUG AmazonTestScenario2:36 - User perform action Click > Sign In
+2020-08-30 15:16:53 DEBUG AmazonHomePage:61 - Nav Line Containers Lenght []
+2020-08-30 15:16:55 DEBUG AmazonHomePage:64 - message is Hello, Rajkumar
+2020-08-30 15:32:42 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-30 15:32:42 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-30 15:32:42 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-30 15:32:42 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-30 15:32:42 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-30 15:32:42 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-30 15:32:43 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-30 15:32:44 DEBUG AmazonTestBase:42 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (c5ef4f46f9f5d29a8c7dd1367243e4c4)
+2020-08-30 15:32:44 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-30 15:32:48 DEBUG AmazonTestBase:70 - Redirected URL is https://www.amazon.in/
+2020-08-30 15:32:48 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-30 15:32:48 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-30 15:32:48 DEBUG SiteDropDowns:37 - hover over dropdown
+2020-08-30 15:32:48 DEBUG SiteAction:26 - hover over action : Hello, Sign in
+Account & Lists
+2020-08-30 15:32:49 DEBUG AmazonTestScenario2:36 - User perform action Click > Sign In
+2020-08-30 15:32:59 DEBUG AmazonHomePage:61 - Nav Line Containers Lenght [[[RemoteWebDriver: chrome on LINUX (c5ef4f46f9f5d29a8c7dd1367243e4c4)] -> xpath: //div[@class='nav-line-1-container']/span[@class='nav-line-1']], [[RemoteWebDriver: chrome on LINUX (c5ef4f46f9f5d29a8c7dd1367243e4c4)] -> xpath: //div[@class='nav-line-1-container']/span[@class='nav-line-1']]]
+2020-08-30 15:33:00 DEBUG AmazonHomePage:64 - message is Hello, Rajkumar
+2020-08-30 15:33:00 DEBUG AmazonHomePage:64 - message is Try
+2020-08-30 15:33:00 DEBUG AmazonTestBase:42 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (c5ef4f46f9f5d29a8c7dd1367243e4c4)
+2020-08-30 15:33:00 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-30 15:33:02 DEBUG AmazonTestBase:70 - Redirected URL is https://www.amazon.in/
+2020-08-30 15:33:02 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-30 15:33:02 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-30 15:33:02 DEBUG SiteDropDowns:37 - hover over dropdown
+2020-08-30 15:33:02 DEBUG SiteAction:26 - hover over action : Hello, Rajkumar
+Account & Lists
+2020-08-30 15:33:02 DEBUG AmazonTestScenario2:36 - User perform action Click > Sign In
+2020-08-30 15:42:31 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-30 15:42:31 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-30 15:42:31 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-30 15:42:31 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-30 15:42:31 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-30 15:42:31 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-30 15:42:32 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-30 15:42:33 DEBUG AmazonTestBase:42 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (83026edd4d94c4f6ae94fcae96c9299f)
+2020-08-30 15:42:33 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-30 15:42:36 DEBUG AmazonTestBase:70 - Redirected URL is https://www.amazon.in/
+2020-08-30 15:42:37 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-30 15:42:37 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-30 15:42:37 DEBUG SiteDropDowns:41 - hover over dropdown
+2020-08-30 15:42:37 DEBUG SiteAction:26 - hover over action : Hello, Sign in
+Account & Lists
+2020-08-30 15:42:37 DEBUG AmazonTestScenario2:36 - User perform action Click > Sign In
+2020-08-30 15:42:47 DEBUG AmazonHomePage:61 - Nav Line Containers Lenght []
+2020-08-30 15:42:48 DEBUG AmazonHomePage:64 - message is Hello, Rajkumar
+2020-08-30 15:42:48 DEBUG AmazonHomePage:64 - message is Try
+2020-08-30 15:42:48 DEBUG AmazonTestBase:42 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (83026edd4d94c4f6ae94fcae96c9299f)
+2020-08-30 15:42:48 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-30 15:42:50 DEBUG AmazonTestBase:70 - Redirected URL is https://www.amazon.in/
+2020-08-30 15:42:50 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-30 15:42:50 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-30 15:42:50 DEBUG SiteDropDowns:41 - hover over dropdown
+2020-08-30 15:42:50 DEBUG SiteAction:26 - hover over action : Hello, Rajkumar
+Account & Lists
+2020-08-30 15:42:50 DEBUG AmazonTestScenario2:36 - User perform action Click > Sign In
+2020-08-30 15:44:15 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-30 15:44:15 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-30 15:44:15 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-30 15:44:16 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-30 15:44:16 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-30 15:44:16 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-30 15:44:17 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-30 15:44:18 DEBUG AmazonTestBase:42 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (c86b625d17982191071faf4acfa43ead)
+2020-08-30 15:44:18 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-30 15:44:20 DEBUG AmazonTestBase:70 - Redirected URL is https://www.amazon.in/
+2020-08-30 15:44:20 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-30 15:44:20 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-30 15:44:20 DEBUG SiteDropDowns:41 - hover over dropdown
+2020-08-30 15:44:21 DEBUG SiteAction:26 - hover over action : Hello, Sign in
+Account & Lists
+2020-08-30 15:44:21 DEBUG AmazonTestScenario2:36 - User perform action Click > Sign In
+2020-08-30 15:44:30 DEBUG AmazonHomePage:61 - Nav Line Containers Lenght []
+2020-08-30 15:44:31 DEBUG AmazonHomePage:64 - message is Hello, Rajkumar
+2020-08-30 15:44:31 DEBUG SiteDropDowns:41 - hover over dropdown
+2020-08-30 15:44:31 DEBUG AmazonTestBase:42 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (c86b625d17982191071faf4acfa43ead)
+2020-08-30 15:44:31 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-30 15:44:32 DEBUG AmazonTestBase:70 - Redirected URL is https://www.amazon.in/
+2020-08-30 15:44:33 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-30 15:44:33 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-30 15:44:33 DEBUG SiteDropDowns:41 - hover over dropdown
+2020-08-30 15:44:34 DEBUG SiteAction:26 - hover over action : Hello, Rajkumar
+Account & Lists
+2020-08-30 15:44:35 DEBUG AmazonTestScenario2:36 - User perform action Click > Sign In
+2020-08-30 15:47:40 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-30 15:47:40 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-30 15:47:40 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-30 15:47:40 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-30 15:47:40 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-30 15:47:40 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-30 15:47:41 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-30 15:47:42 DEBUG AmazonTestBase:42 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (f18bf8546a7b7c2a578e33165219c585)
+2020-08-30 15:47:42 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-30 15:47:46 DEBUG AmazonTestBase:70 - Redirected URL is https://www.amazon.in/
+2020-08-30 15:47:46 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-30 15:47:46 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-30 15:47:46 DEBUG SiteDropDowns:41 - hover over dropdown
+2020-08-30 15:47:46 DEBUG SiteAction:26 - hover over action : Hello, Sign in
+Account & Lists
+2020-08-30 15:47:46 DEBUG AmazonTestScenario2:36 - User perform action Click > Sign In
+2020-08-30 15:47:55 DEBUG AmazonHomePage:61 - Nav Line Containers Lenght []
+2020-08-30 15:47:56 DEBUG AmazonHomePage:64 - message is Hello, Rajkumar
+2020-08-30 15:47:56 DEBUG AmazonTestBase:42 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (f18bf8546a7b7c2a578e33165219c585)
+2020-08-30 15:47:56 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-30 15:47:58 DEBUG AmazonTestBase:70 - Redirected URL is https://www.amazon.in/
+2020-08-30 15:47:58 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-30 15:47:58 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-30 15:47:58 DEBUG SiteDropDowns:41 - hover over dropdown
+2020-08-30 15:47:58 DEBUG SiteAction:26 - hover over action : Hello, Rajkumar
+Account & Lists
+2020-08-30 15:47:58 DEBUG AmazonTestScenario2:36 - User perform action Click > Sign In
+2020-08-30 15:54:59 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-30 15:54:59 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-30 15:54:59 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-30 15:54:59 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-30 15:54:59 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-30 15:54:59 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-30 15:55:01 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-30 15:55:14 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-30 15:55:14 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-30 15:55:14 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-30 15:55:15 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-30 15:55:15 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-30 15:55:15 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-30 15:55:16 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-30 15:55:17 DEBUG AmazonTestBase:42 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (5cf50f7e2ed3f4bde0c38399dd9789b3)
+2020-08-30 15:55:17 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-30 15:55:19 DEBUG AmazonTestBase:70 - Redirected URL is https://www.amazon.in/
+2020-08-30 15:55:20 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-30 15:55:20 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-30 15:55:20 DEBUG SiteDropDowns:41 - hover over dropdown
+2020-08-30 15:55:20 DEBUG SiteAction:26 - hover over action : Hello, Sign in
+Account & Lists
+2020-08-30 15:55:21 DEBUG AmazonTestScenario2:36 - User perform action Click > Sign In
+2020-08-30 15:55:26 DEBUG AmazonHomePage:61 - Nav Line Containers Lenght []
+2020-08-30 15:55:30 DEBUG AmazonHomePage:64 - message is Hello, Rajkumar
+2020-08-30 15:55:31 DEBUG SiteDropDowns:41 - hover over dropdown
+2020-08-30 15:55:31 DEBUG SiteAction:26 - hover over action : Hello, Rajkumar
+Account & Lists
+2020-08-30 15:55:32 DEBUG AmazonTestBase:141 - before signout
+2020-08-30 15:56:07 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-30 15:56:07 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-30 15:56:07 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-30 15:56:07 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-30 15:56:07 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-30 15:56:07 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-30 15:56:09 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-30 15:56:09 DEBUG AmazonTestBase:42 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (aa5b71083946c112614362877e52aef1)
+2020-08-30 15:56:09 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-30 15:56:12 DEBUG AmazonTestBase:70 - Redirected URL is https://www.amazon.in/
+2020-08-30 15:56:13 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-30 15:56:13 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-30 15:56:13 DEBUG SiteDropDowns:41 - hover over dropdown
+2020-08-30 15:56:13 DEBUG SiteAction:26 - hover over action : Hello, Sign in
+Account & Lists
+2020-08-30 15:56:14 DEBUG AmazonTestScenario2:36 - User perform action Click > Sign In
+2020-08-30 15:56:23 DEBUG AmazonHomePage:61 - Nav Line Containers Lenght []
+2020-08-30 15:56:24 DEBUG AmazonHomePage:64 - message is Hello, Rajkumar
+2020-08-30 15:56:24 DEBUG SiteDropDowns:41 - hover over dropdown
+2020-08-30 15:56:24 DEBUG SiteAction:26 - hover over action : Hello, Rajkumar
+Account & Lists
+2020-08-30 15:56:24 DEBUG AmazonTestBase:141 - before signout
+2020-08-30 15:56:26 DEBUG AmazonTestBase:42 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (aa5b71083946c112614362877e52aef1)
+2020-08-30 15:56:26 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-30 15:56:27 DEBUG AmazonTestBase:70 - Redirected URL is https://www.amazon.in/
+2020-08-30 15:56:28 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-30 15:56:28 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-30 15:56:28 DEBUG SiteDropDowns:41 - hover over dropdown
+2020-08-30 15:56:29 DEBUG SiteAction:26 - hover over action : Hello, Sign in
+Account & Lists
+2020-08-30 15:56:30 DEBUG AmazonTestScenario2:36 - User perform action Click > Sign In
+2020-08-30 16:01:21 DEBUG AmazonTestRunner:22 - constructor called
+2020-08-30 16:01:21 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: false, nativeEvents: false}, ie=Capabilities {accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
+2020-08-30 16:01:21 DEBUG TestNgTestBase:49 - Base url is https://www.amazon.in
+2020-08-30 16:01:21 DEBUG TestNgTestBase:61 - Browser Name Passed chrome
+2020-08-30 16:01:21 DEBUG TestNgTestBase:62 - Node  Name Passed local
+2020-08-30 16:01:21 DEBUG TestNgTestBase:64 - Broswer in Capabilities  is chrome
+2020-08-30 16:01:22 DEBUG TestNgTestBase:77 - Grid URL is : http://192.168.1.247:5566/wd/hub
+2020-08-30 16:01:23 DEBUG AmazonTestBase:42 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (e818ec27c94080db9cd8b6d2cd458fb9)
+2020-08-30 16:01:23 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-30 16:01:26 DEBUG AmazonTestBase:70 - Redirected URL is https://www.amazon.in/
+2020-08-30 16:01:26 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-30 16:01:26 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-30 16:01:26 DEBUG SiteDropDowns:41 - hover over dropdown
+2020-08-30 16:01:27 DEBUG SiteAction:26 - hover over action : Hello, Sign in
+Account & Lists
+2020-08-30 16:01:27 DEBUG AmazonTestScenario2:36 - User perform action Click > Sign In
+2020-08-30 16:01:33 DEBUG AmazonHomePage:61 - Nav Line Containers Lenght []
+2020-08-30 16:01:33 DEBUG AmazonTestBase:42 - Sample Test NG Test: RemoteWebDriver: chrome on LINUX (e818ec27c94080db9cd8b6d2cd458fb9)
+2020-08-30 16:01:33 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
+2020-08-30 16:01:35 DEBUG AmazonTestBase:70 - Redirected URL is https://www.amazon.in/
+2020-08-30 16:01:35 DEBUG AmazonTestScenario2:24 - Test ends.
+2020-08-30 16:01:35 DEBUG AmazonTestScenario2:29 - user_hovers_over_link Accounts & Lists
+2020-08-30 16:01:35 DEBUG SiteDropDowns:41 - hover over dropdown
+2020-08-30 16:01:36 DEBUG SiteAction:26 - hover over action : Hello, Sign in
+Account & Lists
+2020-08-30 16:01:37 DEBUG AmazonTestScenario2:36 - User perform action Click > Sign In

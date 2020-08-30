@@ -15,6 +15,7 @@ public class RunCucumberShopCluesTest extends TestNgTestBase {
 	static Logger log = Logger.getLogger(RunCucumberShopCluesTest.class);
 	public RunCucumberShopCluesTest() {
 		// TODO Auto-generated constructor stub
+		log.debug("Constructor called");
 	}
 
 }

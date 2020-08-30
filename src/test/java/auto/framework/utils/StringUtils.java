@@ -1,4 +1,4 @@
-package com.shopclues.utils;
+package auto.framework.utils;
 
 public class StringUtils {
 
