@@ -9,6 +9,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import org.openqa.selenium.support.ui.Select;
 
 import auto.framework.pageobjects.Page;
 import auto.framework.utils.Enumerations;
@@ -80,7 +81,6 @@ public class ShopCluesHomePage extends Page {
 		//waitForElement(WAITS.EXPLICIT, WAIT_ACTION.BUTTON, homeKitchenLink );
 		Actions action = new Actions(driver);
 		action.moveToElement(homeKitchenLink).perform();
-		
 	}
 
 	public void clickCurtainNav2() {

@@ -11,6 +11,7 @@ import org.openqa.selenium.WebDriver;
 import org.apache.log4j.Logger;
 
 import org.openqa.selenium.Capabilities;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.annotations.AfterClass;
@@ -18,6 +19,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 
 import com.google.common.io.Files;
@@ -31,17 +33,20 @@ import ru.stqa.selenium.factory.WebDriverPool;
 public class TestNgTestBase extends AbstractTestNGCucumberTests {
 
 	static Logger log = Logger.getLogger(TestNgTestBase.class);
-	protected URL gridHubUrl = null;
+	protected static URL gridHubUrl = null;
 	protected static String baseUrl;
 	protected static SuiteConfiguration config;
 	protected static WebDriver driver;
 
+
+	
 /*	@Override
 	@DataProvider(parallel = true)
 	public Object[][] scenarios() {
 		return super.scenarios();
 	}
 */
+	
 	@BeforeSuite
 	public void initTestSuite() throws IOException {
 		config = new SuiteConfiguration();
@@ -56,12 +61,14 @@ public class TestNgTestBase extends AbstractTestNGCucumberTests {
 	@BeforeTest
 	@Parameters({ "browserName", "node" })
 
-	public void initWebDriver(String browserName, String node) throws IOException {
+	public WebDriver initWebDriver(String browserName, String node) throws IOException {
 		Capabilities capabilities;
+		
 		log.debug("Browser Name Passed " + browserName);
 		log.debug("Node  Name Passed " + node);
 		capabilities = config.getCapabilities(browserName);
 		log.debug("Broswer in Capabilities  is " + capabilities.getBrowserName());
+		log.debug("Broswer in Capabilities  for requireWindowFocus is " + capabilities.getCapability("requireWindowFocus"));
 
 		// Enable this if you want to hit hub directly.
 
@@ -75,7 +82,8 @@ public class TestNgTestBase extends AbstractTestNGCucumberTests {
 		driver = WebDriverPool.DEFAULT.getDriver(gridHubUrl, capabilities);
 		driver.manage().window().maximize();
 		log.debug("Grid URL is : " + gridHubUrl);
-
+		
+		return driver;
 	}
 
 	@AfterSuite(alwaysRun = true)
@@ -106,19 +114,17 @@ public class TestNgTestBase extends AbstractTestNGCucumberTests {
 		}
 	}
 
-	public static String getBaseUrl() {
+	public  String getBaseUrl() {
 		return baseUrl;
 	}
 
-	public static void setBaseUrl(String baseUrl) {
-		TestNgTestBase.baseUrl = baseUrl;
+	public void setBaseUrl(String baseUrl) {
+		this.baseUrl = baseUrl;
 	}
 
-	public static WebDriver getDriver() {
+	public WebDriver getDriver() {
 		return driver;
 	}
 
-	public static void setDriver(WebDriver driver) {
-		TestNgTestBase.driver = driver;
-	}
+	
 }

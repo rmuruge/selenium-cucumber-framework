@@ -5,6 +5,7 @@ import java.util.List;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
@@ -48,6 +49,7 @@ public class AmazonHomePage extends AmazonBasePage {
 	}
 	
 	public void searchForProduct(String product) throws Exception {
+		 printDriverInfo(driver);
 		productSearchBox.sendKeys(product);
 		productSearchIcon.click();
 		
@@ -56,7 +58,7 @@ public class AmazonHomePage extends AmazonBasePage {
 	public boolean validateLogin (String firstname) throws Exception {
 		String msg = "";
 		boolean hasLoggedIn = false;
-		
+		printDriverInfo(driver);
 		WebElement we = null;
 		log.debug("Nav Line Containers Lenght " + navLineContainers);
 		for (int i=0; i < navLineContainers.size(); i++) {

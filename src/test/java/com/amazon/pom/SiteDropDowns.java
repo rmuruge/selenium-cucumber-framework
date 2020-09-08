@@ -16,6 +16,10 @@ public class SiteDropDowns extends AmazonBasePage {
 	static Logger log = Logger.getLogger(SiteDropDowns.class);
 	public SiteAction sAction;
 	
+	//nav-signin-tt nav-flyout
+	@FindBy(how = How.XPATH, using = "//div[@class='nav-signin-tt nav-flyout']")
+	public WebElement flyOutSignIn;
+	
 	@FindBy(how = How.XPATH, using = "//a[@id='nav-link-accountList']")
 	//@CacheLookup
 	public WebElement accountListDropdown;
@@ -28,7 +32,7 @@ public class SiteDropDowns extends AmazonBasePage {
 	public WebElement wishlist;
 	
 	@FindBy(how = How.ID, using = "nav-item-signout")
-	@CacheLookup
+	//@CacheLookup
 	public WebElement signoutButton;
 	
 	public SiteDropDowns (WebDriver d) {
@@ -37,18 +41,32 @@ public class SiteDropDowns extends AmazonBasePage {
 		sAction = new SiteAction(d);
 	}
 	
+	
 	public void hoverOverAccountListDropdown() throws Exception  {
-		log.debug("hover over dropdown");
+		log.debug("Hover Over Account & List dropdown");
+		printDriverInfo(driver);
+		//waitForElement (WAITS.EXPLICIT, WAIT_ACTION.VISIBLE,flyOutSignIn );
 		sAction.hoverAction(accountListDropdown);
+		//sAction.hoverAction(accountListDropdown);
+		waitForElement(WAITS.EXPLICIT, WAIT_ACTION.VISIBLE, accountListDropdown);
+		//log.debug("Visible ------------------------------");
+		//waitForElement (WAITS.EXPLICIT, WAIT_ACTION.DISAPPEARS,flyOutSignIn );
+		//log.debug("disappeared ------------------------------");
+		//sAction.hoverAction(accountListDropdown);
+		//log.debug("hovered..................................");
 		// accountListDropdown
 	}
 	public void clickWishlist() throws Exception  {
 		log.debug("clicking wishlist");
+		printDriverInfo(driver);
+		waitForElement(WAITS.EXPLICIT, WAIT_ACTION.BUTTON, wishlist);
 		wishlist.click();
 	}
 	
 	public void clickOnSignIn() throws Exception {
+		printDriverInfo(driver);
 		waitForElement(WAITS.EXPLICIT, WAIT_ACTION.BUTTON, signinButton);
+		
 		signinButton.click();
 	}
 	

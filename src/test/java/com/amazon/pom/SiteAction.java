@@ -4,8 +4,13 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
-public class SiteAction {
+import com.amazon.utils.AmazonProjectConstants;
+
+
+
+public class SiteAction implements AmazonProjectConstants {
 
 	static Logger log = Logger.getLogger(SiteAction.class);
 	Actions action;
@@ -23,9 +28,20 @@ public class SiteAction {
 	}
 	
 	public void hoverAction(WebElement element) {
+		String browser = ((RemoteWebDriver) driver).getCapabilities().getBrowserName();
 		log.debug("hover over action : " + element.getText());
+		log.debug("Browser is " + browser);
 		
-		action.moveToElement(element).perform();
+		if (CHROME.equals(browser)) {
+			action.moveToElement(element).perform();
+			
+		} else { 
+			action.moveToElement(element).perform();
+			action.moveToElement(element).perform();
+			log.debug("additional hover over action performed for." + browser );
+		}
+		
+		log.debug("hover over action performed.");
 	}
 	
 	public void navigateAction() {

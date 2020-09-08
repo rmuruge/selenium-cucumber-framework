@@ -38,6 +38,7 @@ Feature: Validate URL redirection
 #    When I check for the <value> in step
     Then Site redirects to the correct site url '<url>'
     Then User searches a product '<product>'
+    And User closes browser
 
     Examples: 
       | badurl  						| url 										| product  	|
@@ -80,5 +81,5 @@ Feature: Validate URL redirection
 
     Examples: 
       | url  											| link 										| actionon  				|	page 		| username							| password 			|message		|
-      | https://www.amazon.in/ 		| Accounts & Lists				| Click > Sign In | Sign In		|	raj2k_m@yahoo.com 		| fakepassword	|Your password is incorrect		|
+      | https://www.amazon.in/ 		| Accounts & Lists				| Click > Sign In | Sign In		|	mailforme@yahoo.com 		| fakepassword	|Your password is incorrect		|
  

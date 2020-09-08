@@ -3,126 +3,79 @@
     "line": 21,
     "elements": [
       {
-        "start_timestamp": "2020-08-30T21:01:23.090Z",
-        "line": 69,
-        "name": "Test Login correct credentials",
+        "start_timestamp": "2020-09-08T02:56:47.543Z",
+        "line": 45,
+        "name": "Validate URL Redirection",
         "description": "",
-        "id": "validate-url-redirection;test-login-correct-credentials;;2",
+        "id": "validate-url-redirection;validate-url-redirection;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 3642590000,
+              "duration": 1114927000,
               "status": "passed"
             },
-            "line": 60,
-            "name": "User opens the site url \u0027https://www.amazon.in/\u0027",
+            "line": 37,
+            "name": "User enters incorrect site url  \u0027http://amzn.in/\u0027",
             "match": {
               "arguments": [
                 {
-                  "val": "\u0027https://www.amazon.in/\u0027",
-                  "offset": 24
+                  "val": "\u0027http://amzn.in/\u0027",
+                  "offset": 32
                 }
               ],
-              "location": "com.amazon.test.AmazonTestScenario2.user_enters_site_url(java.lang.String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1124868000,
-              "status": "passed"
-            },
-            "line": 61,
-            "name": "User hovers over \u0027Accounts \u0026 Lists\u0027",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u0027Accounts \u0026 Lists\u0027",
-                  "offset": 17
-                }
-              ],
-              "location": "com.amazon.test.AmazonTestScenario2.user_hovers_over_link(java.lang.String)"
+              "location": "com.amazon.test.AmazonTestScenario1.user_enters_incorrect_site(java.lang.String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1277318000,
+              "duration": 28204000,
               "status": "passed"
             },
-            "line": 62,
-            "name": "User performs action \u0027Click \u003e Sign In\u0027 on \u0027Sign In\u0027",
+            "line": 39,
+            "name": "Site redirects to the correct site url \u0027https://www.amazon.in/\u0027",
             "match": {
               "arguments": [
                 {
-                  "val": "\u0027Click \u003e Sign In\u0027",
-                  "offset": 21
-                },
-                {
-                  "val": "\u0027Sign In\u0027",
-                  "offset": 42
+                  "val": "\u0027https://www.amazon.in/\u0027",
+                  "offset": 39
                 }
               ],
-              "location": "com.amazon.test.AmazonTestScenario2.user_performs_action(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2341293000,
-              "status": "passed"
-            },
-            "line": 63,
-            "name": "User enters email \u0027raj2k_m@yahoo.com\u0027 and clicks on Continue",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u0027raj2k_m@yahoo.com\u0027",
-                  "offset": 18
-                }
-              ],
-              "location": "com.amazon.test.AmazonTestScenario2.user_enters_email_clicks(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 333322000,
-              "status": "passed"
-            },
-            "line": 64,
-            "name": "User enters password \u0027dummy\u0027 and clicks on \u0027Login\u0027 button",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u0027dummy\u0027",
-                  "offset": 21
-                }
-              ],
-              "location": "com.amazon.test.AmazonTestScenario2.user_enters_password_clicks(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "error_message": "java.lang.AssertionError: expected [true] but found [false]\n\tat org.testng.Assert.fail(Assert.java:97)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\n\tat org.testng.Assert.assertEquals(Assert.java:118)\n\tat org.testng.Assert.assertEquals(Assert.java:751)\n\tat org.testng.Assert.assertEquals(Assert.java:761)\n\tat com.amazon.test.AmazonTestBase.confirmLogin(AmazonTestBase.java:132)\n\tat com.amazon.test.AmazonTestScenario2.user_sees_greetings_message(AmazonTestScenario2.java:83)\n\tat ✽.User sees greeting message Hi \u0027Rajkumar\u0027 on the top navigation(file:///home/rmuruge/eclipse-workspace/cucumber-project/selenium-cucumber-framework/features/amazon/amz-validate-urls.feature:65)\n",
-              "duration": 1947915000,
-              "status": "failed"
-            },
-            "line": 65,
-            "name": "User sees greeting message Hi \u0027Rajkumar\u0027 on the top navigation",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u0027Rajkumar\u0027",
-                  "offset": 30
-                }
-              ],
-              "location": "com.amazon.test.AmazonTestScenario2.user_sees_greetings_message(java.lang.String)"
+              "location": "com.amazon.test.AmazonTestScenario1.site_redirects_to_correct_url(java.lang.String)"
             },
             "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1962013000,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "User searches a product \u0027mobile\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027mobile\u0027",
+                  "offset": 24
+                }
+              ],
+              "location": "com.amazon.test.AmazonTestScenario1.user_search_for_product(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 153000,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User closes browser",
+            "match": {
+              "location": "com.amazon.test.AmazonTestScenario1.user_closes_browser()"
+            },
+            "keyword": "And "
           }
         ],
         "tags": [
@@ -130,25 +83,25 @@
             "name": "@amazon"
           },
           {
-            "name": "@amz-test3"
+            "name": "@amz-test1"
           }
         ]
       },
       {
-        "start_timestamp": "2020-08-30T21:01:33.887Z",
-        "line": 83,
-        "name": "Test Login incorrect credentials",
+        "start_timestamp": "2020-09-08T02:56:50.716Z",
+        "line": 56,
+        "name": "Validate URL Redirection",
         "description": "",
-        "id": "validate-url-redirection;test-login-incorrect-credentials;;2",
+        "id": "validate-url-redirection;validate-url-redirection;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 1892030000,
+              "duration": 662914000,
               "status": "passed"
             },
-            "line": 74,
+            "line": 49,
             "name": "User opens the site url \u0027https://www.amazon.in/\u0027",
             "match": {
               "arguments": [
@@ -163,10 +116,10 @@
           },
           {
             "result": {
-              "duration": 1562346000,
+              "duration": 841329000,
               "status": "passed"
             },
-            "line": 75,
+            "line": 50,
             "name": "User hovers over \u0027Accounts \u0026 Lists\u0027",
             "match": {
               "arguments": [
@@ -181,20 +134,20 @@
           },
           {
             "result": {
-              "duration": 1112905000,
+              "duration": 6589687000,
               "status": "passed"
             },
-            "line": 76,
-            "name": "User performs action \u0027Click \u003e Sign In\u0027 on \u0027Sign In\u0027",
+            "line": 51,
+            "name": "User performs action \u0027Click \u003e Create Wishlist\u0027 on \u0027Your Lists\u0027",
             "match": {
               "arguments": [
                 {
-                  "val": "\u0027Click \u003e Sign In\u0027",
+                  "val": "\u0027Click \u003e Create Wishlist\u0027",
                   "offset": 21
                 },
                 {
-                  "val": "\u0027Sign In\u0027",
-                  "offset": 42
+                  "val": "\u0027Your Lists\u0027",
+                  "offset": 50
                 }
               ],
               "location": "com.amazon.test.AmazonTestScenario2.user_performs_action(java.lang.String,java.lang.String)"
@@ -203,56 +156,19 @@
           },
           {
             "result": {
-              "duration": 2158093000,
+              "duration": 275217000,
               "status": "passed"
             },
-            "line": 77,
-            "name": "User enters email \u0027raj2k_m@yahoo.com\u0027 and clicks on Continue",
+            "line": 52,
+            "name": "Verify navigation to \u0027Your Lists\u0027 is successful",
             "match": {
               "arguments": [
                 {
-                  "val": "\u0027raj2k_m@yahoo.com\u0027",
-                  "offset": 18
+                  "val": "\u0027Your Lists\u0027",
+                  "offset": 21
                 }
               ],
-              "location": "com.amazon.test.AmazonTestScenario2.user_enters_email_clicks(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 402455000,
-              "status": "passed"
-            },
-            "line": 78,
-            "name": "User enters bad password \u0027fakepassword\u0027 and clicks on \u0027Login\u0027 button",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u0027fakepassword\u0027",
-                  "offset": 25
-                }
-              ],
-              "location": "com.amazon.test.AmazonTestScenario2.user_enters_bad_password_clicks(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator \u0027By.xpath: //div[@id\u003d\u0027auth-error-message-box\u0027]//span[@class\u003d\u0027a-list-item\u0027]\u0027 (tried for 10 second(s) with 500 milliseconds interval)\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat auto.framework.pageobjects.Page.waitForElement(Page.java:89)\n\tat com.amazon.pom.LoginPage.getAuthErrorAlert(LoginPage.java:95)\n\tat com.amazon.test.AmazonTestBase.isLoginError(AmazonTestBase.java:136)\n\tat com.amazon.test.AmazonTestScenario2.user_sees_login_error(AmazonTestScenario2.java:62)\n\tat ✽.User sees error message \u0027Your password is incorrect\u0027(file:///home/rmuruge/eclipse-workspace/cucumber-project/selenium-cucumber-framework/features/amazon/amz-validate-urls.feature:79)\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[@id\u003d\u0027auth-error-message-box\u0027]//span[@class\u003d\u0027a-list-item\u0027]\"}\n  (Session info: chrome\u003d85.0.4183.83)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027autodev\u0027, ip: \u0027127.0.1.1\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00275.4.0-42-generic\u0027, java.version: \u002711.0.8\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /tmp/.com.google.Chrome.XPhbTy}, goog:chromeOptions: {debuggerAddress: localhost:33373}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e818ec27c94080db9cd8b6d2cd4...}\nSession ID: e818ec27c94080db9cd8b6d2cd458fb9\n*** Element info: {Using\u003dxpath, value\u003d//div[@id\u003d\u0027auth-error-message-box\u0027]//span[@class\u003d\u0027a-list-item\u0027]}\n\tat jdk.internal.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy25.isDisplayed(Unknown Source)\n\tat org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:314)\n\tat org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:43)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:300)\n\tat org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)\n\tat auto.framework.pageobjects.Page.waitForElement(Page.java:89)\n\tat com.amazon.pom.LoginPage.getAuthErrorAlert(LoginPage.java:95)\n\tat com.amazon.test.AmazonTestBase.isLoginError(AmazonTestBase.java:136)\n\tat com.amazon.test.AmazonTestScenario2.user_sees_login_error(AmazonTestScenario2.java:62)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:63)\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:49)\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:99)\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\n\tat io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$0(TestNGCucumberRunner.java:116)\n\tat io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:117)\n\tat io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:113)\n\tat io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:31)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:566)\n\tat org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)\n\tat org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)\n\tat org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)\n\tat org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)\n\tat org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)\n\tat org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)\n\tat org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)\n\tat java.base/java.util.ArrayList.forEach(ArrayList.java:1541)\n\tat org.testng.TestRunner.privateRun(TestRunner.java:766)\n\tat org.testng.TestRunner.run(TestRunner.java:587)\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:384)\n\tat org.testng.SuiteRunner.access$000(SuiteRunner.java:28)\n\tat org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:425)\n\tat org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:68)\n\tat java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)\n\tat java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)\n\tat java.base/java.lang.Thread.run(Thread.java:834)\n",
-              "duration": 10075478000,
-              "status": "failed"
-            },
-            "line": 79,
-            "name": "User sees error message \u0027Your password is incorrect\u0027",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u0027Your password is incorrect\u0027",
-                  "offset": 24
-                }
-              ],
-              "location": "com.amazon.test.AmazonTestScenario2.user_sees_login_error(java.lang.String)"
+              "location": "com.amazon.test.AmazonTestScenario2.verify_navigation_is_successful(java.lang.String)"
             },
             "keyword": "Then "
           }
@@ -262,7 +178,7 @@
             "name": "@amazon"
           },
           {
-            "name": "@amz-test4"
+            "name": "@amz-test2"
           }
         ]
       }

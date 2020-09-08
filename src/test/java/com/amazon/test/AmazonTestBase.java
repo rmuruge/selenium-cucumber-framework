@@ -1,8 +1,10 @@
 package com.amazon.test;
 
+import java.io.IOException;
 import java.util.Map;
 
 import org.apache.log4j.Logger;
+
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.ISuite;
@@ -34,21 +36,29 @@ public class AmazonTestBase extends TestNgTestBase implements AmazonProjectConst
 	private SiteNavigator navigate;
 	private WishListPage wishlistPage;
 	private LoginPage loginPage;
-	
 	public AmazonTestBase() {
-		  super();
+		  super(); 		  
+		  log.debug("Driver Info :" + driver);
 		  initPageObjects();
 		  navigate = new SiteNavigator(driver);
-		  log.debug("Sample Test NG Test: " + driver);
+
 	  }
-	
+/*	@BeforeTest
+	@Parameters({ "browserName", "node" })
+	public void initializeWebDriver(String browserName, String node) throws IOException {
+		driver = super.initWebDriver(browserName, node);
+	}*/
 	public void initPageObjects() {
 		// Page Objects
+		log.debug("AmazoneHome Init");
 		homepage = PageFactory.initElements(driver, AmazonHomePage.class);
+		log.debug("AmazoneHome Initialized");
 		dropdown = PageFactory.initElements(driver, SiteDropDowns.class);
+		log.debug("DropDown Initialized");
 		wishlistPage = PageFactory.initElements(driver, WishListPage.class);
+		log.debug("Wishlist Initialized");
 		loginPage = PageFactory.initElements(driver,LoginPage.class);
-		
+		log.debug("Login Initialized");
 		// Other Objects
 		
 	}
@@ -140,5 +150,9 @@ public class AmazonTestBase extends TestNgTestBase implements AmazonProjectConst
 		dropdown.hoverOverAccountListDropdown();
 		log.debug("before signout");
 		dropdown.clickSignOut();
+	}
+	
+	public void closeBrowser () throws Exception {
+		//TODO
 	}
 }

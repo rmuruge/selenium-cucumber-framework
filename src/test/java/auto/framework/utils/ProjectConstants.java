@@ -9,4 +9,7 @@ public interface ProjectConstants {
 	
 	// Button Names
 	public static final String ADD_TO_CART = "ADD TO CART";
+	
+	public static final String FIREFOX = "firefox"; 
+	public static final String CHROME = "chrome";
 }

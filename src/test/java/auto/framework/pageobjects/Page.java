@@ -6,10 +6,10 @@ import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
-import org.openqa.selenium.By.ById;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.CacheLookup;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -26,7 +26,7 @@ import auto.framework.utils.Enumerations.WAIT_ACTION;
  */
 public abstract class Page {
 
-  protected static WebDriver driver;
+  protected WebDriver driver;
 
 
 	@FindBy(how = How.XPATH, using = "//div[@class='breadcrums']/ul")
@@ -46,12 +46,12 @@ public abstract class Page {
     return driver.getTitle();
   }
   
-  public static WebDriverWait waitForElement (Enumerations.WAITS wait) {
+  public  WebDriverWait waitForElement (Enumerations.WAITS wait) {
 
 		switch(wait) {
 
 		case IMPLICIT:
-			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			this.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			break;
 		case EXPLICIT:
 			return new WebDriverWait(driver, 5);
@@ -72,12 +72,12 @@ public abstract class Page {
 		return null;
 	}
 
-  public static WebElement waitForElement (Enumerations.WAITS wait, Enumerations.WAIT_ACTION action, WebElement element) {
+  public  WebElement waitForElement (Enumerations.WAITS wait, Enumerations.WAIT_ACTION action, WebElement element) {
 
 		switch(wait) {
 
 		case IMPLICIT:
-			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			this.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			break;
 		case EXPLICIT:
 			WebDriverWait wWait = new WebDriverWait(driver, 10);
@@ -87,6 +87,9 @@ public abstract class Page {
 			break;
 			case VISIBLE: 
 				wWait.until(ExpectedConditions.visibilityOf(element));
+				break;
+			case DISAPPEARS:
+				wWait.until(ExpectedConditions.invisibilityOf(element));
 				break;
 			default:
 				wWait.until(ExpectedConditions.visibilityOf(element));
@@ -141,5 +144,15 @@ public abstract class Page {
 		List <WebElement> crums = breadCrums.findElements(By.tagName("li"));
 		log.debug("Crums Size is " + crums.size());
 		return crums.get(crums.size()-1).getText();
+	}
+	
+	public void printDriverInfo(WebDriver driver) {
+		RemoteWebDriver rwd = (RemoteWebDriver) driver;
+		
+		log.debug("Driver Information \n\t" + 
+				//rwd.getCapabilities().getBrowserName() + "\t" +
+				rwd.getCurrentUrl() + "\t" +
+				rwd.getCapabilities().toString()			
+				);
 	}
 }

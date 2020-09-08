@@ -51,7 +51,10 @@ public class AmazonTestScenario1 extends AmazonTestBase {
     	} else {
     		searchProduct(product);
     	}
-    	
-
+    }
+    
+    @And ("User closes browser")
+    public void user_closes_browser () throws Exception {
+    	closeBrowser();
     }
 }

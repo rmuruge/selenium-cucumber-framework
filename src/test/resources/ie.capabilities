@@ -1,6 +1,7 @@
 browserName=internet explorer
 requireWindowFocus=true
+InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS=true
 accpetSslCert=true
 #webdriver.internetexplorer.driver=C:\\Users\\rmuru\\tools\\IEDriverServer.exe
-#webdriver.ie.driver=C:\\Users\\rmuru\\tools\\IEDriverServer.exe
+webdriver.ie.driver=C:\\Users\\rmuru\\tools\\IEDriverServer.exe
 #webdriver.ie.driver=/home/rmuruge/tools/webdrivers/IEDriverServer.exe

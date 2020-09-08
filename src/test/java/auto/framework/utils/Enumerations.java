@@ -32,7 +32,7 @@ public class Enumerations {
 	}
 
 	public static enum WAIT_ACTION {
-		BUTTON, VISIBLE, XX, XXXXX	
+		BUTTON, VISIBLE, DISAPPEARS, XXXXX	
 	}
 	
 	public static enum FINDBY {
