@@ -27,7 +27,7 @@ import auto.framework.utils.Enumerations.WAIT_ACTION;
 public abstract class Page {
 
   protected WebDriver driver;
-
+  protected String currentTabHandle;
 
 	@FindBy(how = How.XPATH, using = "//div[@class='breadcrums']/ul")
 	public WebElement breadCrums;
@@ -39,7 +39,8 @@ public abstract class Page {
 	static Logger log = Logger.getLogger(Page.class);
 	
 	public Page(WebDriver d) {
-		driver = d;
+		this.driver = d;
+		this.currentTabHandle = d.getWindowHandle();
 	}
 
   public String getTitle() {
@@ -113,6 +114,10 @@ public abstract class Page {
 		log.debug("Tab Name is " + tab.get(i) + "  " + driver.getTitle());
 	}
 	
+	public void closeCurrentTab () {
+		driver.close();
+		//driver.switchTo().window(currentTabHandle).close();
+	}
 	public WebElement getWebElement(String element, Enumerations.FINDBY findby) {
 		WebElement webElement;
 		switch (findby) {

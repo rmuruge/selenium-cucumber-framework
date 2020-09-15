@@ -114,6 +114,9 @@ public class TestNgTestBase extends AbstractTestNGCucumberTests {
 		}
 	}
 
+	public void closeTab(String tab) {
+		driver.switchTo().window(tab).close();
+	}
 	public  String getBaseUrl() {
 		return baseUrl;
 	}
