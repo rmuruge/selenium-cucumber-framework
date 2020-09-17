@@ -1,5 +1,8 @@
 package com.amazon.pom.category.electronics;
 
+import java.util.List;
+
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -13,6 +16,8 @@ import auto.framework.utils.Enumerations.WAIT_ACTION;
 
 public class Mobile extends AmazonBasePage {
 
+	
+	static Logger log = Logger.getLogger(Mobile.class);
 	//nav-signin-tt nav-flyout
 	@FindBy(how = How.XPATH, using = "//div[contains(@class, 'a-section')]/span[contains(text(), 'results for')]")
 	public WebElement resultsElement;
@@ -21,6 +26,20 @@ public class Mobile extends AmazonBasePage {
 	public Mobile(WebDriver d) {
 		super(d);
 	}
+	
+	@FindBy(how = How.XPATH, using = "//a[@class='a-link-normal a-text-normal']")
+	public List <WebElement> searchResults;
+	
+	public void clickOnSearchedItem(int index) throws Exception {
+		if (searchResults.size() > 0) {
+			searchResults.get(index).click();
+			switchTab(1);
+		} else {
+			throw new Exception("Number of Search Results in less than ZERO");
+		}
+		
+	}
+	
 	
 	// a. Validate the total results displayed
 	public String getTotalResults () {
@@ -112,6 +131,7 @@ public class Mobile extends AmazonBasePage {
     
     // e. Change the delivery location
     public void changeDeliveryLocation (String location) throws Exception {
+    	waitForElement(WAITS.EXPLICIT, WAIT_ACTION.VISIBLE, selectDeliveryLink);
     	selectDeliveryLink.click();
     	enterPincodeTextBox.sendKeys(location);
     	enterPincodeTextBox.click();
@@ -140,6 +160,8 @@ public class Mobile extends AmazonBasePage {
 	public WebElement locationSpanText;
 	
 	public String getCurrentDeliveryLocation() throws Exception {
+
+		waitForElement(WAITS.EXPLICIT, WAIT_ACTION.VISIBLE, locationSpanText);
 	 return locationSpanText.getText();
 	}
 	

@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite thread-count="4" name="Failed suite [ProjectIII]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="4" name="Amazon-Chrome(failed)" verbose="0">
+    <parameter name="node" value="local"/>
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="auto.framework.AmazonTestRunner">
+        <methods>
+          <include name="tearDown"/>
+          <include name="initWebDriver"/>
+          <include name="takeScreenShot"/>
+          <include name="initTestSuite"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- auto.framework.AmazonTestRunner -->
+    </classes>
+  </test> <!-- Amazon-Chrome(failed) -->
   <test thread-count="4" name="Amazon-Firefox(failed)" verbose="0">
     <parameter name="node" value="local"/>
     <parameter name="browserName" value="firefox"/>
@@ -11,7 +28,7 @@
           <include name="initWebDriver"/>
           <include name="takeScreenShot"/>
           <include name="initTestSuite"/>
-          <include name="runScenario" invocation-numbers="1"/>
+          <include name="runScenario" invocation-numbers="0"/>
           <include name="tearDownClass"/>
           <include name="setUpClass"/>
         </methods>

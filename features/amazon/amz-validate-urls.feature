@@ -83,3 +83,30 @@ Feature: Validate URL redirection
       | url  											| link 										| actionon  				|	page 		| username							| password 			|message		|
       | https://www.amazon.in/ 		| Accounts & Lists				| Click > Sign In | Sign In		|	mailforme@yahoo.com 		| fakepassword	|Your password is incorrect		|
  
+ 
+  @amz-test5
+  Scenario Outline: Search Mobile and Add to Cart
+    Given User opens the site url '<url>'
+    And User performs search action '<product>'
+    Then Application lists results for the searched '<product>' and validates
+
+    Examples: 
+      | url  											| product 						|
+      | https://www.amazon.in/ 		| iphone 11 64GB			| 
+ 
+ 
+  @amz-test6
+  Scenario Outline: Search Mobile and Add to Cart
+    Given User opens the site url '<url>'
+    And User performs search action '<product>'
+    And Application lists results for the searched '<product>' and validates
+    Then User selects a <searchindex> product from the search results
+    Then User changes delivery location <pincode> and validates
+    Then User clicks on add to cart button and validates
+
+
+    Examples: 
+      | url  											| product 						| searchindex 	|	pincode 		|
+      | https://www.amazon.in/ 		| iphone 11 64GB			| 1						| 600088			|
+ 
+ 

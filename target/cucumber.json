@@ -3,105 +3,20 @@
     "line": 21,
     "elements": [
       {
-        "start_timestamp": "2020-09-08T02:56:47.543Z",
-        "line": 45,
-        "name": "Validate URL Redirection",
+        "start_timestamp": "2020-09-17T07:17:37.533Z",
+        "line": 110,
+        "name": "Search Mobile and Add to Cart",
         "description": "",
-        "id": "validate-url-redirection;validate-url-redirection;;2",
+        "id": "validate-url-redirection;search-mobile-and-add-to-cart;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 1114927000,
+              "duration": 1879697000,
               "status": "passed"
             },
-            "line": 37,
-            "name": "User enters incorrect site url  \u0027http://amzn.in/\u0027",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u0027http://amzn.in/\u0027",
-                  "offset": 32
-                }
-              ],
-              "location": "com.amazon.test.AmazonTestScenario1.user_enters_incorrect_site(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 28204000,
-              "status": "passed"
-            },
-            "line": 39,
-            "name": "Site redirects to the correct site url \u0027https://www.amazon.in/\u0027",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u0027https://www.amazon.in/\u0027",
-                  "offset": 39
-                }
-              ],
-              "location": "com.amazon.test.AmazonTestScenario1.site_redirects_to_correct_url(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 1962013000,
-              "status": "passed"
-            },
-            "line": 40,
-            "name": "User searches a product \u0027mobile\u0027",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u0027mobile\u0027",
-                  "offset": 24
-                }
-              ],
-              "location": "com.amazon.test.AmazonTestScenario1.user_search_for_product(java.lang.String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 153000,
-              "status": "passed"
-            },
-            "line": 41,
-            "name": "User closes browser",
-            "match": {
-              "location": "com.amazon.test.AmazonTestScenario1.user_closes_browser()"
-            },
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@amazon"
-          },
-          {
-            "name": "@amz-test1"
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2020-09-08T02:56:50.716Z",
-        "line": 56,
-        "name": "Validate URL Redirection",
-        "description": "",
-        "id": "validate-url-redirection;validate-url-redirection;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 662914000,
-              "status": "passed"
-            },
-            "line": 49,
+            "line": 100,
             "name": "User opens the site url \u0027https://www.amazon.in/\u0027",
             "match": {
               "arguments": [
@@ -116,59 +31,86 @@
           },
           {
             "result": {
-              "duration": 841329000,
+              "duration": 1481754000,
               "status": "passed"
             },
-            "line": 50,
-            "name": "User hovers over \u0027Accounts \u0026 Lists\u0027",
+            "line": 101,
+            "name": "User performs search action \u0027iphone 11 64GB\u0027",
             "match": {
               "arguments": [
                 {
-                  "val": "\u0027Accounts \u0026 Lists\u0027",
-                  "offset": 17
+                  "val": "\u0027iphone 11 64GB\u0027",
+                  "offset": 28
                 }
               ],
-              "location": "com.amazon.test.AmazonTestScenario2.user_hovers_over_link(java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 6589687000,
-              "status": "passed"
-            },
-            "line": 51,
-            "name": "User performs action \u0027Click \u003e Create Wishlist\u0027 on \u0027Your Lists\u0027",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\u0027Click \u003e Create Wishlist\u0027",
-                  "offset": 21
-                },
-                {
-                  "val": "\u0027Your Lists\u0027",
-                  "offset": 50
-                }
-              ],
-              "location": "com.amazon.test.AmazonTestScenario2.user_performs_action(java.lang.String,java.lang.String)"
+              "location": "com.amazon.test.AmazonTestScenario2.user_performs_search_action(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 275217000,
+              "duration": 132519000,
               "status": "passed"
             },
-            "line": 52,
-            "name": "Verify navigation to \u0027Your Lists\u0027 is successful",
+            "line": 102,
+            "name": "Application lists results for the searched \u0027iphone 11 64GB\u0027 and validates",
             "match": {
               "arguments": [
                 {
-                  "val": "\u0027Your Lists\u0027",
-                  "offset": 21
+                  "val": "\u0027iphone 11 64GB\u0027",
+                  "offset": 43
                 }
               ],
-              "location": "com.amazon.test.AmazonTestScenario2.verify_navigation_is_successful(java.lang.String)"
+              "location": "com.amazon.test.AmazonTestMobileAddToCart.application_lists_results_for_products_and_validates(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 243788000,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "User selects a 1 product from the search results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 15
+                }
+              ],
+              "location": "com.amazon.test.AmazonTestMobileAddToCart.user_selects_product_from_the_results(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[RemoteWebDriver: firefox on LINUX (7f34dc2a-11b8-4f68-a6ac-4a378e624dae)] -\u003e xpath: //div[@id\u003d\u0027contextualIngressPtLabel_deliveryShortLine\u0027]] (tried for 10 second(s) with 500 milliseconds interval)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027autodev\u0027, ip: \u0027192.168.1.247\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00275.4.0-45-generic\u0027, java.version: \u002711.0.8\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 163271, moz:profile: /tmp/rust_mozprofiletPG6zB, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.4.0-45-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 7f34dc2a-11b8-4f68-a6ac-4a3...}\nSession ID: 7f34dc2a-11b8-4f68-a6ac-4a378e624dae\n\tat org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)\n\tat auto.framework.pageobjects.Page.waitForElement(Page.java:90)\n\tat com.amazon.pom.category.electronics.Mobile.changeDeliveryLocation(Mobile.java:134)\n\tat com.amazon.test.AmazonTestBase.changeDeliveryLocation(AmazonTestBase.java:175)\n\tat com.amazon.test.AmazonTestMobileAddToCart.user_changes_delivery_location_and_validates(AmazonTestMobileAddToCart.java:36)\n\tat ✽.User changes delivery location 600088 and validates(file:///home/rmuruge/eclipse-workspace/cucumber-project/selenium-cucumber-framework/features/amazon/amz-validate-urls.feature:104)\n",
+              "duration": 11741743000,
+              "status": "failed"
+            },
+            "line": 104,
+            "name": "User changes delivery location 600088 and validates",
+            "match": {
+              "arguments": [
+                {
+                  "val": "600088",
+                  "offset": 31
+                }
+              ],
+              "location": "com.amazon.test.AmazonTestMobileAddToCart.user_changes_delivery_location_and_validates(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 137000,
+              "status": "skipped"
+            },
+            "line": 105,
+            "name": "User clicks on add to cart button and validates",
+            "match": {
+              "location": "com.amazon.test.AmazonTestMobileAddToCart.user_clicks_on_add_to_cart_button_and_validates()"
             },
             "keyword": "Then "
           }
@@ -178,7 +120,7 @@
             "name": "@amazon"
           },
           {
-            "name": "@amz-test2"
+            "name": "@amz-test6"
           }
         ]
       }

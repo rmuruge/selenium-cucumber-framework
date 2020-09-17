@@ -1,4 +1,22 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 28.84 s - in TestSuite
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 41.808 s <<< FAILURE! - in TestSuite
+runScenario(auto.framework.AmazonTestRunner)  Time elapsed: 17.176 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[RemoteWebDriver: chrome on LINUX (379c173e4678734102feac38120e4a0a)] -> xpath: //div[@id='contextualIngressPtLabel_deliveryShortLine']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'autodev', ip: '192.168.1.247', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-45-generic', java.version: '11.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /tmp/.com.google.Chrome.esMRUO}, goog:chromeOptions: {debuggerAddress: localhost:38413}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 379c173e4678734102feac38120...}
+Session ID: 379c173e4678734102feac38120e4a0a
+
+runScenario(auto.framework.AmazonTestRunner)  Time elapsed: 15.554 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of [[RemoteWebDriver: firefox on LINUX (7f34dc2a-11b8-4f68-a6ac-4a378e624dae)] -> xpath: //div[@id='contextualIngressPtLabel_deliveryShortLine']] (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'autodev', ip: '192.168.1.247', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-45-generic', java.version: '11.0.8'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 163271, moz:profile: /tmp/rust_mozprofiletPG6zB, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.4.0-45-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 7f34dc2a-11b8-4f68-a6ac-4a3...}
+Session ID: 7f34dc2a-11b8-4f68-a6ac-4a378e624dae
+
