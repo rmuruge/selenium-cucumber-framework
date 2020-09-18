@@ -56,10 +56,8 @@ public class ExecutionListner implements ITestListener {
     }
 
     private void sendStatus(ITestResult iTestResult, String status){
-    	log.debug("SEND RESULTS ==========================>>>>> " + iTestResult.toString());
-    	
-    	
-    	log.debug("SEND RESULTS  Method Name ===========>>>>> " + Scenario.parser());
+    	log.debug("Sending results: " + iTestResult.toString());
+    	log.debug("Sending results for the scenario: " + Scenario.parser());
     	//this.testStatus.setTestRun(iTestResult.getTestContext().);
     	this.testStatus.setTestRun(iTestResult.getTestContext().getName());
         this.testStatus.setTestClass(iTestResult.getTestClass().getName());

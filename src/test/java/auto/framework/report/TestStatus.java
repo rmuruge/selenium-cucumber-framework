@@ -65,7 +65,7 @@ public class TestStatus {
     }
     
     public void setTestClass (String testClass) {
-    	
+    	this.testClass = testClass;
     }
 
 }

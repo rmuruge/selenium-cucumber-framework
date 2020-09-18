@@ -4,6 +4,8 @@ import org.apache.log4j.Logger;
 import org.openqa.selenium.Capabilities;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
+import auto.framework.report.ResultSender;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.HashMap;
@@ -29,13 +31,19 @@ public class SuiteConfiguration {
   public SuiteConfiguration(String fromResource) throws IOException {
     properties = new Properties();
     properties.load(SuiteConfiguration.class.getResourceAsStream(fromResource));
+    
     this.initiaizeCapabilities();
+    this.initiatizeElastic();
   }
 
   public Capabilities getCapabilities(String browserName) {
 	  return capabilitiesMap.get(browserName);
   }
   
+  public void initiatizeElastic() throws IOException {
+	  String url = properties.getProperty("elastic.url");
+	  ResultSender.setElasticSearchUrl(url);
+  }
   public void initiaizeCapabilities() throws IOException {
 	String multi = properties.getProperty("browsers");
     String [] browsers = multi.split(",");

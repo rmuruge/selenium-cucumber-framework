@@ -17,7 +17,7 @@
 ## (Comments)
 #Sample Feature Definition Template
 
-@amazon
+@amazon-full-regression
 Feature: Validate URL redirection
   Final Projeoct - Test Class I 
 
@@ -32,7 +32,7 @@ Feature: Validate URL redirection
 #    And check more outcomes
 
 #  @amz-test1
-	@amz-test1
+	@amz-smoke1-url
   Scenario Outline: Validate URL Redirection
     When User enters incorrect site url  '<badurl>'
 #    When I check for the <value> in step
@@ -44,7 +44,7 @@ Feature: Validate URL redirection
       | badurl  						| url 										| product  	|
       | http://amzn.in/ 		| https://www.amazon.in/	| mobile 		|
 #      | http://amaazon.in/ 	| https://www.amazon.in/	| mobile    |
-	@amz-test2
+	@amz-smoke2-url
   Scenario Outline: Validate URL Redirection
     Given User opens the site url '<url>'
     When User hovers over '<link>'
@@ -56,7 +56,7 @@ Feature: Validate URL redirection
       | https://www.amazon.in/ 		| Accounts & Lists				| Click > Create Wishlist					| Your Lists 	|
 
    
-  @amz-test3
+  @amz-smoke3-login
   Scenario Outline: Test Login correct credentials 
     Given User opens the site url '<url>'
     When User hovers over '<link>'
@@ -70,7 +70,7 @@ Feature: Validate URL redirection
       | https://www.amazon.in/ 		| Accounts & Lists				| Click > Sign In | Sign In		|	raj2k_m@yahoo.com 		| dummy			|Rajkumar		|
 
 
-  @amz-test4
+  @amz-smoke4-login
   Scenario Outline: Test Login incorrect credentials 
     Given User opens the site url '<url>'
     When User hovers over '<link>'
@@ -84,8 +84,8 @@ Feature: Validate URL redirection
       | https://www.amazon.in/ 		| Accounts & Lists				| Click > Sign In | Sign In		|	mailforme@yahoo.com 		| fakepassword	|Your password is incorrect		|
  
  
-  @amz-test5
-  Scenario Outline: Search Mobile and Add to Cart
+  @amz-smoke5-mobile-search
+  Scenario Outline: Search Mobile
     Given User opens the site url '<url>'
     And User performs search action '<product>'
     Then Application lists results for the searched '<product>' and validates
@@ -95,7 +95,7 @@ Feature: Validate URL redirection
       | https://www.amazon.in/ 		| iphone 11 64GB			| 
  
  
-  @amz-test6
+  @amz-smoke6-mobile-tocart
   Scenario Outline: Search Mobile and Add to Cart
     Given User opens the site url '<url>'
     And User performs search action '<product>'
@@ -112,8 +112,8 @@ Feature: Validate URL redirection
       | https://www.amazon.in/ 		| iphone 11 64GB			| 1						| 600088			|
  
 
- @amz-test7
-  Scenario Outline: Search Mobile and Add to Cart
+ @amz-smoke6-video-and-ratings
+  Scenario Outline: Search Mobile, play videos and check review
     Given User opens the site url '<url>'
     And User performs search action '<product>'
     And Application lists results for the searched '<product>' and validates

@@ -2,19 +2,19 @@
 <testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-17T22:09:30 CDT" name="ProjectIII" finished-at="2020-09-17T22:10:16 CDT" duration-ms="45429">
+  <suite started-at="2020-09-18T00:13:31 CDT" name="ProjectIII" finished-at="2020-09-18T00:14:14 CDT" duration-ms="43634">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2020-09-17T22:09:30 CDT" name="Amazon-Chrome" finished-at="2020-09-17T22:10:16 CDT" duration-ms="45429">
+    <test started-at="2020-09-18T00:13:31 CDT" name="Amazon-Chrome" finished-at="2020-09-18T00:14:14 CDT" duration-ms="43634">
       <class name="auto.framework.AmazonTestRunner">
-        <test-method is-config="true" signature="initTestSuite()[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-17T22:09:30 CDT" name="initTestSuite" finished-at="2020-09-17T22:09:30 CDT" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="initTestSuite()[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-18T00:13:31 CDT" name="initTestSuite" finished-at="2020-09-18T00:13:31 CDT" duration-ms="114" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTestSuite -->
-        <test-method is-config="true" signature="initWebDriver(java.lang.String, java.lang.String)[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-17T22:09:30 CDT" name="initWebDriver" finished-at="2020-09-17T22:09:31 CDT" duration-ms="854" status="PASS">
+        <test-method is-config="true" signature="initWebDriver(java.lang.String, java.lang.String)[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-18T00:13:31 CDT" name="initWebDriver" finished-at="2020-09-18T00:13:31 CDT" duration-ms="824" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,11 +30,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initWebDriver -->
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-17T22:09:31 CDT" name="setUpClass" finished-at="2020-09-17T22:09:31 CDT" duration-ms="332" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-18T00:13:31 CDT" name="setUpClass" finished-at="2020-09-18T00:13:32 CDT" duration-ms="416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-17T22:09:31 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-17T22:09:36 CDT" duration-ms="4408" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-18T00:13:32 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T00:13:36 CDT" duration-ms="4405" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,7 +50,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-17T22:09:36 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-17T22:09:39 CDT" duration-ms="2961" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-18T00:13:37 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T00:13:39 CDT" duration-ms="2798" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -66,7 +66,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-17T22:09:39 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-17T22:09:46 CDT" duration-ms="6628" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-18T00:13:39 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T00:13:46 CDT" duration-ms="6235" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -92,14 +92,14 @@ at org.testng.Assert.assertEquals(Assert.java:751)
 at org.testng.Assert.assertEquals(Assert.java:761)
 at com.amazon.test.AmazonTestBase.confirmLogin(AmazonTestBase.java:151)
 at com.amazon.test.features.AmazonTestSearchProduct.user_sees_greetings_message(AmazonTestSearchProduct.java:75)
-at ✽.User sees greeting message Hi 'Rajkumar' on the top navigation(file:///home/rmuruge/eclipse-workspace/cucumber-project/selenium-cucumber-framework/features/amazon/amz-validate-urls.feature:66)
+at ✽.User sees greeting message Hi 'Rajkumar' on the top navigation(file:///home/rmuruge/eclipse-workspace/cucumber-project/selenium-cucumber-framework/features/amazon/amazon_regression_suite.feature:66)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-17T22:09:46 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-17T22:09:49 CDT" duration-ms="3450" status="FAIL">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-18T00:13:46 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T00:13:49 CDT" duration-ms="3410" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -120,8 +120,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'autodev', ip: '192.168.1.247', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-45-generic', java.version: '11.0.8'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /tmp/.com.google.Chrome.yriklk}, goog:chromeOptions: {debuggerAddress: localhost:44957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 161acef6d7be13505e0b4dfc56f...}
-Session ID: 161acef6d7be13505e0b4dfc56f68fa4
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /tmp/.com.google.Chrome.UPF2nd}, goog:chromeOptions: {debuggerAddress: localhost:38397}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: b82d65e49ec84243faec8b5f81d...}
+Session ID: b82d65e49ec84243faec8b5f81dc9032
 *** Element info: {Using=id, value=ap_password}]]>
             </message>
             <full-stacktrace>
@@ -131,8 +131,8 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'autodev', ip: '192.168.1.247', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-45-generic', java.version: '11.0.8'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /tmp/.com.google.Chrome.yriklk}, goog:chromeOptions: {debuggerAddress: localhost:44957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 161acef6d7be13505e0b4dfc56f...}
-Session ID: 161acef6d7be13505e0b4dfc56f68fa4
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /tmp/.com.google.Chrome.UPF2nd}, goog:chromeOptions: {debuggerAddress: localhost:38397}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: b82d65e49ec84243faec8b5f81d...}
+Session ID: b82d65e49ec84243faec8b5f81dc9032
 *** Element info: {Using=id, value=ap_password}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -154,14 +154,30 @@ at com.amazon.pom.LoginPage.enterPassword(LoginPage.java:74)
 at com.amazon.pom.LoginPage.enterPassword(LoginPage.java:79)
 at com.amazon.test.AmazonTestBase.enterPassword(AmazonTestBase.java:147)
 at com.amazon.test.features.AmazonTestSearchProduct.user_enters_bad_password_clicks(AmazonTestSearchProduct.java:70)
-at ✽.User enters bad password 'fakepassword' and clicks on 'Login' button(file:///home/rmuruge/eclipse-workspace/cucumber-project/selenium-cucumber-framework/features/amazon/amz-validate-urls.feature:79)
+at ✽.User enters bad password 'fakepassword' and clicks on 'Login' button(file:///home/rmuruge/eclipse-workspace/cucumber-project/selenium-cucumber-framework/features/amazon/amazon_regression_suite.feature:79)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-17T22:09:49 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-17T22:09:53 CDT" duration-ms="3291" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-18T00:13:49 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T00:13:52 CDT" duration-ms="3286" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search Mobile"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Validate URL redirection]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-18T00:13:52 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T00:14:03 CDT" duration-ms="10709" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -177,11 +193,11 @@ at ✽.User enters bad password 'fakepassword' and clicks on 'Login' button(file
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-17T22:09:53 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-17T22:10:04 CDT" duration-ms="11064" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-18T00:14:03 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-18T00:14:12 CDT" duration-ms="8836" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Search Mobile and Add to Cart"]]>
+                <![CDATA["Search Mobile, play videos and check review"]]>
               </value>
             </param>
             <param index="1">
@@ -193,31 +209,15 @@ at ✽.User enters bad password 'fakepassword' and clicks on 'Login' button(file
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-17T22:10:04 CDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-17T22:10:13 CDT" duration-ms="9502" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Search Mobile and Add to Cart"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["Optional[Validate URL redirection]"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="takeScreenShot()[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-17T22:10:13 CDT" name="takeScreenShot" finished-at="2020-09-17T22:10:14 CDT" duration-ms="407" status="PASS">
+        <test-method is-config="true" signature="takeScreenShot()[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-18T00:14:12 CDT" name="takeScreenShot" finished-at="2020-09-18T00:14:12 CDT" duration-ms="355" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- takeScreenShot -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-17T22:10:14 CDT" name="tearDownClass" finished-at="2020-09-17T22:10:16 CDT" duration-ms="1903" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-18T00:14:12 CDT" name="tearDownClass" finished-at="2020-09-18T00:14:14 CDT" duration-ms="1941" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-17T22:10:16 CDT" name="tearDown" finished-at="2020-09-17T22:10:16 CDT" duration-ms="59" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46]" started-at="2020-09-18T00:14:14 CDT" name="tearDown" finished-at="2020-09-18T00:14:14 CDT" duration-ms="54" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -3,7 +3,7 @@
     "line": 21,
     "elements": [
       {
-        "start_timestamp": "2020-09-18T03:09:31.947Z",
+        "start_timestamp": "2020-09-18T05:13:32.503Z",
         "line": 45,
         "name": "Validate URL Redirection",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2302373000,
+              "duration": 2334343000,
               "status": "passed"
             },
             "line": 37,
@@ -31,7 +31,7 @@
           },
           {
             "result": {
-              "duration": 97173000,
+              "duration": 60353000,
               "status": "passed"
             },
             "line": 39,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 1909970000,
+              "duration": 1879278000,
               "status": "passed"
             },
             "line": 40,
@@ -68,15 +68,15 @@
         ],
         "tags": [
           {
-            "name": "@amazon"
+            "name": "@amazon-full-regression"
           },
           {
-            "name": "@amz-test1"
+            "name": "@amz-smoke1-url"
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-18T03:09:36.777Z",
+        "start_timestamp": "2020-09-18T05:13:37.061Z",
         "line": 56,
         "name": "Validate URL Redirection",
         "description": "",
@@ -86,7 +86,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1386776000,
+              "duration": 1474370000,
               "status": "passed"
             },
             "line": 49,
@@ -104,7 +104,7 @@
           },
           {
             "result": {
-              "duration": 397393000,
+              "duration": 399177000,
               "status": "passed"
             },
             "line": 50,
@@ -122,7 +122,7 @@
           },
           {
             "result": {
-              "duration": 994590000,
+              "duration": 814628000,
               "status": "passed"
             },
             "line": 51,
@@ -144,7 +144,7 @@
           },
           {
             "result": {
-              "duration": 119241000,
+              "duration": 90471000,
               "status": "passed"
             },
             "line": 52,
@@ -163,15 +163,15 @@
         ],
         "tags": [
           {
-            "name": "@amazon"
+            "name": "@amazon-full-regression"
           },
           {
-            "name": "@amz-test2"
+            "name": "@amz-smoke2-url"
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-18T03:09:39.731Z",
+        "start_timestamp": "2020-09-18T05:13:39.888Z",
         "line": 70,
         "name": "Test Login correct credentials",
         "description": "",
@@ -181,7 +181,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1310059000,
+              "duration": 1201588000,
               "status": "passed"
             },
             "line": 61,
@@ -199,7 +199,7 @@
           },
           {
             "result": {
-              "duration": 360414000,
+              "duration": 345011000,
               "status": "passed"
             },
             "line": 62,
@@ -217,7 +217,7 @@
           },
           {
             "result": {
-              "duration": 704042000,
+              "duration": 700281000,
               "status": "passed"
             },
             "line": 63,
@@ -239,7 +239,7 @@
           },
           {
             "result": {
-              "duration": 2190749000,
+              "duration": 2011150000,
               "status": "passed"
             },
             "line": 64,
@@ -257,7 +257,7 @@
           },
           {
             "result": {
-              "duration": 218242000,
+              "duration": 208258000,
               "status": "passed"
             },
             "line": 65,
@@ -275,8 +275,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.AssertionError: expected [true] but found [false]\n\tat org.testng.Assert.fail(Assert.java:97)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\n\tat org.testng.Assert.assertEquals(Assert.java:118)\n\tat org.testng.Assert.assertEquals(Assert.java:751)\n\tat org.testng.Assert.assertEquals(Assert.java:761)\n\tat com.amazon.test.AmazonTestBase.confirmLogin(AmazonTestBase.java:151)\n\tat com.amazon.test.features.AmazonTestSearchProduct.user_sees_greetings_message(AmazonTestSearchProduct.java:75)\n\tat ✽.User sees greeting message Hi \u0027Rajkumar\u0027 on the top navigation(file:///home/rmuruge/eclipse-workspace/cucumber-project/selenium-cucumber-framework/features/amazon/amz-validate-urls.feature:66)\n",
-              "duration": 1807423000,
+              "error_message": "java.lang.AssertionError: expected [true] but found [false]\n\tat org.testng.Assert.fail(Assert.java:97)\n\tat org.testng.Assert.assertEqualsImpl(Assert.java:136)\n\tat org.testng.Assert.assertEquals(Assert.java:118)\n\tat org.testng.Assert.assertEquals(Assert.java:751)\n\tat org.testng.Assert.assertEquals(Assert.java:761)\n\tat com.amazon.test.AmazonTestBase.confirmLogin(AmazonTestBase.java:151)\n\tat com.amazon.test.features.AmazonTestSearchProduct.user_sees_greetings_message(AmazonTestSearchProduct.java:75)\n\tat ✽.User sees greeting message Hi \u0027Rajkumar\u0027 on the top navigation(file:///home/rmuruge/eclipse-workspace/cucumber-project/selenium-cucumber-framework/features/amazon/amazon_regression_suite.feature:66)\n",
+              "duration": 1748625000,
               "status": "failed"
             },
             "line": 66,
@@ -295,15 +295,15 @@
         ],
         "tags": [
           {
-            "name": "@amazon"
+            "name": "@amazon-full-regression"
           },
           {
-            "name": "@amz-test3"
+            "name": "@amz-smoke3-login"
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-18T03:09:46.442Z",
+        "start_timestamp": "2020-09-18T05:13:46.185Z",
         "line": 84,
         "name": "Test Login incorrect credentials",
         "description": "",
@@ -313,7 +313,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1601832000,
+              "duration": 1482321000,
               "status": "passed"
             },
             "line": 75,
@@ -331,7 +331,7 @@
           },
           {
             "result": {
-              "duration": 540419000,
+              "duration": 373590000,
               "status": "passed"
             },
             "line": 76,
@@ -349,7 +349,7 @@
           },
           {
             "result": {
-              "duration": 551913000,
+              "duration": 621419000,
               "status": "passed"
             },
             "line": 77,
@@ -371,7 +371,7 @@
           },
           {
             "result": {
-              "duration": 654313000,
+              "duration": 843438000,
               "status": "passed"
             },
             "line": 78,
@@ -389,8 +389,8 @@
           },
           {
             "result": {
-              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#ap_password\"}\n  (Session info: chrome\u003d85.0.4183.83)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027autodev\u0027, ip: \u0027192.168.1.247\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00275.4.0-45-generic\u0027, java.version: \u002711.0.8\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /tmp/.com.google.Chrome.yriklk}, goog:chromeOptions: {debuggerAddress: localhost:44957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 161acef6d7be13505e0b4dfc56f...}\nSession ID: 161acef6d7be13505e0b4dfc56f68fa4\n*** Element info: {Using\u003did, value\u003dap_password}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy26.sendKeys(Unknown Source)\n\tat com.amazon.pom.LoginPage.enterPassword(LoginPage.java:74)\n\tat com.amazon.pom.LoginPage.enterPassword(LoginPage.java:79)\n\tat com.amazon.test.AmazonTestBase.enterPassword(AmazonTestBase.java:147)\n\tat com.amazon.test.features.AmazonTestSearchProduct.user_enters_bad_password_clicks(AmazonTestSearchProduct.java:70)\n\tat ✽.User enters bad password \u0027fakepassword\u0027 and clicks on \u0027Login\u0027 button(file:///home/rmuruge/eclipse-workspace/cucumber-project/selenium-cucumber-framework/features/amazon/amz-validate-urls.feature:79)\n",
-              "duration": 38387000,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#ap_password\"}\n  (Session info: chrome\u003d85.0.4183.83)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027autodev\u0027, ip: \u0027192.168.1.247\u0027, os.name: \u0027Linux\u0027, os.arch: \u0027amd64\u0027, os.version: \u00275.4.0-45-generic\u0027, java.version: \u002711.0.8\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /tmp/.com.google.Chrome.UPF2nd}, goog:chromeOptions: {debuggerAddress: localhost:38397}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: b82d65e49ec84243faec8b5f81d...}\nSession ID: b82d65e49ec84243faec8b5f81dc9032\n*** Element info: {Using\u003did, value\u003dap_password}\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\n\tat com.sun.proxy.$Proxy26.sendKeys(Unknown Source)\n\tat com.amazon.pom.LoginPage.enterPassword(LoginPage.java:74)\n\tat com.amazon.pom.LoginPage.enterPassword(LoginPage.java:79)\n\tat com.amazon.test.AmazonTestBase.enterPassword(AmazonTestBase.java:147)\n\tat com.amazon.test.features.AmazonTestSearchProduct.user_enters_bad_password_clicks(AmazonTestSearchProduct.java:70)\n\tat ✽.User enters bad password \u0027fakepassword\u0027 and clicks on \u0027Login\u0027 button(file:///home/rmuruge/eclipse-workspace/cucumber-project/selenium-cucumber-framework/features/amazon/amazon_regression_suite.feature:79)\n",
+              "duration": 42764000,
               "status": "failed"
             },
             "line": 79,
@@ -408,7 +408,7 @@
           },
           {
             "result": {
-              "duration": 117000,
+              "duration": 116000,
               "status": "skipped"
             },
             "line": 80,
@@ -427,25 +427,25 @@
         ],
         "tags": [
           {
-            "name": "@amazon"
+            "name": "@amazon-full-regression"
           },
           {
-            "name": "@amz-test4"
+            "name": "@amz-smoke4-login"
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-18T03:09:49.859Z",
+        "start_timestamp": "2020-09-18T05:13:49.592Z",
         "line": 95,
-        "name": "Search Mobile and Add to Cart",
+        "name": "Search Mobile",
         "description": "",
-        "id": "validate-url-redirection;search-mobile-and-add-to-cart;;2",
+        "id": "validate-url-redirection;search-mobile;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 1571296000,
+              "duration": 1618871000,
               "status": "passed"
             },
             "line": 89,
@@ -463,7 +463,7 @@
           },
           {
             "result": {
-              "duration": 1577902000,
+              "duration": 1548790000,
               "status": "passed"
             },
             "line": 90,
@@ -481,7 +481,7 @@
           },
           {
             "result": {
-              "duration": 132962000,
+              "duration": 103301000,
               "status": "passed"
             },
             "line": 91,
@@ -500,15 +500,15 @@
         ],
         "tags": [
           {
-            "name": "@amazon"
+            "name": "@amazon-full-regression"
           },
           {
-            "name": "@amz-test5"
+            "name": "@amz-smoke5-mobile-search"
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-18T03:09:53.159Z",
+        "start_timestamp": "2020-09-18T05:13:52.894Z",
         "line": 112,
         "name": "Search Mobile and Add to Cart",
         "description": "",
@@ -518,7 +518,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1585857000,
+              "duration": 1553863000,
               "status": "passed"
             },
             "line": 100,
@@ -536,7 +536,7 @@
           },
           {
             "result": {
-              "duration": 1761507000,
+              "duration": 1483293000,
               "status": "passed"
             },
             "line": 101,
@@ -554,7 +554,7 @@
           },
           {
             "result": {
-              "duration": 139250000,
+              "duration": 131125000,
               "status": "passed"
             },
             "line": 102,
@@ -572,7 +572,7 @@
           },
           {
             "result": {
-              "duration": 2673372000,
+              "duration": 2873897000,
               "status": "passed"
             },
             "line": 103,
@@ -590,7 +590,7 @@
           },
           {
             "result": {
-              "duration": 996511000,
+              "duration": 982782000,
               "status": "passed"
             },
             "line": 104,
@@ -608,7 +608,7 @@
           },
           {
             "result": {
-              "duration": 3896239000,
+              "duration": 3667522000,
               "status": "passed"
             },
             "line": 105,
@@ -621,25 +621,25 @@
         ],
         "tags": [
           {
-            "name": "@amazon"
+            "name": "@amazon-full-regression"
           },
           {
-            "name": "@amz-test6"
+            "name": "@amz-smoke6-mobile-tocart"
           }
         ]
       },
       {
-        "start_timestamp": "2020-09-18T03:10:04.244Z",
+        "start_timestamp": "2020-09-18T05:14:03.633Z",
         "line": 126,
-        "name": "Search Mobile and Add to Cart",
+        "name": "Search Mobile, play videos and check review",
         "description": "",
-        "id": "validate-url-redirection;search-mobile-and-add-to-cart;;2",
+        "id": "validate-url-redirection;search-mobile--play-videos-and-check-review;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 1532010000,
+              "duration": 1593569000,
               "status": "passed"
             },
             "line": 117,
@@ -657,7 +657,7 @@
           },
           {
             "result": {
-              "duration": 1633896000,
+              "duration": 1693533000,
               "status": "passed"
             },
             "line": 118,
@@ -675,7 +675,7 @@
           },
           {
             "result": {
-              "duration": 242934000,
+              "duration": 180592000,
               "status": "passed"
             },
             "line": 119,
@@ -693,7 +693,7 @@
           },
           {
             "result": {
-              "duration": 2543917000,
+              "duration": 2846515000,
               "status": "passed"
             },
             "line": 120,
@@ -711,7 +711,7 @@
           },
           {
             "result": {
-              "duration": 2088175000,
+              "duration": 1891077000,
               "status": "passed"
             },
             "line": 121,
@@ -723,7 +723,7 @@
           },
           {
             "result": {
-              "duration": 1446656000,
+              "duration": 621420000,
               "status": "passed"
             },
             "line": 122,
@@ -742,10 +742,10 @@
         ],
         "tags": [
           {
-            "name": "@amazon"
+            "name": "@amazon-full-regression"
           },
           {
-            "name": "@amz-test7"
+            "name": "@amz-smoke6-video-and-ratings"
           }
         ]
       }
@@ -754,10 +754,10 @@
     "description": "  Final Projeoct - Test Class I ",
     "id": "validate-url-redirection",
     "keyword": "Feature",
-    "uri": "file:features/amazon/amz-validate-urls.feature",
+    "uri": "file:features/amazon/amazon_regression_suite.feature",
     "tags": [
       {
-        "name": "@amazon",
+        "name": "@amazon-full-regression",
         "type": "Tag",
         "location": {
           "line": 20,

@@ -1,11 +1,11 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 45.92 s <<< FAILURE! - in TestSuite
-runScenario(auto.framework.AmazonTestRunner)  Time elapsed: 6.679 s  <<< FAILURE!
+Tests run: 7, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 44.228 s <<< FAILURE! - in TestSuite
+runScenario(auto.framework.AmazonTestRunner)  Time elapsed: 6.279 s  <<< FAILURE!
 java.lang.AssertionError: expected [true] but found [false]
 
-runScenario(auto.framework.AmazonTestRunner)  Time elapsed: 3.483 s  <<< FAILURE!
+runScenario(auto.framework.AmazonTestRunner)  Time elapsed: 3.428 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"css selector","selector":"#ap_password"}
   (Session info: chrome=85.0.4183.83)
@@ -13,7 +13,7 @@ For documentation on this error, please visit: https://www.seleniumhq.org/except
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'autodev', ip: '192.168.1.247', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-45-generic', java.version: '11.0.8'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /tmp/.com.google.Chrome.yriklk}, goog:chromeOptions: {debuggerAddress: localhost:44957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 161acef6d7be13505e0b4dfc56f...}
-Session ID: 161acef6d7be13505e0b4dfc56f68fa4
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /tmp/.com.google.Chrome.UPF2nd}, goog:chromeOptions: {debuggerAddress: localhost:38397}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: b82d65e49ec84243faec8b5f81d...}
+Session ID: b82d65e49ec84243faec8b5f81dc9032
 *** Element info: {Using=id, value=ap_password}
 
