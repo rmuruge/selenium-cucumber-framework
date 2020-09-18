@@ -12,14 +12,14 @@
 			<class name="auto.framework.AmazonTestRunner" />
 		</classes>
 	</test>
-
+<!-- 
 	<test name="Amazon-Firefox">
 		<parameter name="browserName" value="firefox" />
 		<parameter name="node" value="local" />
 		<classes>
 			<class name="auto.framework.AmazonTestRunner" />
 		</classes>
-	</test>
+	</test>  -->
 
 	<!-- <test name="Amazon-IE"> <parameter name="browserName" value="ie"/> 
 		<parameter name="node" value="remote" /> <classes> <class name="auto.framework.AmazonTestRunner"/> 

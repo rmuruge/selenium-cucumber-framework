@@ -3,8 +3,10 @@ package com.amazon.pom.category.electronics;
 import java.util.List;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 
@@ -19,14 +21,13 @@ public class Mobile extends AmazonBasePage {
 	
 	static Logger log = Logger.getLogger(Mobile.class);
 	//nav-signin-tt nav-flyout
-	@FindBy(how = How.XPATH, using = "//div[contains(@class, 'a-section')]/span[contains(text(), 'results for')]")
-	public WebElement resultsElement;
 	
 	
 	public Mobile(WebDriver d) {
 		super(d);
 	}
 	
+/* methods moved to product search page
 	@FindBy(how = How.XPATH, using = "//a[@class='a-link-normal a-text-normal']")
 	public List <WebElement> searchResults;
 	
@@ -40,6 +41,8 @@ public class Mobile extends AmazonBasePage {
 		
 	}
 	
+	@FindBy(how = How.XPATH, using = "//div[contains(@class, 'a-section')]/span[contains(text(), 'results for')]")
+	public WebElement resultsElement;
 	
 	// a. Validate the total results displayed
 	public String getTotalResults () {
@@ -47,63 +50,38 @@ public class Mobile extends AmazonBasePage {
 		results = resultsElement.getText();
 		return results;
 	}
-	
+	*/
     // b. Play the mobile video
 	
 	@FindBy(how = How.XPATH, using ="//div[@id='altImages']//*[contains(@class,'videoThumbnail')]//input[@class='a-button-input']")
 	public WebElement videoThumbnailElement;
 	
-	public void playVideo() {
+	public void playVideo() throws Exception {
 		waitForElement(WAITS.EXPLICIT, WAIT_ACTION.VISIBLE, videoThumbnailElement);
 		videoThumbnailElement.click();
+		togglePlayPauseVideo();
+		
+		closeVideoPopUpWindow();
+		log.debug("Closed Video window.");
 		
 	}
+	
+	//vjs-play-control vjs-control vjs-button vjs-paused
+	@FindBy(how = How.XPATH, using ="//button[contains(@class,'vjs-play-control')]")
+	public WebElement videoControl;
+	public void togglePlayPauseVideo() {
+		waitForElement(WAITS.EXPLICIT, WAIT_ACTION.VISIBLE, videoControl);
+		videoControl.click();
+		log.debug("Toggle Paused.");
+		
+	}
+	@FindBy(how = How.XPATH, using ="//button[contains(@data-action,'a-popover-close')]")
+	public WebElement videoCloseXButton;
+	
+	public void closeVideoPopUpWindow() throws Exception {
+		videoCloseXButton.click();
+	}
     
-	// c. Select the Avg Customer Review selection
-	
-	@FindBy(how = How.XPATH, using ="//a[@id='acrCustomerReviewLink']")
-	public WebElement custReviewElement;
-	
-	@FindBy(how = How.XPATH, using ="//a[@class='a-link-normal 5star']")
-	public WebElement fiveStartLink;
-	@FindBy(how = How.XPATH, using ="//a[@class='a-link-normal 4star']")
-	public WebElement fourStartLink;
-	@FindBy(how = How.XPATH, using ="//a[@class='a-link-normal 3star']")
-	public WebElement threeStartLink;
-	@FindBy(how = How.XPATH, using ="//a[@class='a-link-normal 2star']")
-	public WebElement twoStartLink;
-	@FindBy(how = How.XPATH, using ="//a[@class='a-link-normal 1star']")
-	public WebElement oneStartLink;
-	
-
-	
-    public void selectCustomerReview (String noStars) throws Exception {
-    	custReviewElement.click();
-    	
-    	if ("5start".equals(noStars)) {
-    		
-    		fiveStartLink.click();
-    		
-    	} else if ("4start".equals(noStars)) {
-    		fourStartLink.click();
-    	} else if ("3start".equals(noStars)) {
-    		threeStartLink.click();
-    	}else if ("2start".equals(noStars)) {
-    		twoStartLink.click();
-    	}else if ("1start".equals(noStars)) {
-    		oneStartLink.click();
-    	}
-    	
-
-    }
-    
-	@FindBy(how = How.XPATH, using ="//span[@id='reviews-filter-info-segment']")
-	public WebElement filteredReview;
-    
-    public String getFilteredRating () throws Exception {
-    	
-    	return filteredReview.getText();
-    }
 	// d. Get the product price
     
     @FindBy(how = How.XPATH, using ="//span[@id='priceblock_ourprice']")
@@ -115,8 +93,15 @@ public class Mobile extends AmazonBasePage {
     	
     }
     
+    @FindBy(how = How.XPATH, using = "//div[@class='a-divider a-divider-break a-spacing-top-base']/h5")
+    public WebElement h5Text;
+    
+    public void getH5Text() {
+    	log.debug("H5 Text is " + h5Text.getText());
+    }
+    
     @FindBy(how = How.XPATH, using = "//div[@id='contextualIngressPtLabel_deliveryShortLine']")
-    public WebElement selectDeliveryLink;
+    public List <WebElement> selectDeliveryLink;
 
     @FindBy(how = How.XPATH, using = "//input[@data-action='GLUXPostalInputAction']")
     public WebElement enterPincodeTextBox;
@@ -131,19 +116,38 @@ public class Mobile extends AmazonBasePage {
     
     // e. Change the delivery location
     public void changeDeliveryLocation (String location) throws Exception {
-    	waitForElement(WAITS.EXPLICIT, WAIT_ACTION.VISIBLE, selectDeliveryLink);
-    	selectDeliveryLink.click();
+   
+    	if (selectDeliveryLink.size() > 0) {
+    		selectDeliveryLink.get(1).click();
+    		log.debug("Number of Handles " + driver.getWindowHandles().size());
+    		int i = driver.findElements(By.tagName("iframe")).size();
+    		while (i > 0 ) {
+    			
+    			i--;
+    			log.debug("+++++IFRAME NAME IS : " + driver.findElements(By.tagName("iframe")).get(i).getText());
+    		}
+    		log.debug("Number of iFrames " + driver.findElements(By.tagName("iframe")).size());
+    	}
+    	//waitForElement(WAITS.EXPLICIT, WAIT_ACTION.VISIBLE, selectDeliveryLink);
+    	//selectDeliveryLink.click();
+    	getH5Text();
     	enterPincodeTextBox.sendKeys(location);
-    	enterPincodeTextBox.click();
+    	applyButton.click();
+    	log.debug("Clicked on Apply Button");
+    	//clickAddToCart();
     	
     }
     
     // f. Add to cart
     @FindBy(how = How.ID, using = "add-to-cart-button")
+//    @CacheLookup
     public WebElement addToCartButton;
     //input[@id='add-to-cart-button']
     public String clickAddToCart() throws Exception {
+    	log.debug("Adding to Cart .................." + driver.getTitle());
+    	waitForElement(WAITS.EXPLICIT, WAIT_ACTION.BUTTON, addToCartButton);
     	addToCartButton.click();
+    	log.debug("Added to Cart ..................");
     	return getAddToCartStatus();
     }
     // g. Close the Add to Cart window
@@ -151,25 +155,26 @@ public class Mobile extends AmazonBasePage {
 	 this.closeCurrentTab();
 	}
 	
-	public void closePopUpWindow() throws Exception {
-		
-	}
+
 	
+	//span[@id='contextualIngressPtLabel']/div[@id='contextualIngressPtLabel_deliveryShortLine']
 
 	@FindBy(how = How.XPATH, using ="//div[@id='contextualIngressPtLabel_deliveryShortLine']")
-	public WebElement locationSpanText;
+	
+	public List <WebElement> locationSpanText;
 	
 	public String getCurrentDeliveryLocation() throws Exception {
-
-		waitForElement(WAITS.EXPLICIT, WAIT_ACTION.VISIBLE, locationSpanText);
-	 return locationSpanText.getText();
+		log.debug("Location Elements identified " + locationSpanText);
+		waitForElement(WAITS.EXPLICIT, WAIT_ACTION.VISIBLE, locationSpanText.get(1));
+	 return locationSpanText.get(1).getText();
 	}
 	
 	@FindBy(how = How.XPATH, using = "//div[@id='huc-v2-order-row-messages']")
 	public WebElement addToCartStatusMsg;
 	
 	public String getAddToCartStatus () throws Exception {
-		
+		log.debug("Getting Cart status..................");
+		waitForElement(WAITS.EXPLICIT, WAIT_ACTION.VISIBLE, addToCartStatusMsg);
 		return addToCartStatusMsg.getText();
 	}
 

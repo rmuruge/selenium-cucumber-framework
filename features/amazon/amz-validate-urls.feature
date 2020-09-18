@@ -38,7 +38,7 @@ Feature: Validate URL redirection
 #    When I check for the <value> in step
     Then Site redirects to the correct site url '<url>'
     Then User searches a product '<product>'
-    And User closes browser
+#    And User closes browser
 
     Examples: 
       | badurl  						| url 										| product  	|
@@ -104,9 +104,24 @@ Feature: Validate URL redirection
     Then User changes delivery location <pincode> and validates
     Then User clicks on add to cart button and validates
 
+    
+
 
     Examples: 
       | url  											| product 						| searchindex 	|	pincode 		|
       | https://www.amazon.in/ 		| iphone 11 64GB			| 1						| 600088			|
  
+
+ @amz-test7
+  Scenario Outline: Search Mobile and Add to Cart
+    Given User opens the site url '<url>'
+    And User performs search action '<product>'
+    And Application lists results for the searched '<product>' and validates
+    Then User selects a <searchindex> product from the search results
+    Then User plays the video demo and closes the popup
+		Then User hovers over user reviews and selects <rating>
+
+    Examples: 
+      | url  											| product 						| searchindex 	|	rating 		|
+      | https://www.amazon.in/ 		| iphone 11 64GB			| 1						| "5 star"		|
  

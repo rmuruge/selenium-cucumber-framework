@@ -11,7 +11,9 @@ import io.cucumber.testng.CucumberOptions;
 		glue = {"com.amazon.test"},
 		plugin = {"pretty","html:target/cucumber.html","json:target/cucumber.json"},
 //		tags = "@amazon and not @amz-test3 and not @amz-test4",
-		tags = "@amz-test6",
+//		tags = "@amz-test6 or @amz-test7",
+//		tags = "@amazon and not @amz-test3 and not @amz-test4 and not @amz-test5",
+		tags = "@amazon",
 		monochrome = true
 		)
 @Listeners({auto.framework.listener.ExecutionListner.class})

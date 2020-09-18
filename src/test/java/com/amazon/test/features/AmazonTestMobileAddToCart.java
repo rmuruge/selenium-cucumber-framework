@@ -1,24 +1,31 @@
-package com.amazon.test;
+package com.amazon.test.features;
 
 import org.apache.log4j.Logger;
 import org.testng.Assert;
+
+import com.amazon.test.AmazonTestBase;
+import com.amazon.test.featurebase.AmazonCheckOut;
+import com.amazon.test.featurebase.AmazonSearchProduct;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class AmazonTestMobileAddToCart extends AmazonTestBase {
+public class AmazonTestMobileAddToCart extends AmazonCheckOut {
+	
+	AmazonSearchProduct searchProduct;
 
 	static Logger log = Logger.getLogger(AmazonTestMobileAddToCart.class);
 	public AmazonTestMobileAddToCart() {
 		// TODO Auto-generated constructor stub
+		this.searchProduct = new AmazonSearchProduct();
 	}
 	
 	@Then ("Application lists results for the searched {string} and validates")
 	public void application_lists_results_for_products_and_validates (String product ) throws Exception {
     	log.debug("Product being searched is " + product);
-    	searchResults (product);
+    	searchProduct.searchResults (product);
     	log.debug("Test ends.");
     }
 	
@@ -27,7 +34,7 @@ public class AmazonTestMobileAddToCart extends AmazonTestBase {
 	public void user_selects_product_from_the_results (int index) throws Exception {
 		log.debug("Search Index is " + index);
 		//selectProduct(new Integer(searchindex));
-		selectProduct(index);
+		searchProduct.selectProduct(index);
 	}
 
     @Then ("User changes delivery location {int} and validates")

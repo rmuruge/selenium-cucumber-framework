@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="41.808" tests="2" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="45.92" tests="7" errors="0" skipped="0" failures="2">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/rmuruge/eclipse-workspace/cucumber-project/selenium-cucumber-framework/target/surefire/surefirebooter5037534608011893580.jar /home/rmuruge/eclipse-workspace/cucumber-project/selenium-cucumber-framework/target/surefire 2020-09-17T02-17-13_043-jvmRun1 surefire14614090003829903648tmp surefire_015829674947079760713tmp"/>
+    <property name="sun.java.command" value="/home/rmuruge/eclipse-workspace/cucumber-project/selenium-cucumber-framework/target/surefire/surefirebooter13281722153719742550.jar /home/rmuruge/eclipse-workspace/cucumber-project/selenium-cucumber-framework/target/surefire 2020-09-17T22-09-29_964-jvmRun1 surefire1077591517787976053tmp surefire_011417536405449402487tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/rmuruge/eclipse-workspace/cucumber-project/selenium-cucumber-framework/target/test-classes:/home/rmuruge/eclipse-workspace/cucumber-project/selenium-cucumber-framework/target/classes:/home/rmuruge/.m2/repository/org/testng/testng/7.1.0/testng-7.1.0.jar:/home/rmuruge/.m2/repository/com/google/inject/guice/4.1.0/guice-4.1.0-no_aop.jar:/home/rmuruge/.m2/repository/org/yaml/snakeyaml/1.21/snakeyaml-1.21.jar:/home/rmuruge/.m2/repository/ru/stqa/selenium/webdriver-factory/4.3/webdriver-factory-4.3.jar:/home/rmuruge/.m2/repository/org/hamcrest/java-hamcrest/2.0.0.0/java-hamcrest-2.0.0.0.jar:/home/rmuruge/.m2/repository/org/seleniumhq/selenium/selenium-java/3.141.59/selenium-java-3.141.59.jar:/home/rmuruge/.m2/repository/org/seleniumhq/selenium/selenium-api/3.141.59/selenium-api-3.141.59.jar:/home/rmuruge/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.141.59/selenium-chrome-driver-3.141.59.jar:/home/rmuruge/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/3.141.59/selenium-edge-driver-3.141.59.jar:/home/rmuruge/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/3.141.59/selenium-firefox-driver-3.141.59.jar:/home/rmuruge/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/3.141.59/selenium-ie-driver-3.141.59.jar:/home/rmuruge/.m2/repository/org/seleniumhq/selenium/selenium-opera-driver/3.141.59/selenium-opera-driver-3.141.59.jar:/home/rmuruge/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.141.59/selenium-remote-driver-3.141.59.jar:/home/rmuruge/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/3.141.59/selenium-safari-driver-3.141.59.jar:/home/rmuruge/.m2/repository/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar:/home/rmuruge/.m2/repository/net/bytebuddy/byte-buddy/1.8.15/byte-buddy-1.8.15.jar:/home/rmuruge/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/home/rmuruge/.m2/repository/com/squareup/okhttp3/okhttp/3.11.0/okhttp-3.11.0.jar:/home/rmuruge/.m2/repository/com/squareup/okio/okio/1.14.0/okio-1.14.0.jar:/home/rmuruge/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar:/home/rmuruge/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/home/rmuruge/.m2/repository/io/cucumber/cucumber-html/0.2.7/cucumber-html-0.2.7.jar:/home/rmuruge/.m2/repository/net/masterthought/cucumber-reporting/5.3.0/cucumber-reporting-5.3.0.jar:/home/rmuruge/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.10.1/jackson-datatype-jsr310-2.10.1.jar:/home/rmuruge/.m2/repository/org/apache/velocity/velocity-engine-core/2.1/velocity-engine-core-2.1.jar:/home/rmuruge/.m2/repository/org/slf4j/slf4j-api/1.7.26/slf4j-api-1.7.26.jar:/home/rmuruge/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/home/rmuruge/.m2/repository/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar:/home/rmuruge/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/home/rmuruge/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/home/rmuruge/.m2/repository/org/codehaus/plexus/plexus-utils/3.3.0/plexus-utils-3.3.0.jar:/home/rmuruge/.m2/repository/org/jsoup/jsoup/1.12.1/jsoup-1.12.1.jar:/home/rmuruge/.m2/repository/com/googlecode/owasp-java-html-sanitizer/owasp-java-html-sanitizer/20191001.1/owasp-java-html-sanitizer-20191001.1.jar:/home/rmuruge/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/home/rmuruge/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/rmuruge/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/home/rmuruge/.m2/repository/io/cucumber/cucumber-testng/6.5.1/cucumber-testng-6.5.1.jar:/home/rmuruge/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/rmuruge/.m2/repository/io/cucumber/cucumber-junit/6.5.1/cucumber-junit-6.5.1.jar:/home/rmuruge/.m2/repository/junit/junit/4.13/junit-4.13.jar:/home/rmuruge/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/rmuruge/.m2/repository/io/cucumber/cucumber-core/6.5.1/cucumber-core-6.5.1.jar:/home/rmuruge/.m2/repository/io/cucumber/cucumber-gherkin/6.5.1/cucumber-gherkin-6.5.1.jar:/home/rmuruge/.m2/repository/io/cucumber/cucumber-gherkin-messages/6.5.1/cucumber-gherkin-messages-6.5.1.jar:/home/rmuruge/.m2/repository/io/cucumber/messages/13.0.1/messages-13.0.1.jar:/home/rmuruge/.m2/repository/io/cucumber/tag-expressions/3.0.0/tag-expressions-3.0.0.jar:/home/rmuruge/.m2/repository/io/cucumber/cucumber-expressions/10.3.0/cucumber-expressions-10.3.0.jar:/home/rmuruge/.m2/repository/io/cucumber/datatable/3.4.0/datatable-3.4.0.jar:/home/rmuruge/.m2/repository/io/cucumber/cucumber-plugin/6.5.1/cucumber-plugin-6.5.1.jar:/home/rmuruge/.m2/repository/io/cucumber/docstring/6.5.1/docstring-6.5.1.jar:/home/rmuruge/.m2/repository/io/cucumber/html-formatter/9.0.0/html-formatter-9.0.0.jar:/home/rmuruge/.m2/repository/io/cucumber/create-meta/2.0.1/create-meta-2.0.1.jar:/home/rmuruge/.m2/repository/io/cucumber/cucumber-java/6.5.1/cucumber-java-6.5.1.jar:/home/rmuruge/.m2/repository/io/cucumber/gherkin/15.0.2/gherkin-15.0.2.jar:/home/rmuruge/.m2/repository/com/google/inject/guice/4.2.3/guice-4.2.3.jar:/home/rmuruge/.m2/repository/javax/inject/javax.inject/1/javax.inject-1.jar:/home/rmuruge/.m2/repository/aopalliance/aopalliance/1.0/aopalliance-1.0.jar:/home/rmuruge/.m2/repository/com/google/guava/guava/28.1-jre/guava-28.1-jre.jar:/home/rmuruge/.m2/repository/com/google/guava/failureaccess/1.0.1/failureaccess-1.0.1.jar:/home/rmuruge/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/home/rmuruge/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/home/rmuruge/.m2/repository/org/checkerframework/checker-qual/2.8.1/checker-qual-2.8.1.jar:/home/rmuruge/.m2/repository/com/google/errorprone/error_prone_annotations/2.3.2/error_prone_annotations-2.3.2.jar:/home/rmuruge/.m2/repository/com/google/j2objc/j2objc-annotations/1.3/j2objc-annotations-1.3.jar:/home/rmuruge/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.18/animal-sniffer-annotations-1.18.jar:/home/rmuruge/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.9.4/jackson-databind-2.9.4.jar:/home/rmuruge/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.9.0/jackson-annotations-2.9.0.jar:/home/rmuruge/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.9.4/jackson-core-2.9.4.jar:/home/rmuruge/.m2/repository/com/mashape/unirest/unirest-java/1.4.9/unirest-java-1.4.9.jar:/home/rmuruge/.m2/repository/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar:/home/rmuruge/.m2/repository/org/apache/httpcomponents/httpcore/4.4.4/httpcore-4.4.4.jar:/home/rmuruge/.m2/repository/commons-codec/commons-codec/1.9/commons-codec-1.9.jar:/home/rmuruge/.m2/repository/org/apache/httpcomponents/httpasyncclient/4.1.1/httpasyncclient-4.1.1.jar:/home/rmuruge/.m2/repository/org/apache/httpcomponents/httpcore-nio/4.4.4/httpcore-nio-4.4.4.jar:/home/rmuruge/.m2/repository/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar:/home/rmuruge/.m2/repository/org/json/json/20160212/json-20160212.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/rmuruge/eclipse-workspace/cucumber-project/selenium-cucumber-framework/target/surefire/surefirebooter5037534608011893580.jar"/>
+    <property name="surefire.real.class.path" value="/home/rmuruge/eclipse-workspace/cucumber-project/selenium-cucumber-framework/target/surefire/surefirebooter13281722153719742550.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.8+10-post-Ubuntu-0ubuntu120.04"/>
     <property name="user.name" value="rmuruge"/>
@@ -58,309 +58,244 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="runScenario" classname="auto.framework.AmazonTestRunner" time="17.176">
-    <failure message="Expected condition failed: waiting for visibility of [[RemoteWebDriver: chrome on LINUX (379c173e4678734102feac38120e4a0a)] -&gt; xpath: //div[@id=&apos;contextualIngressPtLabel_deliveryShortLine&apos;]] (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;autodev&apos;, ip: &apos;192.168.1.247&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-45-generic&apos;, java.version: &apos;11.0.8&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /tmp/.com.google.Chrome.esMRUO}, goog:chromeOptions: {debuggerAddress: localhost:38413}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 379c173e4678734102feac38120...}&#10;Session ID: 379c173e4678734102feac38120e4a0a" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for visibility of [[RemoteWebDriver: chrome on LINUX (379c173e4678734102feac38120e4a0a)] -> xpath: //div[@id='contextualIngressPtLabel_deliveryShortLine']] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'autodev', ip: '192.168.1.247', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-45-generic', java.version: '11.0.8'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /tmp/.com.google.Chrome.esMRUO}, goog:chromeOptions: {debuggerAddress: localhost:38413}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 379c173e4678734102feac38120...}
-Session ID: 379c173e4678734102feac38120e4a0a
+  <testcase name="runScenario" classname="auto.framework.AmazonTestRunner" time="4.861"/>
+  <testcase name="runScenario" classname="auto.framework.AmazonTestRunner" time="2.987"/>
+  <testcase name="runScenario" classname="auto.framework.AmazonTestRunner" time="6.679">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
 </failure>
-    <system-out><![CDATA[...
-... TestNG 7.0.1 by CÃ©dric Beust (cedric@beust.com)
-...
+    <system-out><![CDATA[
+@amazon @amz-test3
+Scenario Outline: Test Login correct credentials                      # features/amazon/amz-validate-urls.feature:70
+2020-09-17 22:09:39 DEBUG AmazonTestBase:43 - Driver Info :RemoteWebDriver: chrome on LINUX (161acef6d7be13505e0b4dfc56f68fa4)
+2020-09-17 22:09:39 DEBUG AmazonTestBase:55 - AmazoneHome Init
+2020-09-17 22:09:39 DEBUG AmazonTestBase:57 - AmazoneHome Initialized
+2020-09-17 22:09:39 DEBUG AmazonTestBase:59 - DropDown Initialized
+2020-09-17 22:09:39 DEBUG AmazonTestBase:61 - Wishlist Initialized
+2020-09-17 22:09:39 DEBUG AmazonTestBase:63 - Login Initialized
+2020-09-17 22:09:39 DEBUG AmazonTestBase:66 - Mobile Initialized
+2020-09-17 22:09:39 DEBUG AmazonTestGeneralNavigation:66 - Opening site https://www.amazon.in/
+2020-09-17 22:09:40 DEBUG AmazonTestBase:87 - Redirected URL is https://www.amazon.in/
+2020-09-17 22:09:41 DEBUG AmazonTestGeneralNavigation:68 - Test ends.
+  Given User opens the site url 'https://www.amazon.in/'              # com.amazon.test.features.AmazonTestGeneralNavigation.user_enters_site_url(java.lang.String)
+2020-09-17 22:09:41 DEBUG AmazonTestGeneralNavigation:73 - user_hovers_over_link Accounts & Lists
+2020-09-17 22:09:41 DEBUG SiteDropDowns:46 - Hover Over Account & List dropdown
+2020-09-17 22:09:41 DEBUG Page:157 - Driver Information 
+	https://www.amazon.in/	Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /tmp/.com.google.Chrome.yriklk}, goog:chromeOptions: {debuggerAddress: localhost:44957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 161acef6d7be13505e0b4dfc56f...}
+2020-09-17 22:09:41 DEBUG SiteAction:32 - hover over action : Hello, Sign in
+Account & Lists
+2020-09-17 22:09:41 DEBUG SiteAction:33 - Browser is chrome
+2020-09-17 22:09:41 DEBUG SiteAction:44 - hover over action performed.
+  When User hovers over 'Accounts & Lists'                            # com.amazon.test.features.AmazonTestGeneralNavigation.user_hovers_over_link(java.lang.String)
+2020-09-17 22:09:41 DEBUG AmazonTestBase:43 - Driver Info :RemoteWebDriver: chrome on LINUX (161acef6d7be13505e0b4dfc56f68fa4)
+2020-09-17 22:09:41 DEBUG AmazonTestBase:55 - AmazoneHome Init
+2020-09-17 22:09:41 DEBUG AmazonTestBase:57 - AmazoneHome Initialized
+2020-09-17 22:09:41 DEBUG AmazonTestBase:59 - DropDown Initialized
+2020-09-17 22:09:41 DEBUG AmazonTestBase:61 - Wishlist Initialized
+2020-09-17 22:09:41 DEBUG AmazonTestBase:63 - Login Initialized
+2020-09-17 22:09:41 DEBUG AmazonTestBase:66 - Mobile Initialized
+2020-09-17 22:09:41 DEBUG AmazonSearchProduct:25 - ProductSearchPage Initialized
+2020-09-17 22:09:41 DEBUG AmazonTestSearchProduct:28 - User perform action Click > Sign In
+2020-09-17 22:09:41 DEBUG Page:157 - Driver Information 
+	https://www.amazon.in/	Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /tmp/.com.google.Chrome.yriklk}, goog:chromeOptions: {debuggerAddress: localhost:44957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 161acef6d7be13505e0b4dfc56f...}
+2020-09-17 22:09:41 DEBUG PoolingHttpClientConnectionManager:408 - Closing expired connections
+2020-09-17 22:09:41 DEBUG PoolingHttpClientConnectionManager:401 - Closing connections idle longer than 30 SECONDS
+  And User performs action 'Click > Sign In' on 'Sign In'             # com.amazon.test.features.AmazonTestSearchProduct.user_performs_action(java.lang.String,java.lang.String)
+  And User enters email 'raj2k_m@yahoo.com' and clicks on Continue    # com.amazon.test.features.AmazonTestSearchProduct.user_enters_email_clicks(java.lang.String)
+  And User enters password 'dummy' and clicks on 'Login' button       # com.amazon.test.features.AmazonTestSearchProduct.user_enters_password_clicks(java.lang.String)
+2020-09-17 22:09:46 DEBUG Page:157 - Driver Information 
+	https://www.amazon.in/ap/signin	Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /tmp/.com.google.Chrome.yriklk}, goog:chromeOptions: {debuggerAddress: localhost:44957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 161acef6d7be13505e0b4dfc56f...}
+2020-09-17 22:09:46 DEBUG AmazonHomePage:63 - Nav Line Containers Lenght []
+  Then User sees greeting message Hi 'Rajkumar' on the top navigation # com.amazon.test.features.AmazonTestSearchProduct.user_sees_greetings_message(java.lang.String)
+      java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:751)
+	at org.testng.Assert.assertEquals(Assert.java:761)
+	at com.amazon.test.AmazonTestBase.confirmLogin(AmazonTestBase.java:151)
+	at com.amazon.test.features.AmazonTestSearchProduct.user_sees_greetings_message(AmazonTestSearchProduct.java:75)
+	at ✽.User sees greeting message Hi 'Rajkumar' on the top navigation(file:///home/rmuruge/eclipse-workspace/cucumber-project/selenium-cucumber-framework/features/amazon/amz-validate-urls.feature:66)
 
-2020-09-17 02:17:13 DEBUG AmazonTestRunner:24 - constructor called
-2020-09-17 02:17:13 DEBUG AmazonTestRunner:24 - constructor called
-2020-09-17 02:17:13 DEBUG SuiteConfiguration:64 - Capability Map is : {chrome=Capabilities {args: ['start-maximized'], browserName: chrome}, firefox=Capabilities {browserName: firefox, headless: true, nativeEvents: false}, ie=Capabilities {InternetExplorerDriver.INTRODUCE_FLAKINESS_BY_IGNORING_SECURITY_DOMAINS: true, accpetSslCert: true, browserName: internet explorer, requireWindowFocus: true}}
-2020-09-17 02:17:13 DEBUG TestNgTestBase:54 - Base url is https://www.amazon.in
-2020-09-17 02:17:13 DEBUG TestNgTestBase:67 - Browser Name Passed chrome
-2020-09-17 02:17:13 DEBUG TestNgTestBase:68 - Node  Name Passed local
-2020-09-17 02:17:13 DEBUG TestNgTestBase:70 - Broswer in Capabilities  is chrome
-2020-09-17 02:17:13 DEBUG TestNgTestBase:71 - Broswer in Capabilities  for requireWindowFocus is null
-2020-09-17 02:17:14 DEBUG TestNgTestBase:84 - Grid URL is : http://192.168.1.247:5566/wd/hub
-
-@amazon @amz-test6
-Scenario Outline: Search Mobile and Add to Cart                                 # features/amazon/amz-validate-urls.feature:110
-2020-09-17 02:17:15 DEBUG AmazonTestBase:43 - Driver Info :RemoteWebDriver: chrome on LINUX (379c173e4678734102feac38120e4a0a)
-2020-09-17 02:17:15 DEBUG AmazonTestBase:55 - AmazoneHome Init
-2020-09-17 02:17:15 DEBUG AmazonTestBase:57 - AmazoneHome Initialized
-2020-09-17 02:17:15 DEBUG AmazonTestBase:59 - DropDown Initialized
-2020-09-17 02:17:15 DEBUG AmazonTestBase:61 - Wishlist Initialized
-2020-09-17 02:17:15 DEBUG AmazonTestBase:63 - Login Initialized
-2020-09-17 02:17:15 DEBUG AmazonTestBase:66 - Mobile Initialized
-2020-09-17 02:17:15 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
-2020-09-17 02:17:16 DEBUG AmazonTestBase:85 - Redirected URL is https://www.amazon.in/
-2020-09-17 02:17:17 DEBUG AmazonTestScenario2:24 - Test ends.
-  Given User opens the site url 'https://www.amazon.in/'                        # com.amazon.test.AmazonTestScenario2.user_enters_site_url(java.lang.String)
-2020-09-17 02:17:17 DEBUG AmazonTestScenario2:45 - Searching for product...
-2020-09-17 02:17:17 DEBUG Page:157 - Driver Information 
-	https://www.amazon.in/	Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /tmp/.com.google.Chrome.esMRUO}, goog:chromeOptions: {debuggerAddress: localhost:38413}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 379c173e4678734102feac38120...}
-  And User performs search action 'iphone 11 64GB'                              # com.amazon.test.AmazonTestScenario2.user_performs_search_action(java.lang.String)
-2020-09-17 02:17:18 DEBUG AmazonTestBase:43 - Driver Info :RemoteWebDriver: chrome on LINUX (379c173e4678734102feac38120e4a0a)
-2020-09-17 02:17:18 DEBUG AmazonTestBase:55 - AmazoneHome Init
-2020-09-17 02:17:18 DEBUG AmazonTestBase:57 - AmazoneHome Initialized
-2020-09-17 02:17:18 DEBUG AmazonTestBase:59 - DropDown Initialized
-2020-09-17 02:17:18 DEBUG AmazonTestBase:61 - Wishlist Initialized
-2020-09-17 02:17:18 DEBUG AmazonTestBase:63 - Login Initialized
-2020-09-17 02:17:18 DEBUG AmazonTestBase:66 - Mobile Initialized
-2020-09-17 02:17:18 DEBUG AmazonTestMobileAddToCart:20 - Product being searched is iphone 11 64GB
-2020-09-17 02:17:18 DEBUG AmazonTestBase:163 - Results is 1-16 of 280 results for
-2020-09-17 02:17:18 DEBUG AmazonTestMobileAddToCart:22 - Test ends.
-  And Application lists results for the searched 'iphone 11 64GB' and validates # com.amazon.test.AmazonTestMobileAddToCart.application_lists_results_for_products_and_validates(java.lang.String)
-2020-09-17 02:17:18 DEBUG AmazonTestMobileAddToCart:28 - Search Index is 1
-2020-09-17 02:17:18 DEBUG AmazonTestBase:168 - selecting product ...
-2020-09-17 02:17:21 DEBUG Page:114 - Tab Name is CDwindow-C068E5452A73F4DC1C8F3704128EBB18  Apple iPhone 11 (64GB) - Black: Amazon.in
-2020-09-17 02:17:21 DEBUG AmazonTestBase:170 - selected product.
-  Then User selects a 1 product from the search results                         # com.amazon.test.AmazonTestMobileAddToCart.user_selects_product_from_the_results(int)
-2020-09-17 02:17:21 DEBUG AmazonTestMobileAddToCart:35 - pincode is 600088
-2020-09-17 02:17:21 DEBUG AmazonTestBase:174 - change delivery location to 600088
-  Then User changes delivery location 600088 and validates                      # com.amazon.test.AmazonTestMobileAddToCart.user_changes_delivery_location_and_validates(int)
-      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[RemoteWebDriver: chrome on LINUX (379c173e4678734102feac38120e4a0a)] -> xpath: //div[@id='contextualIngressPtLabel_deliveryShortLine']] (tried for 10 second(s) with 500 milliseconds interval)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'autodev', ip: '192.168.1.247', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-45-generic', java.version: '11.0.8'
-Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /tmp/.com.google.Chrome.esMRUO}, goog:chromeOptions: {debuggerAddress: localhost:38413}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 379c173e4678734102feac38120...}
-Session ID: 379c173e4678734102feac38120e4a0a
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at auto.framework.pageobjects.Page.waitForElement(Page.java:90)
-	at com.amazon.pom.category.electronics.Mobile.changeDeliveryLocation(Mobile.java:134)
-	at com.amazon.test.AmazonTestBase.changeDeliveryLocation(AmazonTestBase.java:175)
-	at com.amazon.test.AmazonTestMobileAddToCart.user_changes_delivery_location_and_validates(AmazonTestMobileAddToCart.java:36)
-	at ✽.User changes delivery location 600088 and validates(file:///home/rmuruge/eclipse-workspace/cucumber-project/selenium-cucumber-framework/features/amazon/amz-validate-urls.feature:104)
-
-  Then User clicks on add to cart button and validates                          # com.amazon.test.AmazonTestMobileAddToCart.user_clicks_on_add_to_cart_button_and_validates()
-2020-09-17 02:17:31 DEBUG ExecutionListner:59 - SEND RESULTS ==========================>>>>> [TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:auto.framework.AmazonTestRunner@4facf68f] output={null}]
-2020-09-17 02:17:31 DEBUG ExecutionListner:62 - SEND RESULTS  Method Name ===========>>>>> io.cucumber.messages.Messages$GherkinDocument$Feature$Scenario$1@6014a9ba
-2020-09-17 02:17:32 DEBUG RequestAddCookies:122 - CookieSpec selected: default
-2020-09-17 02:17:32 DEBUG RequestAuthCache:76 - Auth cache not set in the context
-2020-09-17 02:17:32 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:9200][total kept alive: 0; route allocated: 0 of 20; total allocated: 0 of 200]
-2020-09-17 02:17:32 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:9200][total kept alive: 0; route allocated: 1 of 20; total allocated: 1 of 200]
-2020-09-17 02:17:32 DEBUG MainClientExec:234 - Opening connection {}->http://localhost:9200
-2020-09-17 02:17:32 DEBUG DefaultHttpClientConnectionOperator:138 - Connecting to localhost/127.0.0.1:9200
-2020-09-17 02:17:32 DEBUG DefaultHttpClientConnectionOperator:145 - Connection established 127.0.0.1:58716<->127.0.0.1:9200
-2020-09-17 02:17:32 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 60000
-2020-09-17 02:17:32 DEBUG MainClientExec:255 - Executing request POST /app/suite HTTP/1.1
-2020-09-17 02:17:32 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
-2020-09-17 02:17:32 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
-2020-09-17 02:17:32 DEBUG headers:135 - http-outgoing-0 >> POST /app/suite HTTP/1.1
-2020-09-17 02:17:32 DEBUG headers:138 - http-outgoing-0 >> accept-encoding: gzip
-2020-09-17 02:17:32 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json
-2020-09-17 02:17:32 DEBUG headers:138 - http-outgoing-0 >> user-agent: unirest-java/1.3.11
-2020-09-17 02:17:32 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 189
-2020-09-17 02:17:32 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:9200
-2020-09-17 02:17:32 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 >> "POST /app/suite HTTP/1.1[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 >> "accept-encoding: gzip[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 >> "user-agent: unirest-java/1.3.11[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 189[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:9200[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:86 - http-outgoing-0 >> "{"testClass":null,"description":"Runs Cucumber Scenarios","status":"FAIL","executionTime":"2020-09-17T02:17:31.913006","duration":null,"location":null,"name":null,"testRun":"Amazon-Chrome"}"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 201 Created[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 << "Location: /app/suite/J3XsmnQBjyo827X760-A[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 << "Warning: 299 Elasticsearch-7.9.1-083627f112ba94dffc1232e8b42b73492789ef91 "[types removal] Specifying types in document index requests is deprecated, use the typeless endpoints instead (/{index}/_doc/{id}, /{index}/_doc, or /{index}/_create/{id})."[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 << "content-type: application/json; charset=UTF-8[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 << "content-encoding: gzip[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 << "content-length: 163[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:86 - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x14][0x8c][0xb1][0xe][0xc2]0[0xc]D[0xff][0xc5]s[0x91]J[0x91]Z[0x94][\r]F6[0xb6]nQ[0xd4][0xb8]"[0xa8]M[0x82][0xed] [0xaa][0xaa][0xff][0x8e]3[0xbe][0xbb]w[0xb7][0x83][\r][0xd1][0xe3][0xf][0xc][0xb8][0x9c][0xa1][0x1]+[F%.A[0xb0]r[0xf0]J[0x8f][0xcb][0xc8]k|[0xde][0xdf][[0xba]v[0xc3]8[0xf4][0xed][0xe9]V[0xcb]/[0x12][0x87][0x14][0xc1][0x9c][0x1b] [0xe4][0xb2][0x88][0xca][0x13][0xa1][0x13][0xf4][0xb5][0xe7][0x97]#[0xcf]`v[0x90]$n[0x1][0xd3]5[0xfa]<M[0xc8]<[0x17]E[0x9d][0xcd].,*[0x9b][0xf6][0xa8]>~lL[0x9a][0xf7]*[0xda]Lau[0xb4]YAZuz[0xfc][0x1][0x0][0x0][0xff][0xff][0x3][0x0][0x8c]Z[0x1d]F[0xad][0x0][0x0][0x0]"
-2020-09-17 02:17:32 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 201 Created
-2020-09-17 02:17:32 DEBUG headers:127 - http-outgoing-0 << Location: /app/suite/J3XsmnQBjyo827X760-A
-2020-09-17 02:17:32 DEBUG headers:127 - http-outgoing-0 << Warning: 299 Elasticsearch-7.9.1-083627f112ba94dffc1232e8b42b73492789ef91 "[types removal] Specifying types in document index requests is deprecated, use the typeless endpoints instead (/{index}/_doc/{id}, /{index}/_doc, or /{index}/_create/{id})."
-2020-09-17 02:17:32 DEBUG headers:127 - http-outgoing-0 << content-type: application/json; charset=UTF-8
-2020-09-17 02:17:32 DEBUG headers:127 - http-outgoing-0 << content-encoding: gzip
-2020-09-17 02:17:32 DEBUG headers:127 - http-outgoing-0 << content-length: 163
-2020-09-17 02:17:32 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
-2020-09-17 02:17:32 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:9200] can be kept alive indefinitely
-2020-09-17 02:17:32 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:9200][total kept alive: 1; route allocated: 1 of 20; total allocated: 1 of 200]
-2020-09-17 02:17:32 DEBUG MainClientExec:144 - Cancelling request execution
+2020-09-17 22:09:46 DEBUG ExecutionListner:59 - SEND RESULTS ==========================>>>>> [TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46] output={null}]
+2020-09-17 22:09:46 DEBUG ExecutionListner:62 - SEND RESULTS  Method Name ===========>>>>> io.cucumber.messages.Messages$GherkinDocument$Feature$Scenario$1@3910fe11
+2020-09-17 22:09:46 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2020-09-17 22:09:46 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-09-17 22:09:46 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:9200][total kept alive: 1; route allocated: 1 of 20; total allocated: 1 of 200]
+2020-09-17 22:09:46 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2020-09-17 22:09:46 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:9200][total kept alive: 0; route allocated: 1 of 20; total allocated: 1 of 200]
+2020-09-17 22:09:46 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 60000
+2020-09-17 22:09:46 DEBUG MainClientExec:255 - Executing request POST /app/suite HTTP/1.1
+2020-09-17 22:09:46 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2020-09-17 22:09:46 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2020-09-17 22:09:46 DEBUG headers:135 - http-outgoing-0 >> POST /app/suite HTTP/1.1
+2020-09-17 22:09:46 DEBUG headers:138 - http-outgoing-0 >> accept-encoding: gzip
+2020-09-17 22:09:46 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json
+2020-09-17 22:09:46 DEBUG headers:138 - http-outgoing-0 >> user-agent: unirest-java/1.3.11
+2020-09-17 22:09:46 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 189
+2020-09-17 22:09:46 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:9200
+2020-09-17 22:09:46 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2020-09-17 22:09:46 DEBUG wire:72 - http-outgoing-0 >> "POST /app/suite HTTP/1.1[\r][\n]"
+2020-09-17 22:09:46 DEBUG wire:72 - http-outgoing-0 >> "accept-encoding: gzip[\r][\n]"
+2020-09-17 22:09:46 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+2020-09-17 22:09:46 DEBUG wire:72 - http-outgoing-0 >> "user-agent: unirest-java/1.3.11[\r][\n]"
+2020-09-17 22:09:46 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 189[\r][\n]"
+2020-09-17 22:09:46 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:9200[\r][\n]"
+2020-09-17 22:09:46 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-09-17 22:09:46 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2020-09-17 22:09:46 DEBUG wire:86 - http-outgoing-0 >> "{"testClass":null,"description":"Runs Cucumber Scenarios","status":"FAIL","executionTime":"2020-09-17T22:09:46.336455","duration":null,"location":null,"name":null,"testRun":"Amazon-Chrome"}"
+2020-09-17 22:09:46 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 201 Created[\r][\n]"
+2020-09-17 22:09:46 DEBUG wire:72 - http-outgoing-0 << "Location: /app/suite/wXUwn3QBjyo827X7cbrw[\r][\n]"
+2020-09-17 22:09:46 DEBUG wire:72 - http-outgoing-0 << "Warning: 299 Elasticsearch-7.9.1-083627f112ba94dffc1232e8b42b73492789ef91 "[types removal] Specifying types in document index requests is deprecated, use the typeless endpoints instead (/{index}/_doc/{id}, /{index}/_doc, or /{index}/_create/{id})."[\r][\n]"
+2020-09-17 22:09:46 DEBUG wire:72 - http-outgoing-0 << "content-type: application/json; charset=UTF-8[\r][\n]"
+2020-09-17 22:09:46 DEBUG wire:72 - http-outgoing-0 << "content-encoding: gzip[\r][\n]"
+2020-09-17 22:09:46 DEBUG wire:72 - http-outgoing-0 << "content-length: 162[\r][\n]"
+2020-09-17 22:09:46 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2020-09-17 22:09:46 DEBUG wire:72 - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x14][0x8c][0xb1][0xe][0x83]0[0xc]D[0xff][0xc5]3C[0xb][0x3](c[0xff][0xa0]C%[0xb6](M[0x8c][0x9a][\n]"
+2020-09-17 22:09:46 DEBUG wire:72 - http-outgoing-0 << "[0x92][0xd4]6[0xa5][0x8][0xf1][0xef]u[0xc6]w[0xf7][0xee][0xe][0xb0]1[0x5][0xfc][0x81][0x1]W[\n]"
+2020-09-17 22:09:46 DEBUG wire:86 - http-outgoing-0 << "4`e/[0xa8][0xc4]k[0x14][0xac][0x1c][0x83][0xd2]6>[0xb6][0xd4][0xdd]o[0xef]=[0xf]m?[0xf6][0xfe]I[-[0xbf]H[0x1c]s[0x2]sm[0x80][0x90][0xd7]YT[0xf6][0x84]N0[0xd4][0x9e]_[0x8e][0x2][0x83]9@[0xb2][0xb8][0x19]L[0xdb][0xe8][0xb3][0xf7][0xc8]<[0xad][0x8a]:[0x9b]\[0x9c]U6[0x97][0xb3][0xfa][0xf8][0xb1])[0xab]6tJ[0x85][0xe2][0xe2]h[0xb7][0x82][0xb4]hv[0xfe][0x1][0x0][0x0][0xff][0xff][0x3][0x0]Sm[0xfb][0xac][0xad][0x0][0x0][0x0]"
+2020-09-17 22:09:46 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 201 Created
+2020-09-17 22:09:46 DEBUG headers:127 - http-outgoing-0 << Location: /app/suite/wXUwn3QBjyo827X7cbrw
+2020-09-17 22:09:46 DEBUG headers:127 - http-outgoing-0 << Warning: 299 Elasticsearch-7.9.1-083627f112ba94dffc1232e8b42b73492789ef91 "[types removal] Specifying types in document index requests is deprecated, use the typeless endpoints instead (/{index}/_doc/{id}, /{index}/_doc, or /{index}/_create/{id})."
+2020-09-17 22:09:46 DEBUG headers:127 - http-outgoing-0 << content-type: application/json; charset=UTF-8
+2020-09-17 22:09:46 DEBUG headers:127 - http-outgoing-0 << content-encoding: gzip
+2020-09-17 22:09:46 DEBUG headers:127 - http-outgoing-0 << content-length: 162
+2020-09-17 22:09:46 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2020-09-17 22:09:46 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:9200] can be kept alive indefinitely
+2020-09-17 22:09:46 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:9200][total kept alive: 1; route allocated: 1 of 20; total allocated: 1 of 200]
+2020-09-17 22:09:46 DEBUG MainClientExec:144 - Cancelling request execution
 ]]></system-out>
-    <system-err><![CDATA[Sep 17, 2020 2:17:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
   </testcase>
-  <testcase name="runScenario" classname="auto.framework.AmazonTestRunner" time="15.554">
-    <failure message="Expected condition failed: waiting for visibility of [[RemoteWebDriver: firefox on LINUX (7f34dc2a-11b8-4f68-a6ac-4a378e624dae)] -&gt; xpath: //div[@id=&apos;contextualIngressPtLabel_deliveryShortLine&apos;]] (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;autodev&apos;, ip: &apos;192.168.1.247&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-45-generic&apos;, java.version: &apos;11.0.8&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 163271, moz:profile: /tmp/rust_mozprofiletPG6zB, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.4.0-45-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 7f34dc2a-11b8-4f68-a6ac-4a3...}&#10;Session ID: 7f34dc2a-11b8-4f68-a6ac-4a378e624dae" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
-Expected condition failed: waiting for visibility of [[RemoteWebDriver: firefox on LINUX (7f34dc2a-11b8-4f68-a6ac-4a378e624dae)] -> xpath: //div[@id='contextualIngressPtLabel_deliveryShortLine']] (tried for 10 second(s) with 500 milliseconds interval)
+  <testcase name="runScenario" classname="auto.framework.AmazonTestRunner" time="3.483">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#ap_password&quot;}&#10;  (Session info: chrome=85.0.4183.83)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;autodev&apos;, ip: &apos;192.168.1.247&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.4.0-45-generic&apos;, java.version: &apos;11.0.8&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /tmp/.com.google.Chrome.yriklk}, goog:chromeOptions: {debuggerAddress: localhost:44957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 161acef6d7be13505e0b4dfc56f...}&#10;Session ID: 161acef6d7be13505e0b4dfc56f68fa4&#10;*** Element info: {Using=id, value=ap_password}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#ap_password"}
+  (Session info: chrome=85.0.4183.83)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'autodev', ip: '192.168.1.247', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-45-generic', java.version: '11.0.8'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 163271, moz:profile: /tmp/rust_mozprofiletPG6zB, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.4.0-45-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 7f34dc2a-11b8-4f68-a6ac-4a3...}
-Session ID: 7f34dc2a-11b8-4f68-a6ac-4a378e624dae
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /tmp/.com.google.Chrome.yriklk}, goog:chromeOptions: {debuggerAddress: localhost:44957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 161acef6d7be13505e0b4dfc56f...}
+Session ID: 161acef6d7be13505e0b4dfc56f68fa4
+*** Element info: {Using=id, value=ap_password}
 </failure>
-    <system-out><![CDATA[2020-09-17 02:17:32 DEBUG ExecutionListner:59 - SEND RESULTS ==========================>>>>> [TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:auto.framework.AmazonTestRunner@4facf68f] output={null}]
-2020-09-17 02:17:32 DEBUG ExecutionListner:62 - SEND RESULTS  Method Name ===========>>>>> io.cucumber.messages.Messages$GherkinDocument$Feature$Scenario$1@6014a9ba
-2020-09-17 02:17:32 DEBUG RequestAddCookies:122 - CookieSpec selected: default
-2020-09-17 02:17:32 DEBUG RequestAuthCache:76 - Auth cache not set in the context
-2020-09-17 02:17:32 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:9200][total kept alive: 1; route allocated: 1 of 20; total allocated: 1 of 200]
-2020-09-17 02:17:32 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:9200][total kept alive: 0; route allocated: 1 of 20; total allocated: 1 of 200]
-2020-09-17 02:17:32 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 60000
-2020-09-17 02:17:32 DEBUG MainClientExec:255 - Executing request POST /app/suite HTTP/1.1
-2020-09-17 02:17:32 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
-2020-09-17 02:17:32 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
-2020-09-17 02:17:32 DEBUG headers:135 - http-outgoing-0 >> POST /app/suite HTTP/1.1
-2020-09-17 02:17:32 DEBUG headers:138 - http-outgoing-0 >> accept-encoding: gzip
-2020-09-17 02:17:32 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json
-2020-09-17 02:17:32 DEBUG headers:138 - http-outgoing-0 >> user-agent: unirest-java/1.3.11
-2020-09-17 02:17:32 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 189
-2020-09-17 02:17:32 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:9200
-2020-09-17 02:17:32 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 >> "POST /app/suite HTTP/1.1[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 >> "accept-encoding: gzip[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 >> "user-agent: unirest-java/1.3.11[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 189[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:9200[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:86 - http-outgoing-0 >> "{"testClass":null,"description":"Runs Cucumber Scenarios","status":"FAIL","executionTime":"2020-09-17T02:17:32.180236","duration":null,"location":null,"name":null,"testRun":"Amazon-Chrome"}"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 201 Created[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 << "Location: /app/suite/KHXsmnQBjyo827X760-Z[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 << "Warning: 299 Elasticsearch-7.9.1-083627f112ba94dffc1232e8b42b73492789ef91 "[types removal] Specifying types in document index requests is deprecated, use the typeless endpoints instead (/{index}/_doc/{id}, /{index}/_doc, or /{index}/_create/{id})."[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 << "content-type: application/json; charset=UTF-8[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 << "content-encoding: gzip[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 << "content-length: 164[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x14][0x8c][0xc1][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 << "[0x83]0[0x10]D[0xff]e[0xcf][0x16][0xac][0x5]-9[0xf6]T[0xe8][0xa9]7[0xe9]%[0x4][0xb3][0xd2][0x14]M[0xe2][0xee]Z*[0xe2][0xbf]ws|3of[0x7][0x1b][0xa2][0xc7][0x1f][0x18]p9C[0x5]V[0xb6][0x8c]J[0xbc][0x6][0xc1][0xc2][0xc1]+=[0xee]=[0xcf][0xf1]y[0xfb]l[0xe9][0xda]t}[0xd7][0xd6][0xa7]W)[0xbf]H[0x1c]R[0x4]s[0xae][0x80][0x90][0xd7]IT[0x1e][0x8][0x9d][0xa0]/=[0xbf][0x1d]y[0x6][0xb3][0x83]$q[0x13][0x98][0xa6][0xd2][0xe7]a@[0xe6]qU[0xd4][0xd9][0xe8][0xc2][0xa4][0xb2][0xa9][0x8f][0xe2][0xe3]bc[0xd2][0xbc][0xbd](e[\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 << "[0xb3][0xa3][0xcd][\n]"
-2020-09-17 02:17:32 DEBUG wire:72 - http-outgoing-0 << "[0xd2][0xac][0xd3][0xe3][0xf][0x0][0x0][0xff][0xff][0x3][0x0][0xf7][0xbc][\n]"
-2020-09-17 02:17:32 DEBUG wire:86 - http-outgoing-0 << "\[0xad][0x0][0x0][0x0]"
-2020-09-17 02:17:32 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 201 Created
-2020-09-17 02:17:32 DEBUG headers:127 - http-outgoing-0 << Location: /app/suite/KHXsmnQBjyo827X760-Z
-2020-09-17 02:17:32 DEBUG headers:127 - http-outgoing-0 << Warning: 299 Elasticsearch-7.9.1-083627f112ba94dffc1232e8b42b73492789ef91 "[types removal] Specifying types in document index requests is deprecated, use the typeless endpoints instead (/{index}/_doc/{id}, /{index}/_doc, or /{index}/_create/{id})."
-2020-09-17 02:17:32 DEBUG headers:127 - http-outgoing-0 << content-type: application/json; charset=UTF-8
-2020-09-17 02:17:32 DEBUG headers:127 - http-outgoing-0 << content-encoding: gzip
-2020-09-17 02:17:32 DEBUG headers:127 - http-outgoing-0 << content-length: 164
-2020-09-17 02:17:32 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
-2020-09-17 02:17:32 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:9200] can be kept alive indefinitely
-2020-09-17 02:17:32 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:9200][total kept alive: 1; route allocated: 1 of 20; total allocated: 1 of 200]
-2020-09-17 02:17:32 DEBUG MainClientExec:144 - Cancelling request execution
-2020-09-17 02:17:34 DEBUG TestNgTestBase:67 - Browser Name Passed firefox
-2020-09-17 02:17:34 DEBUG TestNgTestBase:68 - Node  Name Passed local
-2020-09-17 02:17:34 DEBUG TestNgTestBase:70 - Broswer in Capabilities  is firefox
-2020-09-17 02:17:34 DEBUG TestNgTestBase:71 - Broswer in Capabilities  for requireWindowFocus is null
-2020-09-17 02:17:37 DEBUG PoolingHttpClientConnectionManager:408 - Closing expired connections
-2020-09-17 02:17:37 DEBUG PoolingHttpClientConnectionManager:401 - Closing connections idle longer than 30 SECONDS
-2020-09-17 02:17:37 DEBUG TestNgTestBase:84 - Grid URL is : http://192.168.1.247:5566/wd/hub
-
-@amazon @amz-test6
-Scenario Outline: Search Mobile and Add to Cart                                 # features/amazon/amz-validate-urls.feature:110
-2020-09-17 02:17:37 DEBUG AmazonTestBase:43 - Driver Info :RemoteWebDriver: firefox on LINUX (7f34dc2a-11b8-4f68-a6ac-4a378e624dae)
-2020-09-17 02:17:37 DEBUG AmazonTestBase:55 - AmazoneHome Init
-2020-09-17 02:17:37 DEBUG AmazonTestBase:57 - AmazoneHome Initialized
-2020-09-17 02:17:37 DEBUG AmazonTestBase:59 - DropDown Initialized
-2020-09-17 02:17:37 DEBUG AmazonTestBase:61 - Wishlist Initialized
-2020-09-17 02:17:37 DEBUG AmazonTestBase:63 - Login Initialized
-2020-09-17 02:17:37 DEBUG AmazonTestBase:66 - Mobile Initialized
-2020-09-17 02:17:37 DEBUG AmazonTestScenario2:22 - Opening site https://www.amazon.in/
-2020-09-17 02:17:39 DEBUG AmazonTestBase:85 - Redirected URL is https://www.amazon.in/
-2020-09-17 02:17:39 DEBUG AmazonTestScenario2:24 - Test ends.
-  Given User opens the site url 'https://www.amazon.in/'                        # com.amazon.test.AmazonTestScenario2.user_enters_site_url(java.lang.String)
-2020-09-17 02:17:39 DEBUG AmazonTestScenario2:45 - Searching for product...
-2020-09-17 02:17:39 DEBUG Page:157 - Driver Information 
-	https://www.amazon.in/	Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 163271, moz:profile: /tmp/rust_mozprofiletPG6zB, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.4.0-45-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 7f34dc2a-11b8-4f68-a6ac-4a3...}
-  And User performs search action 'iphone 11 64GB'                              # com.amazon.test.AmazonTestScenario2.user_performs_search_action(java.lang.String)
-2020-09-17 02:17:40 DEBUG AmazonTestBase:43 - Driver Info :RemoteWebDriver: firefox on LINUX (7f34dc2a-11b8-4f68-a6ac-4a378e624dae)
-2020-09-17 02:17:40 DEBUG AmazonTestBase:55 - AmazoneHome Init
-2020-09-17 02:17:40 DEBUG AmazonTestBase:57 - AmazoneHome Initialized
-2020-09-17 02:17:40 DEBUG AmazonTestBase:59 - DropDown Initialized
-2020-09-17 02:17:40 DEBUG AmazonTestBase:61 - Wishlist Initialized
-2020-09-17 02:17:40 DEBUG AmazonTestBase:63 - Login Initialized
-2020-09-17 02:17:40 DEBUG AmazonTestBase:66 - Mobile Initialized
-2020-09-17 02:17:40 DEBUG AmazonTestMobileAddToCart:20 - Product being searched is iphone 11 64GB
-2020-09-17 02:17:41 DEBUG AmazonTestBase:163 - Results is 1-16 of 280 results for
-2020-09-17 02:17:41 DEBUG AmazonTestMobileAddToCart:22 - Test ends.
-  And Application lists results for the searched 'iphone 11 64GB' and validates # com.amazon.test.AmazonTestMobileAddToCart.application_lists_results_for_products_and_validates(java.lang.String)
-2020-09-17 02:17:41 DEBUG AmazonTestMobileAddToCart:28 - Search Index is 1
-2020-09-17 02:17:41 DEBUG AmazonTestBase:168 - selecting product ...
-2020-09-17 02:17:41 DEBUG Page:114 - Tab Name is 36  
-2020-09-17 02:17:41 DEBUG AmazonTestBase:170 - selected product.
-  Then User selects a 1 product from the search results                         # com.amazon.test.AmazonTestMobileAddToCart.user_selects_product_from_the_results(int)
-2020-09-17 02:17:41 DEBUG AmazonTestMobileAddToCart:35 - pincode is 600088
-2020-09-17 02:17:41 DEBUG AmazonTestBase:174 - change delivery location to 600088
-2020-09-17 02:17:42 DEBUG PoolingHttpClientConnectionManager:408 - Closing expired connections
-2020-09-17 02:17:42 DEBUG PoolingHttpClientConnectionManager:401 - Closing connections idle longer than 30 SECONDS
-2020-09-17 02:17:47 DEBUG PoolingHttpClientConnectionManager:408 - Closing expired connections
-2020-09-17 02:17:47 DEBUG PoolingHttpClientConnectionManager:401 - Closing connections idle longer than 30 SECONDS
-2020-09-17 02:17:52 DEBUG PoolingHttpClientConnectionManager:408 - Closing expired connections
-2020-09-17 02:17:52 DEBUG PoolingHttpClientConnectionManager:401 - Closing connections idle longer than 30 SECONDS
-  Then User changes delivery location 600088 and validates                      # com.amazon.test.AmazonTestMobileAddToCart.user_changes_delivery_location_and_validates(int)
-      org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[RemoteWebDriver: firefox on LINUX (7f34dc2a-11b8-4f68-a6ac-4a378e624dae)] -> xpath: //div[@id='contextualIngressPtLabel_deliveryShortLine']] (tried for 10 second(s) with 500 milliseconds interval)
+    <system-out><![CDATA[
+@amazon @amz-test4
+Scenario Outline: Test Login incorrect credentials                         # features/amazon/amz-validate-urls.feature:84
+2020-09-17 22:09:46 DEBUG AmazonTestBase:43 - Driver Info :RemoteWebDriver: chrome on LINUX (161acef6d7be13505e0b4dfc56f68fa4)
+2020-09-17 22:09:46 DEBUG AmazonTestBase:55 - AmazoneHome Init
+2020-09-17 22:09:46 DEBUG AmazonTestBase:57 - AmazoneHome Initialized
+2020-09-17 22:09:46 DEBUG AmazonTestBase:59 - DropDown Initialized
+2020-09-17 22:09:46 DEBUG AmazonTestBase:61 - Wishlist Initialized
+2020-09-17 22:09:46 DEBUG AmazonTestBase:63 - Login Initialized
+2020-09-17 22:09:46 DEBUG AmazonTestBase:66 - Mobile Initialized
+2020-09-17 22:09:46 DEBUG AmazonTestGeneralNavigation:66 - Opening site https://www.amazon.in/
+2020-09-17 22:09:46 DEBUG PoolingHttpClientConnectionManager:408 - Closing expired connections
+2020-09-17 22:09:46 DEBUG PoolingHttpClientConnectionManager:401 - Closing connections idle longer than 30 SECONDS
+2020-09-17 22:09:47 DEBUG AmazonTestBase:87 - Redirected URL is https://www.amazon.in/
+2020-09-17 22:09:48 DEBUG AmazonTestGeneralNavigation:68 - Test ends.
+  Given User opens the site url 'https://www.amazon.in/'                   # com.amazon.test.features.AmazonTestGeneralNavigation.user_enters_site_url(java.lang.String)
+2020-09-17 22:09:48 DEBUG AmazonTestGeneralNavigation:73 - user_hovers_over_link Accounts & Lists
+2020-09-17 22:09:48 DEBUG SiteDropDowns:46 - Hover Over Account & List dropdown
+2020-09-17 22:09:48 DEBUG Page:157 - Driver Information 
+	https://www.amazon.in/	Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /tmp/.com.google.Chrome.yriklk}, goog:chromeOptions: {debuggerAddress: localhost:44957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 161acef6d7be13505e0b4dfc56f...}
+2020-09-17 22:09:48 DEBUG SiteAction:32 - hover over action : Hello, Sign in
+Account & Lists
+2020-09-17 22:09:48 DEBUG SiteAction:33 - Browser is chrome
+2020-09-17 22:09:48 DEBUG SiteAction:44 - hover over action performed.
+  When User hovers over 'Accounts & Lists'                                 # com.amazon.test.features.AmazonTestGeneralNavigation.user_hovers_over_link(java.lang.String)
+2020-09-17 22:09:48 DEBUG AmazonTestBase:43 - Driver Info :RemoteWebDriver: chrome on LINUX (161acef6d7be13505e0b4dfc56f68fa4)
+2020-09-17 22:09:48 DEBUG AmazonTestBase:55 - AmazoneHome Init
+2020-09-17 22:09:48 DEBUG AmazonTestBase:57 - AmazoneHome Initialized
+2020-09-17 22:09:48 DEBUG AmazonTestBase:59 - DropDown Initialized
+2020-09-17 22:09:48 DEBUG AmazonTestBase:61 - Wishlist Initialized
+2020-09-17 22:09:48 DEBUG AmazonTestBase:63 - Login Initialized
+2020-09-17 22:09:48 DEBUG AmazonTestBase:66 - Mobile Initialized
+2020-09-17 22:09:48 DEBUG AmazonSearchProduct:25 - ProductSearchPage Initialized
+2020-09-17 22:09:48 DEBUG AmazonTestSearchProduct:28 - User perform action Click > Sign In
+2020-09-17 22:09:48 DEBUG Page:157 - Driver Information 
+	https://www.amazon.in/	Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /tmp/.com.google.Chrome.yriklk}, goog:chromeOptions: {debuggerAddress: localhost:44957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 161acef6d7be13505e0b4dfc56f...}
+  And User performs action 'Click > Sign In' on 'Sign In'                  # com.amazon.test.features.AmazonTestSearchProduct.user_performs_action(java.lang.String,java.lang.String)
+  And User enters email 'mailforme@yahoo.com' and clicks on Continue       # com.amazon.test.features.AmazonTestSearchProduct.user_enters_email_clicks(java.lang.String)
+  And User enters bad password 'fakepassword' and clicks on 'Login' button # com.amazon.test.features.AmazonTestSearchProduct.user_enters_bad_password_clicks(java.lang.String)
+      org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#ap_password"}
+  (Session info: chrome=85.0.4183.83)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'autodev', ip: '192.168.1.247', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-45-generic', java.version: '11.0.8'
 Driver info: org.openqa.selenium.remote.RemoteWebDriver
-Capabilities {acceptInsecureCerts: false, browserName: firefox, browserVersion: 80.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200831163820, moz:geckodriverVersion: 0.27.0, moz:headless: false, moz:processID: 163271, moz:profile: /tmp/rust_mozprofiletPG6zB, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 5.4.0-45-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webdriver.remote.sessionid: 7f34dc2a-11b8-4f68-a6ac-4a3...}
-Session ID: 7f34dc2a-11b8-4f68-a6ac-4a378e624dae
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
-	at auto.framework.pageobjects.Page.waitForElement(Page.java:90)
-	at com.amazon.pom.category.electronics.Mobile.changeDeliveryLocation(Mobile.java:134)
-	at com.amazon.test.AmazonTestBase.changeDeliveryLocation(AmazonTestBase.java:175)
-	at com.amazon.test.AmazonTestMobileAddToCart.user_changes_delivery_location_and_validates(AmazonTestMobileAddToCart.java:36)
-	at ✽.User changes delivery location 600088 and validates(file:///home/rmuruge/eclipse-workspace/cucumber-project/selenium-cucumber-framework/features/amazon/amz-validate-urls.feature:104)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /tmp/.com.google.Chrome.yriklk}, goog:chromeOptions: {debuggerAddress: localhost:44957}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 161acef6d7be13505e0b4dfc56f...}
+Session ID: 161acef6d7be13505e0b4dfc56f68fa4
+*** Element info: {Using=id, value=ap_password}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy26.sendKeys(Unknown Source)
+	at com.amazon.pom.LoginPage.enterPassword(LoginPage.java:74)
+	at com.amazon.pom.LoginPage.enterPassword(LoginPage.java:79)
+	at com.amazon.test.AmazonTestBase.enterPassword(AmazonTestBase.java:147)
+	at com.amazon.test.features.AmazonTestSearchProduct.user_enters_bad_password_clicks(AmazonTestSearchProduct.java:70)
+	at ✽.User enters bad password 'fakepassword' and clicks on 'Login' button(file:///home/rmuruge/eclipse-workspace/cucumber-project/selenium-cucumber-framework/features/amazon/amz-validate-urls.feature:79)
 
-  Then User clicks on add to cart button and validates                          # com.amazon.test.AmazonTestMobileAddToCart.user_clicks_on_add_to_cart_button_and_validates()
-2020-09-17 02:17:53 DEBUG ExecutionListner:59 - SEND RESULTS ==========================>>>>> [TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:auto.framework.AmazonTestRunner@5f058f00] output={null}]
-2020-09-17 02:17:53 DEBUG ExecutionListner:62 - SEND RESULTS  Method Name ===========>>>>> io.cucumber.messages.Messages$GherkinDocument$Feature$Scenario$1@6014a9ba
-2020-09-17 02:17:53 DEBUG RequestAddCookies:122 - CookieSpec selected: default
-2020-09-17 02:17:53 DEBUG RequestAuthCache:76 - Auth cache not set in the context
-2020-09-17 02:17:53 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:9200][total kept alive: 1; route allocated: 1 of 20; total allocated: 1 of 200]
-2020-09-17 02:17:53 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
-2020-09-17 02:17:53 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:9200][total kept alive: 0; route allocated: 1 of 20; total allocated: 1 of 200]
-2020-09-17 02:17:53 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 60000
-2020-09-17 02:17:53 DEBUG MainClientExec:255 - Executing request POST /app/suite HTTP/1.1
-2020-09-17 02:17:53 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
-2020-09-17 02:17:53 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
-2020-09-17 02:17:53 DEBUG headers:135 - http-outgoing-0 >> POST /app/suite HTTP/1.1
-2020-09-17 02:17:53 DEBUG headers:138 - http-outgoing-0 >> accept-encoding: gzip
-2020-09-17 02:17:53 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json
-2020-09-17 02:17:53 DEBUG headers:138 - http-outgoing-0 >> user-agent: unirest-java/1.3.11
-2020-09-17 02:17:53 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 190
-2020-09-17 02:17:53 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:9200
-2020-09-17 02:17:53 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
-2020-09-17 02:17:53 DEBUG wire:72 - http-outgoing-0 >> "POST /app/suite HTTP/1.1[\r][\n]"
-2020-09-17 02:17:53 DEBUG wire:72 - http-outgoing-0 >> "accept-encoding: gzip[\r][\n]"
-2020-09-17 02:17:53 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
-2020-09-17 02:17:53 DEBUG wire:72 - http-outgoing-0 >> "user-agent: unirest-java/1.3.11[\r][\n]"
-2020-09-17 02:17:53 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 190[\r][\n]"
-2020-09-17 02:17:53 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:9200[\r][\n]"
-2020-09-17 02:17:53 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
-2020-09-17 02:17:53 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
-2020-09-17 02:17:53 DEBUG wire:86 - http-outgoing-0 >> "{"testClass":null,"description":"Runs Cucumber Scenarios","status":"FAIL","executionTime":"2020-09-17T02:17:53.021546","duration":null,"location":null,"name":null,"testRun":"Amazon-Firefox"}"
-2020-09-17 02:17:53 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 201 Created[\r][\n]"
-2020-09-17 02:17:53 DEBUG wire:72 - http-outgoing-0 << "Location: /app/suite/MXXtmnQBjyo827X7PU8N[\r][\n]"
-2020-09-17 02:17:53 DEBUG wire:72 - http-outgoing-0 << "Warning: 299 Elasticsearch-7.9.1-083627f112ba94dffc1232e8b42b73492789ef91 "[types removal] Specifying types in document index requests is deprecated, use the typeless endpoints instead (/{index}/_doc/{id}, /{index}/_doc, or /{index}/_create/{id})."[\r][\n]"
-2020-09-17 02:17:53 DEBUG wire:72 - http-outgoing-0 << "content-type: application/json; charset=UTF-8[\r][\n]"
-2020-09-17 02:17:53 DEBUG wire:72 - http-outgoing-0 << "content-encoding: gzip[\r][\n]"
-2020-09-17 02:17:53 DEBUG wire:72 - http-outgoing-0 << "content-length: 164[\r][\n]"
-2020-09-17 02:17:53 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
-2020-09-17 02:17:53 DEBUG wire:72 - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x14][0x8c][0xb1][0xe][0xc2]0[0xc]D[0xff][0xc5]s[0x7][0xa8][0x10][0xad]2[0xb2][0x83]`@[0xca][0x16]E[0x8d]+[0x82][0xda]$[0xd8].[0xa2][0xaa][0xfa][0xef]8[0xe3][0xbb]{w[0x1b][0xb8][0x98][0x2][0xfe][0xc0][0x80]/[0x5][0x1a]p[0xb2][0x16]T[0xe2]%[\n]"
-2020-09-17 02:17:53 DEBUG wire:86 - http-outgoing-0 << "V[0x8e]A[0xe9]j[0xad][0xcc][0xe9]qy[0xaf][0xb9]o;[0xdb][0xdd][0x9f][0xfd][0xad][0x96]_$[0x8e]9[0x81]96@[0xc8][0xcb]$*[0xf][0x84]^0[0xd4][0x9e]_[0x9e][0x2][0x83][0xd9]@[0xb2][0xf8][0x9]L[0xdb][0xe8][0xf3]0 [0xf3][0xb8]([0xea]l[0xf4]qR[0xd9][0x1c][0xf6][0xea][0xe3][0xc7][0xa5][0xac][0xf9][0xf9][0xa4]T([0xce][0x9e]V'H[0xb3]N[0xf7]?[0x0][0x0][0x0][0xff][0xff][0x3][0x0]5[0xc6][0x16][0x19][0xad][0x0][0x0][0x0]"
-2020-09-17 02:17:53 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 201 Created
-2020-09-17 02:17:53 DEBUG headers:127 - http-outgoing-0 << Location: /app/suite/MXXtmnQBjyo827X7PU8N
-2020-09-17 02:17:53 DEBUG headers:127 - http-outgoing-0 << Warning: 299 Elasticsearch-7.9.1-083627f112ba94dffc1232e8b42b73492789ef91 "[types removal] Specifying types in document index requests is deprecated, use the typeless endpoints instead (/{index}/_doc/{id}, /{index}/_doc, or /{index}/_create/{id})."
-2020-09-17 02:17:53 DEBUG headers:127 - http-outgoing-0 << content-type: application/json; charset=UTF-8
-2020-09-17 02:17:53 DEBUG headers:127 - http-outgoing-0 << content-encoding: gzip
-2020-09-17 02:17:53 DEBUG headers:127 - http-outgoing-0 << content-length: 164
-2020-09-17 02:17:53 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
-2020-09-17 02:17:53 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:9200] can be kept alive indefinitely
-2020-09-17 02:17:53 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:9200][total kept alive: 1; route allocated: 1 of 20; total allocated: 1 of 200]
-2020-09-17 02:17:53 DEBUG MainClientExec:144 - Cancelling request execution
+  Then User sees error message 'Your password is incorrect'                # com.amazon.test.features.AmazonTestSearchProduct.user_sees_login_error(java.lang.String)
+2020-09-17 22:09:49 DEBUG ExecutionListner:59 - SEND RESULTS ==========================>>>>> [TestResult name=runScenario status=FAILURE method=AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:auto.framework.AmazonTestRunner@41e36e46] output={null}]
+2020-09-17 22:09:49 DEBUG ExecutionListner:62 - SEND RESULTS  Method Name ===========>>>>> io.cucumber.messages.Messages$GherkinDocument$Feature$Scenario$1@3910fe11
+2020-09-17 22:09:49 DEBUG RequestAddCookies:122 - CookieSpec selected: default
+2020-09-17 22:09:49 DEBUG RequestAuthCache:76 - Auth cache not set in the context
+2020-09-17 22:09:49 DEBUG PoolingHttpClientConnectionManager:249 - Connection request: [route: {}->http://localhost:9200][total kept alive: 1; route allocated: 1 of 20; total allocated: 1 of 200]
+2020-09-17 22:09:49 DEBUG wire:86 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2020-09-17 22:09:49 DEBUG PoolingHttpClientConnectionManager:282 - Connection leased: [id: 0][route: {}->http://localhost:9200][total kept alive: 0; route allocated: 1 of 20; total allocated: 1 of 200]
+2020-09-17 22:09:49 DEBUG DefaultManagedHttpClientConnection:90 - http-outgoing-0: set socket timeout to 60000
+2020-09-17 22:09:49 DEBUG MainClientExec:255 - Executing request POST /app/suite HTTP/1.1
+2020-09-17 22:09:49 DEBUG MainClientExec:260 - Target auth state: UNCHALLENGED
+2020-09-17 22:09:49 DEBUG MainClientExec:266 - Proxy auth state: UNCHALLENGED
+2020-09-17 22:09:49 DEBUG headers:135 - http-outgoing-0 >> POST /app/suite HTTP/1.1
+2020-09-17 22:09:49 DEBUG headers:138 - http-outgoing-0 >> accept-encoding: gzip
+2020-09-17 22:09:49 DEBUG headers:138 - http-outgoing-0 >> Content-Type: application/json
+2020-09-17 22:09:49 DEBUG headers:138 - http-outgoing-0 >> user-agent: unirest-java/1.3.11
+2020-09-17 22:09:49 DEBUG headers:138 - http-outgoing-0 >> Content-Length: 189
+2020-09-17 22:09:49 DEBUG headers:138 - http-outgoing-0 >> Host: localhost:9200
+2020-09-17 22:09:49 DEBUG headers:138 - http-outgoing-0 >> Connection: Keep-Alive
+2020-09-17 22:09:49 DEBUG wire:72 - http-outgoing-0 >> "POST /app/suite HTTP/1.1[\r][\n]"
+2020-09-17 22:09:49 DEBUG wire:72 - http-outgoing-0 >> "accept-encoding: gzip[\r][\n]"
+2020-09-17 22:09:49 DEBUG wire:72 - http-outgoing-0 >> "Content-Type: application/json[\r][\n]"
+2020-09-17 22:09:49 DEBUG wire:72 - http-outgoing-0 >> "user-agent: unirest-java/1.3.11[\r][\n]"
+2020-09-17 22:09:49 DEBUG wire:72 - http-outgoing-0 >> "Content-Length: 189[\r][\n]"
+2020-09-17 22:09:49 DEBUG wire:72 - http-outgoing-0 >> "Host: localhost:9200[\r][\n]"
+2020-09-17 22:09:49 DEBUG wire:72 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-09-17 22:09:49 DEBUG wire:72 - http-outgoing-0 >> "[\r][\n]"
+2020-09-17 22:09:49 DEBUG wire:86 - http-outgoing-0 >> "{"testClass":null,"description":"Runs Cucumber Scenarios","status":"FAIL","executionTime":"2020-09-17T22:09:49.839905","duration":null,"location":null,"name":null,"testRun":"Amazon-Chrome"}"
+2020-09-17 22:09:49 DEBUG wire:72 - http-outgoing-0 << "HTTP/1.1 201 Created[\r][\n]"
+2020-09-17 22:09:49 DEBUG wire:72 - http-outgoing-0 << "Location: /app/suite/w3Uwn3QBjyo827X7f7qU[\r][\n]"
+2020-09-17 22:09:49 DEBUG wire:72 - http-outgoing-0 << "Warning: 299 Elasticsearch-7.9.1-083627f112ba94dffc1232e8b42b73492789ef91 "[types removal] Specifying types in document index requests is deprecated, use the typeless endpoints instead (/{index}/_doc/{id}, /{index}/_doc, or /{index}/_create/{id})."[\r][\n]"
+2020-09-17 22:09:49 DEBUG wire:72 - http-outgoing-0 << "content-type: application/json; charset=UTF-8[\r][\n]"
+2020-09-17 22:09:49 DEBUG wire:72 - http-outgoing-0 << "content-encoding: gzip[\r][\n]"
+2020-09-17 22:09:49 DEBUG wire:72 - http-outgoing-0 << "content-length: 162[\r][\n]"
+2020-09-17 22:09:49 DEBUG wire:72 - http-outgoing-0 << "[\r][\n]"
+2020-09-17 22:09:49 DEBUG wire:86 - http-outgoing-0 << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x0][0x14][0x8c][0xb1][0xe][0x83]0[0xc]D[0xff][0xc5]3C[0xb][0x95]@[0x19][0xfb][0x7][0x1d][0x90][0xba]E[0x11]1j*H[0x82]m[0xa0][0x8][0xf1][0xef]u[0xc6]w[0xf7][0xee]N[0xb0]!z[0xfc][0x81][0x1][0x97]3T`[0xe5][0xc8][0xa8][0xc4]k[0x10],[0x1c][0xbc][0xd2][0xde][0xf4]{l^[0xcf][0xef][0x91][0xba][0xba]}[0xb7]c[0xbb][0xf4][0xa5][0xdc][0x90]8[0xa4][0x8][0xe6]^[0x1]![0xaf][0x93][0xa8]<[0x10]:A_z[0xfe]8[0xf2][0xc][0xe6][0x4]I[0xe2]&0u[0xa5][0xcf][0xc3][0x80][0xcc][0xe3][0xaa][0xa8][0xb3][0xd1][0x85]Ies[0xbb][0x8a][0x8f][0x8b][0x8d]I[0xb5][0xee][0xa1][0x94])[0xcc][0x8e][0xe]+H[0xb3]f[0xd7][0x1f][0x0][0x0][0xff][0xff][0x3][0x0][0xfd][0xff]kp[0xad][0x0][0x0][0x0]"
+2020-09-17 22:09:49 DEBUG headers:124 - http-outgoing-0 << HTTP/1.1 201 Created
+2020-09-17 22:09:49 DEBUG headers:127 - http-outgoing-0 << Location: /app/suite/w3Uwn3QBjyo827X7f7qU
+2020-09-17 22:09:49 DEBUG headers:127 - http-outgoing-0 << Warning: 299 Elasticsearch-7.9.1-083627f112ba94dffc1232e8b42b73492789ef91 "[types removal] Specifying types in document index requests is deprecated, use the typeless endpoints instead (/{index}/_doc/{id}, /{index}/_doc, or /{index}/_create/{id})."
+2020-09-17 22:09:49 DEBUG headers:127 - http-outgoing-0 << content-type: application/json; charset=UTF-8
+2020-09-17 22:09:49 DEBUG headers:127 - http-outgoing-0 << content-encoding: gzip
+2020-09-17 22:09:49 DEBUG headers:127 - http-outgoing-0 << content-length: 162
+2020-09-17 22:09:49 DEBUG MainClientExec:284 - Connection can be kept alive indefinitely
+2020-09-17 22:09:49 DEBUG PoolingHttpClientConnectionManager:314 - Connection [id: 0][route: {}->http://localhost:9200] can be kept alive indefinitely
+2020-09-17 22:09:49 DEBUG PoolingHttpClientConnectionManager:320 - Connection released: [id: 0][route: {}->http://localhost:9200][total kept alive: 1; route allocated: 1 of 20; total allocated: 1 of 200]
+2020-09-17 22:09:49 DEBUG MainClientExec:144 - Cancelling request execution
 ]]></system-out>
-    <system-err><![CDATA[┌──────────────────────────────────────────────────────────────────────────┐
-│ View your Cucumber Report at:                                            │
-│ https://reports.cucumber.io/reports/1d9b0252-0470-4613-ab8c-1a3e103577a1 │
-│                                                                          │
-│ This report will self-destruct in 24h unless it is claimed or deleted.   │
-└──────────────────────────────────────────────────────────────────────────┘
-Sep 17, 2020 2:17:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
   </testcase>
+  <testcase name="runScenario" classname="auto.framework.AmazonTestRunner" time="3.284"/>
+  <testcase name="runScenario" classname="auto.framework.AmazonTestRunner" time="11.077"/>
+  <testcase name="runScenario" classname="auto.framework.AmazonTestRunner" time="9.546"/>
 </testsuite>

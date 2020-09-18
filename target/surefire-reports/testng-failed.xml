@@ -11,28 +11,11 @@
           <include name="initWebDriver"/>
           <include name="takeScreenShot"/>
           <include name="initTestSuite"/>
-          <include name="runScenario" invocation-numbers="0"/>
+          <include name="runScenario" invocation-numbers="2 3"/>
           <include name="tearDownClass"/>
           <include name="setUpClass"/>
         </methods>
       </class> <!-- auto.framework.AmazonTestRunner -->
     </classes>
   </test> <!-- Amazon-Chrome(failed) -->
-  <test thread-count="4" name="Amazon-Firefox(failed)" verbose="0">
-    <parameter name="node" value="local"/>
-    <parameter name="browserName" value="firefox"/>
-    <classes>
-      <class name="auto.framework.AmazonTestRunner">
-        <methods>
-          <include name="tearDown"/>
-          <include name="initWebDriver"/>
-          <include name="takeScreenShot"/>
-          <include name="initTestSuite"/>
-          <include name="runScenario" invocation-numbers="0"/>
-          <include name="tearDownClass"/>
-          <include name="setUpClass"/>
-        </methods>
-      </class> <!-- auto.framework.AmazonTestRunner -->
-    </classes>
-  </test> <!-- Amazon-Firefox(failed) -->
 </suite> <!-- Failed suite [ProjectIII] -->

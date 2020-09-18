@@ -49,7 +49,7 @@ public class AmazonHomePage extends AmazonBasePage {
 	}
 	
 	public void searchForProduct(String product) throws Exception {
-		 printDriverInfo(driver);
+		printDriverInfo(driver);
 		productSearchBox.sendKeys(product);
 		productSearchIcon.click();
 		

@@ -64,6 +64,8 @@ public class AmazonTestBase extends TestNgTestBase implements AmazonProjectConst
 		
 		mobilePage = PageFactory.initElements(driver,Mobile.class);
 		log.debug("Mobile Initialized");
+		
+		
 		// Other Objects
 		
 	}
@@ -92,6 +94,8 @@ public class AmazonTestBase extends TestNgTestBase implements AmazonProjectConst
 	}
 	
 	public void searchProduct (String searchString) throws Exception {
+		if (homepage == null)
+		log.debug("Home page is null");
 		homepage.searchForProduct(searchString);
 	}
 	
@@ -156,7 +160,8 @@ public class AmazonTestBase extends TestNgTestBase implements AmazonProjectConst
 		log.debug("before signout");
 		dropdown.clickSignOut();
 	}
-	
+
+	/*
 	public void searchResults (String product) throws Exception {
 		String results;		
 		results = mobilePage.getTotalResults();
@@ -169,7 +174,7 @@ public class AmazonTestBase extends TestNgTestBase implements AmazonProjectConst
 		mobilePage.clickOnSearchedItem(index);
 		log.debug("selected product.");
 	}
-	
+	*/
 	public void changeDeliveryLocation (String pincode) throws Exception {
 		log.debug("change delivery location to " + pincode);
 		mobilePage.changeDeliveryLocation(pincode);
@@ -178,12 +183,13 @@ public class AmazonTestBase extends TestNgTestBase implements AmazonProjectConst
 	
 	public void addToCart () throws Exception {
 		log.debug("adding to card ...");
+		driver.get(driver.getCurrentUrl());
 		mobilePage.clickAddToCart();
 		
 		log.debug("added to cardt");
 	}
 	
 	public void closeBrowser () throws Exception {
-		//TODO
+		closeCurrentTab();
 	}
 }

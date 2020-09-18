@@ -16,6 +16,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.DataProvider;
@@ -100,6 +101,15 @@ public class TestNgTestBase extends AbstractTestNGCucumberTests {
 		Files.copy(imgFile, writeFile);
 	}
 
+	
+	public void closeAllTabs() {
+		driver.close();
+	}
+	
+	public void closeCurrentTab() {
+		driver.switchTo().window(driver.getWindowHandle()).close();
+	}
+	
 	public void closeAllTabsBut(String exceptMain) {
 		Set<String> tabs;
 		Iterator<String> iter;
